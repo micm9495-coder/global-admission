@@ -1,0 +1,116 @@
+{
+ "США": {
+  "currency": "USD",
+  "costGuideUrl": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq",
+  "rulesUrl": "https://www.educationusa.state.gov/your-5-steps-us-study/complete-your-application/undergraduate",
+  "certificateNote": "Аттестат о среднем общем образовании и ведомость оценок за старшие классы с переводом; A-level/IB рассматриваются как школьная квалификация. SAT/ACT — политика конкретного набора. Обычно holistic review, а не единый проходной балл."
+ },
+ "Великобритания": {
+  "currency": "GBP",
+  "costGuideUrl": "https://study-uk.britishcouncil.org/moving-uk/cost-studying",
+  "rulesUrl": "https://www.ucas.com/international/international-students",
+  "certificateNote": "Проверь российский аттестат отдельно: не считай его эквивалентом трём A-level. A-level/IB с нужными предметами — основной альтернативный маршрут. Foundation допустим не везде; UCAS, требования конкретного курса и английский."
+ },
+ "Канада": {
+  "currency": "CAD",
+  "costGuideUrl": "https://www.educanada.ca/programs-programmes/education_cost-cout_education.aspx?lang=eng",
+  "rulesUrl": "https://www.educanada.ca/study-plan-etudes/before-avant/index.aspx?lang=eng",
+  "certificateNote": "Аттестат и ведомость старших классов, требования к обязательным предметам и эквивалентности 12-летнего образования; A-level/IB по правилам вуза. Английский либо французский."
+ },
+ "Нидерланды": {
+  "currency": "EUR",
+  "costGuideUrl": "https://education.ec.europa.eu/study-in-europe/country-profiles/the-netherlands",
+  "rulesUrl": "https://www.nuffic.nl/en/education-systems/russia",
+  "certificateNote": "Для research university требуется эквивалент VWO: российский аттестат следует отдельно оценить; возможны дополнительные квалификации. IB/A-level с установленным набором предметов. Studielink, иногда numerus fixus."
+ },
+ "Германия": {
+  "currency": "EUR",
+  "costGuideUrl": "https://education.ec.europa.eu/study-in-europe/country-profiles/germany",
+  "rulesUrl": "https://www.daad.de/en/studying-in-germany/requirements/admission-database/",
+  "certificateNote": "Проверка Hochschulzugangsberechtigung через DAAD/anabin или uni-assist. Российский аттестат может требовать Studienkolleg и Feststellungsprüfung либо предыдущего университетского обучения. A-level/IB должны отвечать немецким правилам сочетаний. Обычно немецкий."
+ },
+ "Швейцария": {
+  "currency": "CHF",
+  "costGuideUrl": "https://www.studyinswitzerland.plus/",
+  "rulesUrl": "https://www.swissuniversities.ch/en/topics/studying/admission-to-universities",
+  "certificateNote": "Эквивалентность аттестата и перечень обязательных школьных предметов проверяются по стране и вузу; возможны дополнительные экзамены. IB/A-level не заменяют проверку сочетания предметов."
+ },
+ "Франция": {
+  "currency": "EUR",
+  "costGuideUrl": "https://education.ec.europa.eu/study-in-europe/country-profiles/france",
+  "rulesUrl": "https://www.campusfrance.org/en/application-higher-education-france",
+  "certificateNote": "Аттестат, оценки, перевод, язык программы; маршрут DAP/Études en France или собственный конкурс зависит от программы. A-level/IB учитываются согласно условиям отбора."
+ },
+ "Италия": {
+  "currency": "EUR",
+  "costGuideUrl": "https://education.ec.europa.eu/study-in-europe/country-profiles/italy",
+  "rulesUrl": "https://www.universitaly.it/",
+  "certificateNote": "Как правило, необходимо 12 лет школьного образования; после 11-летней школы могут потребоваться дополнительные признанные квалификации или год обучения. Проверка Universitaly, тест и язык по программе."
+ },
+ "Испания": {
+  "currency": "EUR",
+  "costGuideUrl": "https://education.ec.europa.eu/study-in-europe/country-profiles/spain",
+  "rulesUrl": "https://unedasiss.uned.es/",
+  "certificateNote": "Проверка homologación и/или аккредитации UNEDasiss, возможны предметные PCE для конкурсного балла. A-level/IB — отдельные маршруты. Испанский или английский по курсу."
+ },
+ "Бельгия": {
+  "currency": "EUR",
+  "costGuideUrl": "https://education.ec.europa.eu/study-in-europe/country-profiles/belgium",
+  "rulesUrl": "https://www.studyinflanders.be/",
+  "certificateNote": "Признание школьной квалификации и права поступать на высшее образование в стране её выдачи; язык (нидерландский/английский/французский), возможен предметный тест."
+ },
+ "Дания": {
+  "currency": "DKK",
+  "costGuideUrl": "https://education.ec.europa.eu/study-in-europe/country-profiles/denmark",
+  "rulesUrl": "https://studyindenmark.dk/",
+  "certificateNote": "Эквивалент датского школьного диплома и предметных уровней A/B/C; проверь конкретный курс и язык. Большинство бакалаврских программ Copenhagen на датском."
+ },
+ "Швеция": {
+  "currency": "SEK",
+  "costGuideUrl": "https://education.ec.europa.eu/study-in-europe/country-profiles/sweden",
+  "rulesUrl": "https://www.universityadmissions.se/intl/start",
+  "certificateNote": "Полное среднее образование и общие/специальные требования, включая английский или шведский и эквиваленты предметных уровней. Заявка через University Admissions."
+ },
+ "Финляндия": {
+  "currency": "EUR",
+  "costGuideUrl": "https://education.ec.europa.eu/study-in-europe/country-profiles/finland",
+  "rulesUrl": "https://studyinfo.fi/wp2/en/",
+  "certificateNote": "Аттестат, предоставляющий право на высшее образование; конкурс по дипломам, SAT или экзамену в зависимости от программы. Язык и предметы проверяются на Studyinfo."
+ },
+ "Австралия": {
+  "currency": "AUD",
+  "costGuideUrl": "https://www.studyaustralia.gov.au/en/life-in-australia/living-and-education-costs.html",
+  "rulesUrl": "https://www.studyaustralia.gov.au/en/plan-your-studies",
+  "certificateNote": "Эквивалент Australian Year 12; A-level/IB переводятся в конкурсный балл по правилам университета. Российский аттестат может требовать foundation или предыдущего обучения."
+ },
+ "Сингапур": {
+  "currency": "SGD",
+  "costGuideUrl": "https://www.nus.edu.sg/oam/financial-aid",
+  "rulesUrl": "https://www.nus.edu.sg/oam/admissions",
+  "certificateNote": "Проверка списка международных квалификаций, школьных результатов и требуемых предметов; могут потребоваться дополнительные тесты. A-level/IB — отдельные маршруты."
+ },
+ "Гонконг": {
+  "currency": "HKD",
+  "costGuideUrl": "https://www.studyinhongkong.edu.hk/",
+  "rulesUrl": "https://www.studyinhongkong.edu.hk/",
+  "certificateNote": "Non-JUPAS / международный маршрут; школьная квалификация, профильные предметы, английский, иногда интервью. A-level/IB принимаются по условиям выбранного курса."
+ },
+ "Китай": {
+  "currency": "CNY",
+  "costGuideUrl": "https://www.campuschina.org/",
+  "rulesUrl": "https://www.campuschina.org/",
+  "certificateNote": "Международная заявка, признанный школьный диплом и ведомость, язык курса (HSK или английский), экзамены/интервью по маршруту."
+ },
+ "Япония": {
+  "currency": "JPY",
+  "costGuideUrl": "https://www.studyinjapan.go.jp/en/planning/academic-fees/",
+  "rulesUrl": "https://www.studyinjapan.go.jp/en/planning/learn-about-schools/universities/",
+  "certificateNote": "Обычно 12 лет школьного образования или признанный эквивалент; после 11 классов проверить специальный маршрут. EJU и японский для ряда программ; английские треки имеют отдельные правила."
+ },
+ "Южная Корея": {
+  "currency": "KRW",
+  "costGuideUrl": "https://www.studyinkorea.go.kr/",
+  "rulesUrl": "https://www.studyinkorea.go.kr/",
+  "certificateNote": "Признанная полная школьная квалификация; международный маршрут зависит от гражданства и образования кандидата и родителей. TOPIK или английский по программе."
+ }
+}

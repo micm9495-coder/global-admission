@@ -1,0 +1,17 @@
+---
+import { scaleCells } from '@/lib/text';
+
+interface Props {
+  scale: string;
+  big?: boolean;
+}
+const { scale, big = false } = Astro.props;
+const cells = scaleCells(scale);
+---
+{cells ? (
+  <span class:list={['cells', { big }]} role="img" aria-label={`Шкала ${scale}`}>
+    {cells.map((ch) => <i class={ch === '–' ? 'sep' : undefined}>{ch}</i>)}
+  </span>
+) : (
+  <span class="scaletext">{scale}</span>
+)}

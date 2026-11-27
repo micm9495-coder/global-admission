@@ -1,0 +1,202 @@
+---
+import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
+import Base from '@/layouts/Base.astro';
+import Icon from '@/components/Icon.astro';
+import CampusPhoto from '@/components/CampusPhoto.astro';
+import RankStrip from '@/components/RankStrip.astro';
+import Tabs from '@/components/Tabs.astro';
+import meta from '@/data/meta.json';
+import { officialSearch, wikiUrl, withBase } from '@/lib/links';
+import { norm } from '@/lib/text';
+
+export async function getStaticPaths() {
+  const [universities, programs] = await Promise.all([getCollection('universities'), getCollection('programs')]);
+  return universities.map((university) => ({
+    params: { id: university.id },
+    props: { university, programs: programs.filter((p) => p.data.university.id === university.id) },
+  }));
+}
+interface Props {
+  university: CollectionEntry<'universities'>;
+  programs: CollectionEntry<'programs'>[];
+}
+const { university, programs } = Astro.props;
+const { id, data: u } = university;
+const country = await getEntry('countries', u.country);
+if (!country) throw new Error(`No country rules for «${u.country}» (university ${id})`);
+const c = country.data;
+const search = (q: string) => officialSearch(u.website, u.name, q);
+const rows = [...programs].sort((a, b) => a.data.name.localeCompare(b.data.name, 'ru'));
+const b = u.budget;
+---
+<Base title={u.name} description={`${u.name} (${u.city}, ${u.country}): рейтинги, ${rows.length} направлений с ориентирами стоимости, требования к аттестату и поступление для иностранцев.`} section="universities">
+  <article class="detail">
+    <a class="back" href={withBase('universities/')}><Icon name="back" />Все университеты</a>
+    <div class="unihead">
+      <div>
+        <p class="unicountry"><span class="tag">{u.country}</span>{u.city}</p>
+        <h1>{u.name}</h1>
+        <RankStrip university={u} />
+        <p class="footnote">Место в стране — позиция среди вузов страны по QS, не отдельный национальный рейтинг. <a href={wikiUrl(u.wikiTitle)}>Сведения о кампусе</a></p>
+      </div>
+      <CampusPhoto id={id} name={u.name} country={u.country} hero />
+    </div>
+
+    <Tabs tabs={[
+      { id: 'about', label: 'Об университете' },
+      { id: 'admission', label: 'Поступление' },
+      { id: 'programs', label: 'Программы и стоимость' },
+      { id: 'alumni', label: 'Известные выпускники' },
+      { id: 'rating', label: 'Моя оценка' },
+    ]}>
+      <Fragment slot="about">
+        <div class="money12">
+          <div><small>Основание / историческая дата</small><strong>{u.founded}</strong></div>
+          <div><small>Город / кампус</small><strong>{u.city}</strong></div>
+        </div>
+        <h2>История и образовательная модель</h2>
+        <p>{u.history}</p>
+        <h3>Академический профиль</h3>
+        <p>{u.academicProfile}</p>
+        <p><a href={wikiUrl(u.wikiTitle)} target="_blank" rel="noopener">История и структура · Wikipedia <Icon name="external" /></a> · <a href={u.website} target="_blank" rel="noopener">Официальный сайт <Icon name="external" /></a></p>
+        <p class="muted">Историческая справка для ориентации; условия поступления проверяются отдельно по университетскому каталогу.</p>
+      </Fragment>
+
+      <Fragment slot="admission">
+        <h2>Поступление: иностранный аттестат</h2>
+        <p>{u.admissionOverview}</p>
+        {u.admissionNote && (
+          <p class="callout">{u.admissionNote.text}{u.admissionNote.link && <> <a href={u.admissionNote.link.url}>{u.admissionNote.link.label}</a>.</>}</p>
+        )}
+        <p><b>Российский аттестат / A-level / IB:</b> {c.certificateNote}</p>
+        <p class="links">
+          <a href={u.admissionsUrl} target="_blank" rel="noopener">Приёмная комиссия <Icon name="external" /></a>
+          <a href={c.rulesUrl} target="_blank" rel="noopener">Правила страны <Icon name="external" /></a>
+          <a href={search('Russia secondary school certificate A level IB international undergraduate admissions')} target="_blank" rel="noopener">Проверить эквивалентность аттестата <Icon name="external" /></a>
+        </p>
+        <h3>Предметы и условия по направлениям</h3>
+        <p class="muted">Сведения с официальных страниц отдельных курсов помечены отдельно; для точного допуска сверь требования на год поступления. Рекомендации для остальных строк — ориентир выбора школьных предметов, не обещание допуска. Направление может быть профилем, major или дисциплиной, а не самостоятельной программой.</p>
+        <div class="tablewrap"><table class="narrow">
+          <thead><tr><th>Направление</th><th>Предметы и условия</th><th>Проверка</th></tr></thead>
+          <tbody>
+            {rows.map((p) => (
+              <tr><td><b>{p.data.name}</b></td><td>{p.data.requirements.text}<small>{p.data.requirements.type}</small></td><td><a href={p.data.requirements.link} target="_blank" rel="noopener">Страница курса / поиск на сайте вуза</a></td></tr>
+            ))}
+          </tbody>
+        </table></div>
+        <h3>Английский или язык обучения</h3>
+        <p>Проверь IELTS Academic/TOEFL или местный языковой экзамен и минимумы по компонентам; требования могут различаться по программе.</p>
+        <a href={search('undergraduate English language requirements IELTS TOEFL')} target="_blank" rel="noopener">Языковые требования <Icon name="external" /></a>
+        <h3>Документы и сроки</h3>
+        <p>Подготовь ведомость и перевод, прогнозные или итоговые оценки, тесты, рекомендации, эссе или мотивацию, если они требуются. Для поступления после 11 классов согласуй квалификацию заранее.</p>
+        <a href={search('undergraduate application deadlines international 2027 2028')} target="_blank" rel="noopener">Календарь приёма <Icon name="external" /></a>
+      </Fragment>
+
+      <Fragment slot="programs">
+        <h2>Программы, стоимость и поступление</h2>
+        <div class="money12">
+          <div><small>Только обучение, в год</small><strong>{b.tuition}</strong></div>
+          <div><small>Обучение + расходы на жизнь</small><strong>{b.total}</strong></div>
+        </div>
+        <p class="muted"><b>{b.type} · {b.year}.</b> {b.note} <a href={b.source} target="_blank" rel="noopener">Источник</a></p>
+        <div class="programIntro">
+          <b>{u.catalog.official ? 'Каталог по официальному перечню' : 'Обзор академических направлений'}</b>
+          <p>{u.catalog.official ? u.catalog.note : 'Ниже приведён рабочий перечень академических областей, а не исчерпывающий каталог дипломных программ. Стоимость по строкам без индивидуального тарифа — только сценарий планирования, не цена конкретной программы.'}</p>
+          <a href={u.catalog.url ?? search('undergraduate degree programmes majors official catalog')} target="_blank" rel="noopener">{u.catalog.official ? 'Официальный каталог программ' : 'Открыть каталог вуза / поиск'} <Icon name="external" /></a> ·
+          <a href={u.admissionsUrl} target="_blank" rel="noopener">Приёмная комиссия <Icon name="external" /></a> ·
+          <a href={search('international undergraduate tuition fees financial aid')} target="_blank" rel="noopener">Тарифы и помощь <Icon name="external" /></a>
+        </div>
+        <p class="muted">QS относится к широкой предметной области, не к отдельной программе. Суммы годовые, до финансовой помощи.</p>
+        <div class="toolbar">
+          <input type="search" id="localq" placeholder="Например: экономика, economics, PPE" aria-label="Найти направление" />
+          <select id="localsort" aria-label="Сортировка"><option value="name">По названию</option><option value="rank">По рейтингу области</option></select>
+        </div>
+        <div class="count-line"><p class="count" id="localcount">Найдено: {rows.length}</p></div>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Направление</th><th>QS 2026 (область)</th><th>Обучение / год</th><th>Полный бюджет / год</th><th>Аттестат и профильные предметы</th></tr></thead>
+          <tbody id="localrows">
+            {rows.map((p) => {
+              const x = p.data;
+              return (
+                <tr data-search={norm([x.name, x.kind, x.keywords].join(' '))} data-rank={x.areaRank ?? ''} data-name={x.name}>
+                  <td><strong>{x.name}</strong><small>{x.kind}</small></td>
+                  <td>{x.areaRank && `№ ${x.areaRank}`}<small>{x.area}</small></td>
+                  <td>{x.cost.tuition}<small>{x.cost.year} · {x.cost.type}<br /><a href={x.cost.source} target="_blank" rel="noopener">Основа</a></small></td>
+                  <td>{x.cost.total}<small>{x.cost.note}</small></td>
+                  <td>{x.requirements.text}<small>{x.requirements.type}<br /><a href={x.requirements.link} target="_blank" rel="noopener">Требования курса</a></small></td>
+                </tr>
+              );
+            })}
+            <tr id="local-empty" hidden><td colspan="5">Нет совпадений. Попробуй другое название.</td></tr>
+          </tbody>
+        </table></div>
+        <p class="links"><a href={withBase(`programs/?u=${encodeURIComponent(u.name)}`)}>Сравнить с другими вузами</a> <a href="https://www.topuniversities.com/subject-rankings" target="_blank" rel="noopener">QS по предметам <Icon name="external" /></a></p>
+      </Fragment>
+
+      <Fragment slot="alumni">
+        <h2>Люди, связанные с университетом</h2>
+        <ul class="people">{u.alumni.map((name) => <li>{name}</li>)}</ul>
+        <p class="muted">Включены выпускники разных уровней и отдельно обозначенные случаи обучения без указания степени.</p>
+      </Fragment>
+
+      <Fragment slot="rating">
+        <form id="rating" data-name={u.name}>
+          {meta.ratingCriteria.map((label) => (
+            <label>{label}<span class="score">5</span><input type="range" min="1" max="10" value="5" /></label>
+          ))}
+          <button type="submit">Сохранить оценку</button>
+          <p class="saved" id="rating-status" role="status"></p>
+        </form>
+      </Fragment>
+    </Tabs>
+  </article>
+</Base>
+
+<script>
+  import { matchesAllWords } from '@/lib/search';
+  import { loadRatings, saveRating } from '@/lib/ratings';
+
+  // Programs tab: filter and sort the rows rendered at build time.
+  const body = document.querySelector<HTMLElement>('#localrows')!;
+  const rows = [...body.querySelectorAll<HTMLTableRowElement>('tr[data-search]')];
+  const empty = document.querySelector<HTMLElement>('#local-empty')!;
+  const q = document.querySelector<HTMLInputElement>('#localq')!;
+  const sort = document.querySelector<HTMLSelectElement>('#localsort')!;
+  const count = document.querySelector<HTMLElement>('#localcount')!;
+  function applyRows() {
+    const byRank = sort.value === 'rank';
+    const ordered = [...rows].sort((a, b) =>
+      (byRank ? (Number(a.dataset.rank) || 9999) - (Number(b.dataset.rank) || 9999) : 0) ||
+      (a.dataset.name ?? '').localeCompare(b.dataset.name ?? '', 'ru'));
+    let shown = 0;
+    for (const r of ordered) {
+      r.hidden = !matchesAllWords(r.dataset.search ?? '', q.value);
+      if (!r.hidden) shown++;
+      body.insertBefore(r, empty);
+    }
+    empty.hidden = shown > 0;
+    count.textContent = `Найдено: ${shown}`;
+  }
+  q.addEventListener('input', applyRows);
+  sort.addEventListener('change', applyRows);
+
+  // Rating tab: the visitor's own scores, stored in this browser.
+  const form = document.querySelector<HTMLFormElement>('#rating')!;
+  const status = document.querySelector<HTMLElement>('#rating-status')!;
+  const inputs = [...form.querySelectorAll<HTMLInputElement>('input[type=range]')];
+  const saved = loadRatings()[form.dataset.name ?? ''];
+  inputs.forEach((input, k) => {
+    const out = input.previousElementSibling as HTMLElement;
+    if (saved?.[k]) input.value = String(saved[k]);
+    out.textContent = input.value;
+    input.addEventListener('input', () => {
+      out.textContent = input.value;
+      status.textContent = '';
+    });
+  });
+  form.addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    const ok = saveRating(form.dataset.name ?? '', inputs.map((i) => Number(i.value)));
+    status.textContent = ok ? 'Оценка сохранена в этом браузере.' : 'Браузер не разрешил сохранить оценку: проверь, не включён ли приватный режим.';
+  });
+</script>

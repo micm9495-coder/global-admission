@@ -1,0 +1,69 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import Base from '@/layouts/Base.astro';
+import Icon from '@/components/Icon.astro';
+import ScaleCells from '@/components/ScaleCells.astro';
+import Tabs from '@/components/Tabs.astro';
+import { withBase } from '@/lib/links';
+
+export async function getStaticPaths() {
+  const exams = await getCollection('exams');
+  return exams.map((exam) => ({ params: { id: exam.id }, props: { exam } }));
+}
+interface Props {
+  exam: CollectionEntry<'exams'>;
+}
+const e = Astro.props.exam.data;
+---
+<Base title={e.name} description={`${e.name}: ${e.region}. Длительность ${e.duration}, шкала ${e.scale}. Формат, пробные задания и регистрация.`} section="exams">
+  <article class="detail">
+    <a class="back" href={withBase('exams/')}><Icon name="back" />Все экзамены</a>
+    <div class="examhead">
+      <div>
+        <span class="tag">{e.category}</span>
+        <h1>{e.name}</h1>
+        <p class="where">{e.region}</p>
+      </div>
+      <div class="examart">
+        <p class="lbl">шкала баллов</p>
+        <ScaleCells scale={e.scale} big />
+        <div class="facts">
+          <div><small>Длительность</small>{e.duration}</div>
+          <div><small>Категория</small>{e.category}</div>
+          <div><small>Где принимают</small>{e.region}</div>
+        </div>
+      </div>
+    </div>
+
+    <Tabs tabs={[
+      { id: 'overview', label: 'Обзор' },
+      { id: 'format', label: 'Формат и этапы' },
+      { id: 'practice', label: 'Пробные задания' },
+      { id: 'register', label: 'Регистрация' },
+    ]}>
+      <Fragment slot="overview">
+        <p>{e.region}</p>
+        <p>Продолжительность: {e.duration}</p>
+        <p>Баллы: {e.scale}</p>
+      </Fragment>
+      <Fragment slot="format">
+        <h2>Структура</h2>
+        <p>{e.structure}</p>
+        <h3>Первая часть / ключевые компоненты</h3>
+        <p>{e.components}</p>
+        <h3>Другие компоненты и сложность</h3>
+        <p>{e.otherComponents}</p>
+        <p>{e.notes}</p>
+      </Fragment>
+      <Fragment slot="practice">
+        <h2>Самостоятельная подготовка</h2>
+        <p>Открой официальный ресурс организатора и выбери sample papers, practice tests или материалы по своему предмету и уровню. Некоторые ресурсы требуют аккаунт.</p>
+        <a href={e.practiceUrl} target="_blank" rel="noopener">Пробные задания / раздел подготовки <Icon name="external" /></a>
+      </Fragment>
+      <Fragment slot="register">
+        <p>Проверь календарь сессий, доступность центра и требования на официальном сайте. Затем зарегистрируйся и сохрани подтверждение.</p>
+        <a href={e.officialUrl} target="_blank" rel="noopener">Официальный ресурс <Icon name="external" /></a>
+      </Fragment>
+    </Tabs>
+  </article>
+</Base>

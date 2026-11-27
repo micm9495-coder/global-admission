@@ -1,0 +1,4107 @@
+[
+ {
+  "id": "mit",
+  "order": 0,
+  "name": "MIT",
+  "country": "США",
+  "website": "https://www.mit.edu/",
+  "wikiTitle": "Massachusetts Institute of Technology",
+  "founded": "1861",
+  "city": "Кембридж, Массачусетс",
+  "history": "Частный технический институт; лабораторная работа и исследовательская программа UROP дополняют учебные курсы.",
+  "academicProfile": "Инженерия, CS, физика, экономика, архитектура",
+  "admissionOverview": "SAT или ACT, школьные оценки, эссе, рекомендации; собственная заявка MIT. Особенно важны математическая подготовка, любознательность и сотрудничество.",
+  "admissionNote": null,
+  "admissionsUrl": "https://mitadmissions.org/",
+  "strengths": "Инженерия, информатика, математика",
+  "alumni": [
+   "Кофи Аннан (магистратура)",
+   "Ричард Фейнман (бакалавриат)",
+   "Базз Олдрин (докторантура)"
+  ],
+  "ranks": {
+   "qs": 1,
+   "the": 2,
+   "usNews": 2,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": true,
+   "note": "Поступление в MIT в целом, без выбора major при подаче. Специализацию выбирают после зачисления. Некоторые гуманитарные поля относятся к гибким программам Course 21.",
+   "url": "https://mitadmissions.org/discover/the-mit-education/majors-minors/"
+  },
+  "budget": {
+   "tuition": "66 720 USD",
+   "total": "92 760 USD",
+   "year": "2026/27",
+   "type": "Опубликованный тариф и бюджет",
+   "note": "Бюджет MIT для нового набора; возможны дополнительные расходы.",
+   "source": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/"
+  }
+ },
+ {
+  "id": "harvard",
+  "order": 1,
+  "name": "Harvard",
+  "country": "США",
+  "website": "https://www.harvard.edu/",
+  "wikiTitle": "Harvard University",
+  "founded": "1636",
+  "city": "Кембридж, Массачусетс",
+  "history": "Harvard College — бакалаврское подразделение; система residential houses, широкий выбор concentrations и междисциплинарных курсов.",
+  "academicProfile": "Экономика, биология, история, государственное управление, информатика",
+  "admissionOverview": "Common Application, школьная ведомость, рекомендации, эссе и SAT/ACT с предусмотренными исключениями. Рассматривают академические результаты и контекст достижений.",
+  "admissionNote": null,
+  "admissionsUrl": "https://college.harvard.edu/admissions",
+  "strengths": "Экономика, государственное управление, гуманитарные науки",
+  "alumni": [
+   "Барак Обама (право)",
+   "Натали Портман",
+   "Джон Кеннеди"
+  ],
+  "ranks": {
+   "qs": 5,
+   "the": 5,
+   "usNews": 1,
+   "national": 3
+  },
+  "extraRanks": [],
+  "aliases": [
+   "гарвард"
+  ],
+  "catalog": {
+   "official": true,
+   "note": "Каталог Harvard College 2026/27: основной профиль выбирают на втором курсе; secondary fields и отдельные учебные курсы не являются самостоятельными бакалавриатами.",
+   "url": "https://college.harvard.edu/academics/liberal-arts-sciences/concentrations"
+  },
+  "budget": {
+   "tuition": "62 226 USD",
+   "total": "95 134–100 134 USD",
+   "year": "2026/27",
+   "type": "Опубликованный тариф и бюджет",
+   "note": "Бюджет Harvard до финансовой помощи; страховка 4 954 USD дополнительно, если нужна.",
+   "source": "https://college.harvard.edu/financial-aid/how-aid-works"
+  }
+ },
+ {
+  "id": "princeton",
+  "order": 2,
+  "name": "Princeton",
+  "country": "США",
+  "website": "https://www.princeton.edu/",
+  "wikiTitle": "Princeton University",
+  "founded": "1746",
+  "city": "Принстон, Нью-Джерси",
+  "history": "Университет Лиги плюща; бакалаврские степени A.B. и B.S.E., самостоятельная исследовательская работа. School of Public and International Affairs предлагает бакалаврское направление.",
+  "academicProfile": "Математика, физика, экономика, политика, инженерия",
+  "admissionOverview": "Common Application, школьные результаты, рекомендации, письменная работа с оценкой; правила тестирования зависят от года. Важны академическая глубина и самостоятельность.",
+  "admissionNote": {
+   "text": "Princeton: SAT/ACT необязателен для поступления осенью 2027; для осени 2028 тест снова обязателен. Письменная школьная работа с оценкой обязательна, предпочтительно по английскому или истории.",
+   "link": {
+    "label": "Официальный список документов",
+    "url": "https://admission.princeton.edu/apply/application-checklist"
+   }
+  },
+  "admissionsUrl": "https://admission.princeton.edu/",
+  "strengths": "Математика, физика, политика",
+  "alumni": [
+   "Джефф Безос",
+   "Мишель Обама",
+   "Джон Нэш (докторантура)"
+  ],
+  "ranks": {
+   "qs": 25,
+   "the": 3,
+   "usNews": 16,
+   "national": 11
+  },
+  "extraRanks": [],
+  "aliases": [
+   "принстон",
+   "принстонский"
+  ],
+  "catalog": {
+   "official": true,
+   "note": "Подача в университет, а не на кафедру; A.B. и B.S.E. — разные академические маршруты. Computer Science существует в обоих вариантах.",
+   "url": "https://ua.princeton.edu/fields-study"
+  },
+  "budget": {
+   "tuition": "68 140 USD",
+   "total": "94 624 USD",
+   "year": "2026/27",
+   "type": "Опубликованный тариф и бюджет",
+   "note": "Опубликованный бюджет Princeton; возможны транспортные расходы и дополнительная медицинская страховка.",
+   "source": "https://admission.princeton.edu/cost-aid/fees-payment-options"
+  }
+ },
+ {
+  "id": "columbia",
+  "order": 3,
+  "name": "Columbia",
+  "country": "США",
+  "website": "https://www.columbia.edu/",
+  "wikiTitle": "Columbia University",
+  "founded": "1754",
+  "city": "Нью-Йорк",
+  "history": "Columbia College известен Core Curriculum; инженерная школа предлагает отдельный маршрут. Кампус Morningside Heights.",
+  "academicProfile": "Экономика, история, литература, инженерия, политология",
+  "admissionOverview": "Заявка, школьные результаты, рекомендации, дополнительные эссе. Core Curriculum предполагает готовность к интенсивному чтению и обсуждению.",
+  "admissionNote": null,
+  "admissionsUrl": "https://undergrad.admissions.columbia.edu/",
+  "strengths": "Журналистика, экономика, международные отношения",
+  "alumni": [
+   "Барак Обама",
+   "Уоррен Баффет (магистратура)",
+   "Рут Бейдер Гинзбург (право)"
+  ],
+  "ranks": {
+   "qs": 38,
+   "the": null,
+   "usNews": null,
+   "national": 12
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/"
+  },
+  "budget": {
+   "tuition": "65 000–78 000 USD",
+   "total": "89 000–115 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "university-of-chicago",
+  "order": 4,
+  "name": "University of Chicago",
+  "country": "США",
+  "website": "https://www.uchicago.edu/",
+  "wikiTitle": "University of Chicago",
+  "founded": "1890",
+  "city": "Чикаго",
+  "history": "Core Curriculum объединяет гуманитарные, социальные и естественные науки; кампус Hyde Park, традиция исследовательских семинаров.",
+  "academicProfile": "Экономика, социология, математика, политология",
+  "admissionOverview": "Школьные результаты, рекомендации и необычные дополнительные эссе; проверяй политику тестирования. Ценится аргументация и интеллектуальная самостоятельность.",
+  "admissionNote": null,
+  "admissionsUrl": "https://collegeadmissions.uchicago.edu/",
+  "strengths": "Экономика, социология, политология",
+  "alumni": [
+   "Милтон Фридман (магистратура)",
+   "Сьюзен Зонтаг",
+   "Джеймс Уотсон"
+  ],
+  "ranks": {
+   "qs": 13,
+   "the": 15,
+   "usNews": 26,
+   "national": 5
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://college.uchicago.edu/academics/programs-study"
+  },
+  "budget": {
+   "tuition": "65 000–78 000 USD",
+   "total": "87 000–112 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "oxford",
+  "order": 5,
+  "name": "Oxford",
+  "country": "Великобритания",
+  "website": "https://www.ox.ac.uk/",
+  "wikiTitle": "University of Oxford",
+  "founded": "1096 (раннее свидетельство преподавания)",
+  "city": "Оксфорд",
+  "history": "Коллегиальная система и занятия в небольших группах (tutorials). Университет не имеет одного общего кампуса; библиотеки Bodleian и колледжи распределены по городу.",
+  "academicProfile": "PPE, право, история, медицина, математика, История и политика, История и экономика",
+  "admissionOverview": "UCAS, профильные оценки, тест или письменная работа по требованиям курса, академическое интервью. Для PPE важны логика и аргументация; требования к математике проверяй отдельно.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.ox.ac.uk/admissions/undergraduate",
+  "strengths": "PPE, история, право",
+  "alumni": [
+   "Маргарет Тэтчер",
+   "Тони Блэр",
+   "Тим Бернерс-Ли"
+  ],
+  "ranks": {
+   "qs": 4,
+   "the": 1,
+   "usNews": 4,
+   "national": 2
+  },
+  "extraRanks": [],
+  "aliases": [
+   "оксфорд"
+  ],
+  "catalog": {
+   "official": true,
+   "note": "Программы прямого поступления после школы. Foundation Year и graduate-entry Medicine исключены из этого списка: это отдельные маршруты с особыми условиями. Требования из сводной таблицы Oxford на 2027 entry.",
+   "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/undergraduate-course-listing-a-z"
+  },
+  "budget": {
+   "tuition": "35 000–65 000 GBP",
+   "total": "48 000–91 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "cambridge",
+  "order": 6,
+  "name": "Cambridge",
+  "country": "Великобритания",
+  "website": "https://www.cam.ac.uk/",
+  "wikiTitle": "University of Cambridge",
+  "founded": "1209",
+  "city": "Кембридж",
+  "history": "Коллегиальная система, занятия supervisions и курсы Tripos; студенты принадлежат факультету и колледжу.",
+  "academicProfile": "Математика, естественные науки, инженерия, история, История и политика, Экономика, Human Social and Political Sciences",
+  "admissionOverview": "UCAS, дополнительные сведения Cambridge, профильные оценки, возможные тесты и интервью. Для математики возможны условия STEP.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.undergraduate.study.cam.ac.uk/",
+  "strengths": "Математика, естественные науки, история",
+  "alumni": [
+   "Исаак Ньютон",
+   "Чарльз Дарвин",
+   "Стивен Хокинг (докторантура)"
+  ],
+  "ranks": {
+   "qs": 6,
+   "the": 3,
+   "usNews": 5,
+   "national": 3
+  },
+  "extraRanks": [],
+  "aliases": [
+   "кембридж"
+  ],
+  "catalog": {
+   "official": true,
+   "note": "Тарифные группы 2027/28. Management Studies и Manufacturing Engineering — обычно переход из другого курса; graduate-entry Medicine — отдельный маршрут. College fee начисляется сверх tuition.",
+   "url": "https://www.undergraduate.study.cam.ac.uk/courses"
+  },
+  "budget": {
+   "tuition": "30 000–71 000 GBP",
+   "total": "54 000–109 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "imperial-college-london",
+  "order": 7,
+  "name": "Imperial College London",
+  "country": "Великобритания",
+  "website": "https://www.imperial.ac.uk/",
+  "wikiTitle": "Imperial College London",
+  "founded": "1907",
+  "city": "Лондон",
+  "history": "Специализация на естественных науках, инженерии, медицине и бизнесе; главный кампус South Kensington.",
+  "academicProfile": "Инженерия, медицина, физика, вычислительные науки",
+  "admissionOverview": "UCAS, высокие оценки по математике и профильным наукам; тесты ESAT, TMUA или UCAT в зависимости от курса и года, возможное интервью.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.imperial.ac.uk/study/apply/",
+  "strengths": "Инженерия, медицина, науки",
+  "alumni": [
+   "Александр Флеминг",
+   "Брайан Мэй (докторантура)"
+  ],
+  "ranks": {
+   "qs": 2,
+   "the": 8,
+   "usNews": 11,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.imperial.ac.uk/study/courses/?courseType=undergraduate"
+  },
+  "budget": {
+   "tuition": "40 000–65 000 GBP",
+   "total": "56 000–93 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "lse",
+  "order": 8,
+  "name": "LSE",
+  "country": "Великобритания",
+  "website": "https://www.lse.ac.uk/",
+  "wikiTitle": "London School of Economics",
+  "founded": "1895",
+  "city": "Лондон",
+  "history": "Специализированный университет общественных наук; центральный кампус около Houghton Street. Экономическая история, политика и социальная теория дополняют количественные дисциплины.",
+  "academicProfile": "Экономика, политика, международные отношения, финансы, социология, PPE, Политика и экономика, Философия и экономика",
+  "admissionOverview": "UCAS, профильные оценки и академическая мотивация; для количественных программ особенно важна математика, возможен TMUA.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.lse.ac.uk/study-at-lse/Undergraduate",
+  "strengths": "Экономика, политика, международные отношения",
+  "alumni": [
+   "Клемент Эттли",
+   "Джордж Сорос"
+  ],
+  "ranks": {
+   "qs": 56,
+   "the": 52,
+   "usNews": null,
+   "national": 9
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": true,
+   "note": "Список offer holders 2026/27; для следующего набора названия и наличие могут измениться. Поступление через UCAS на конкретную программу. Требования IB по вузу варьируются от 37 до 39 баллов; точные условия — по курсу.",
+   "url": "https://www.lse.ac.uk/study-at-lse/Undergraduate/Offer-Holder/Information-for-Offer-Holders"
+  },
+  "budget": {
+   "tuition": "28 000–42 000 GBP",
+   "total": "44 000–70 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "ucl",
+  "order": 9,
+  "name": "UCL",
+  "country": "Великобритания",
+  "website": "https://www.ucl.ac.uk/",
+  "wikiTitle": "University College London",
+  "founded": "1826",
+  "city": "Лондон",
+  "history": "Многопрофильный университет с историческим кампусом Bloomsbury и современным UCL East; архитектура представлена Bartlett.",
+  "academicProfile": "Архитектура, медицина, психология, экономика, инженерия",
+  "admissionOverview": "UCAS, предметные требования, английский; портфолио для некоторых творческих курсов, тесты для отдельных программ.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.ucl.ac.uk/prospective-students/undergraduate/",
+  "strengths": "Архитектура, медицина, социальные науки",
+  "alumni": [
+   "Кристофер Нолан",
+   "Рабиндранат Тагор (учился)"
+  ],
+  "ranks": {
+   "qs": 9,
+   "the": 22,
+   "usNews": 7,
+   "national": 4
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees"
+  },
+  "budget": {
+   "tuition": "30 000–60 000 GBP",
+   "total": "46 000–88 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "eth-zurich",
+  "order": 10,
+  "name": "ETH Zürich",
+  "country": "Швейцария",
+  "website": "https://ethz.ch/",
+  "wikiTitle": "ETH Zurich",
+  "founded": "1855",
+  "city": "Цюрих",
+  "history": "Федеральный технический вуз; кампусы Zentrum и Hönggerberg. Исследовательская подготовка в математике, инженерии и естественных науках.",
+  "academicProfile": "Математика, физика, информатика, инженерия, архитектура",
+  "admissionOverview": "Проверка эквивалентности аттестата, немецкий язык, возможен вступительный экзамен. Бакалавриат преимущественно на немецком.",
+  "admissionNote": {
+   "text": "ETH: основная часть бакалавриата на немецком; проверь экзамен по иностранному аттестату.",
+   "link": null
+  },
+  "admissionsUrl": "https://ethz.ch/en/studies/bachelor.html",
+  "strengths": "Инженерия, математика, информатика",
+  "alumni": [
+   "Альберт Эйнштейн",
+   "Джон фон Нейман",
+   "Вильгельм Рентген"
+  ],
+  "ranks": {
+   "qs": 7,
+   "the": 11,
+   "usNews": 35,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": true,
+   "note": "Начальные курсы на немецком. Human Medicine и Public Policy (Professional Officer) имеют особые условия допуска; не считать доступными любому иностранцу.",
+   "url": "https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes.html"
+  },
+  "budget": {
+   "tuition": "4 380 CHF",
+   "total": "24 380–32 380 CHF",
+   "year": "2026/27",
+   "type": "Опубликованный тариф + расчёт бюджета",
+   "note": "Тариф 2 190 CHF за семестр для подпадающих под повышенную ставку; полный бюджет — расчётный диапазон.",
+   "source": "https://ethz.ch/students/en/studies/financial/tuition-fees.html"
+  }
+ },
+ {
+  "id": "epfl",
+  "order": 11,
+  "name": "EPFL",
+  "country": "Швейцария",
+  "website": "https://www.epfl.ch/",
+  "wikiTitle": "École Polytechnique Fédérale de Lausanne",
+  "founded": "1853 (истоки)",
+  "city": "Лозанна",
+  "history": "Федеральная политехническая школа на берегу Женевского озера; кампус Écublens и Rolex Learning Center.",
+  "academicProfile": "Инженерия, информатика, физика, архитектура",
+  "admissionOverview": "Признание школьной квалификации, сильная математика и науки, французский язык; возможны ограничения набора и дополнительные условия.",
+  "admissionNote": {
+   "text": "EPFL: основная часть бакалавриата на французском; проверь актуальные правила отбора и признания диплома.",
+   "link": null
+  },
+  "admissionsUrl": "https://www.epfl.ch/education/admission/",
+  "strengths": "Инженерия, технологии",
+  "alumni": [
+   "Даниэль Борель",
+   "Андре Боршберг"
+  ],
+  "ranks": {
+   "qs": 22,
+   "the": 35,
+   "usNews": 86,
+   "national": 2
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": true,
+   "note": "Трёхлетний бакалавриат; основное обучение на французском. 2 190 CHF за семестр для студентов, подпадающих под повышенную ставку, плюс сборы.",
+   "url": "https://www.epfl.ch/education/bachelor/programs/"
+  },
+  "budget": {
+   "tuition": "4 380 CHF",
+   "total": "24 380–32 380 CHF",
+   "year": "2026/27",
+   "type": "Опубликованный тариф + расчёт бюджета",
+   "note": "Повышенный тариф 2 190 CHF за семестр для соответствующих иностранных студентов; бюджет расчётный, дополнительные сборы отдельно.",
+   "source": "https://www.epfl.ch/education/studies/en/rules-and-procedures/study-taxes/tuition-fee-other-fees/"
+  }
+ },
+ {
+  "id": "sciences-po",
+  "order": 12,
+  "name": "Sciences Po",
+  "country": "Франция",
+  "website": "https://www.sciencespo.fr/",
+  "wikiTitle": "Sciences Po",
+  "founded": "1872 (истоки), 1945 (реорганизация)",
+  "city": "Париж и региональные кампусы",
+  "history": "Бакалаврский колледж с междисциплинарной подготовкой по общественным наукам и региональными специализациями. Международная мобильность — важная часть модели.",
+  "academicProfile": "Политология, история, экономика, социология, право",
+  "admissionOverview": "Маршрут зависит от школьной квалификации; оценивают результаты, мотивацию, письменные материалы и интервью по правилам кампании.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.sciencespo.fr/admissions/en/",
+  "strengths": "Политология, международные отношения",
+  "alumni": [
+   "Эмманюэль Макрон",
+   "Франсуа Олланд",
+   "Жак Ширак"
+  ],
+  "ranks": {
+   "qs": 367,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": true,
+   "note": "Единый BA по социальным и гуманитарным наукам на семи кампусах; отдельные географические профили, двойные степени и выбор двух majors на втором курсе. Эти строки — кампусы, а не семь разных дипломов.",
+   "url": "https://www.sciencespo.fr/en/academics/undergraduate-college/"
+  },
+  "budget": {
+   "tuition": "14 900 EUR",
+   "total": "26 900–34 900 EUR",
+   "year": "2026/27",
+   "type": "Опубликованный тариф + расчёт бюджета",
+   "note": "Обучение при налоговом резидентстве родителей вне ЕЭЗ; общий бюджет — расчётный диапазон, не тариф.",
+   "source": "https://www.sciencespo.fr/en/admissions-and-financial-aid/tuition-fees/"
+  }
+ },
+ {
+  "id": "bocconi",
+  "order": 13,
+  "name": "Bocconi",
+  "country": "Италия",
+  "website": "https://www.unibocconi.it/",
+  "wikiTitle": "Bocconi University",
+  "founded": "1902",
+  "city": "Милан",
+  "history": "Частный специализированный университет экономики и бизнеса; направления охватывают также политические науки, право и анализ данных.",
+  "academicProfile": "Экономика, финансы, менеджмент, политические науки, data science",
+  "admissionOverview": "Школьные оценки и допустимый конкурсный тест (Bocconi test, SAT или ACT по правилам программы); подача в выбранную сессию.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.unibocconi.it/en/applying-bocconi",
+  "strengths": "Экономика, финансы, менеджмент",
+  "alumni": [
+   "Марио Монти",
+   "Витторио Колao",
+   "Эмма Марчегалья"
+  ],
+  "ranks": {
+   "qs": null,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [
+   {
+    "label": "QS 2026 · Business & Management",
+    "rank": 10,
+    "url": "https://www.unibocconi.it/en/about-us/education-quality-rankings-world"
+   }
+  ],
+  "aliases": [],
+  "catalog": {
+   "official": true,
+   "note": "Набор 2027/28: стандартный отбор по результату теста (55%) и школьным оценкам за предпоследний и предшествующий ему годы (45%). Для Law и двойных степеней отдельные правила.",
+   "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions"
+  },
+  "budget": {
+   "tuition": "17 700 EUR",
+   "total": "29 700–37 700 EUR",
+   "year": "2027/28",
+   "type": "Опубликованный тариф + расчёт бюджета",
+   "note": "Обучение и сборы первого года Bachelor/Law; общий бюджет — расчёт.",
+   "source": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/fees"
+  }
+ },
+ {
+  "id": "university-of-toronto",
+  "order": 14,
+  "name": "University of Toronto",
+  "country": "Канада",
+  "website": "https://www.utoronto.ca/",
+  "wikiTitle": "University of Toronto",
+  "founded": "1827",
+  "city": "Торонто",
+  "history": "Три кампуса: St George, Scarborough и Mississauga. Учебные условия и выбор программы различаются по кампусам.",
+  "academicProfile": "Информатика, инженерия, науки, экономика, гуманитарные дисциплины",
+  "admissionOverview": "Заявка через предусмотренный маршрут, школьные оценки и обязательные предметы; для ряда программ дополнительные анкеты и интервью.",
+  "admissionNote": null,
+  "admissionsUrl": "https://future.utoronto.ca/",
+  "strengths": "Медицина, информатика, науки",
+  "alumni": [
+   "Лестер Пирсон",
+   "Маргарет Этвуд",
+   "Фредерик Бантинг"
+  ],
+  "ranks": {
+   "qs": 29,
+   "the": null,
+   "usNews": null,
+   "national": 2
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://future.utoronto.ca/academics/undergraduate-programs/"
+  },
+  "budget": {
+   "tuition": "45 000–75 000 CAD",
+   "total": "68 000–109 000 CAD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.educanada.ca/programs-programmes/education_cost-cout_education.aspx?lang=eng"
+  }
+ },
+ {
+  "id": "nus",
+  "order": 15,
+  "name": "NUS",
+  "country": "Сингапур",
+  "website": "https://www.nus.edu.sg/",
+  "wikiTitle": "National University of Singapore",
+  "founded": "1905 (истоки)",
+  "city": "Сингапур",
+  "history": "Многопрофильный университет; кампус Kent Ridge, колледж NUS College и междисциплинарная подготовка.",
+  "academicProfile": "Информатика, инженерия, бизнес, экономика, науки",
+  "admissionOverview": "Требования по стране аттестата, английский, профильные предметы; отдельные программы используют интервью и дополнительные испытания.",
+  "admissionNote": null,
+  "admissionsUrl": "https://nus.edu.sg/oam/",
+  "strengths": "Инженерия, бизнес, информатика",
+  "alumni": [
+   "Го Чок Тонг",
+   "Тони Тан"
+  ],
+  "ranks": {
+   "qs": 8,
+   "the": 17,
+   "usNews": 20,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.nus.edu.sg/oam/admissions/undergraduate-programmes"
+  },
+  "budget": {
+   "tuition": "18 000–45 000 SGD",
+   "total": "30 000–67 000 SGD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.nus.edu.sg/oam/financial-aid"
+  }
+ },
+ {
+  "id": "ntu",
+  "order": 16,
+  "name": "NTU",
+  "country": "Сингапур",
+  "website": "https://www.ntu.edu.sg/",
+  "wikiTitle": "Nanyang Technological University",
+  "founded": "1991 (современный университет)",
+  "city": "Сингапур",
+  "history": "Кампус Yunnan Garden; сочетает технические науки, бизнес, гуманитарные дисциплины и образование.",
+  "academicProfile": "Инженерия, информатика, материаловедение, коммуникации",
+  "admissionOverview": "Школьная квалификация, профильные оценки, английский; возможны дополнительные тесты и интервью по программе.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.ntu.edu.sg/admissions/undergraduate",
+  "strengths": "Инженерия, технологии",
+  "alumni": [
+   "Стефани Сунь"
+  ],
+  "ranks": {
+   "qs": 12,
+   "the": 31,
+   "usNews": 28,
+   "national": 2
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.ntu.edu.sg/education/undergraduate-programme"
+  },
+  "budget": {
+   "tuition": "18 000–45 000 SGD",
+   "total": "30 000–67 000 SGD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.nus.edu.sg/oam/financial-aid"
+  }
+ },
+ {
+  "id": "tsinghua",
+  "order": 17,
+  "name": "Tsinghua",
+  "country": "Китай",
+  "website": "https://www.tsinghua.edu.cn/",
+  "wikiTitle": "Tsinghua University",
+  "founded": "1911",
+  "city": "Пекин",
+  "history": "Кампус в районе Хайдянь; инженерные школы сочетаются с естественными и общественными науками.",
+  "academicProfile": "Инженерия, информатика, архитектура, экономика",
+  "admissionOverview": "Международная заявка, школьные результаты, языковые документы, возможный комплексный отбор; требования китайских и англоязычных программ различаются.",
+  "admissionNote": null,
+  "admissionsUrl": "https://international.join-tsinghua.edu.cn/",
+  "strengths": "Инженерия, информатика",
+  "alumni": [
+   "Си Цзиньпин",
+   "Ху Цзиньтао",
+   "Чэнь Нин Ян (учился в объединённом университете военного времени)"
+  ],
+  "ranks": {
+   "qs": 17,
+   "the": 12,
+   "usNews": 11,
+   "national": 2
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": null
+  },
+  "budget": {
+   "tuition": "26 000–100 000 CNY",
+   "total": "56 000–160 000 CNY",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.campuschina.org/"
+  }
+ },
+ {
+  "id": "peking-university",
+  "order": 18,
+  "name": "Peking University",
+  "country": "Китай",
+  "website": "https://www.pku.edu.cn/",
+  "wikiTitle": "Peking University",
+  "founded": "1898",
+  "city": "Пекин",
+  "history": "Один из первых современных университетов Китая; кампус Yan Yuan известен исторической архитектурой.",
+  "academicProfile": "Гуманитарные науки, экономика, математика, естественные науки",
+  "admissionOverview": "Международный маршрут, аттестат, язык обучения, возможные письменные экзамены и интервью.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.isd.pku.edu.cn/",
+  "strengths": "Гуманитарные науки, экономика",
+  "alumni": [
+   "Ли Кэцян",
+   "Ту Юю",
+   "Робин Ли"
+  ],
+  "ranks": {
+   "qs": 14,
+   "the": 13,
+   "usNews": 25,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": null
+  },
+  "budget": {
+   "tuition": "26 000–60 000 CNY",
+   "total": "56 000–120 000 CNY",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.campuschina.org/"
+  }
+ },
+ {
+  "id": "university-of-tokyo",
+  "order": 19,
+  "name": "University of Tokyo",
+  "country": "Япония",
+  "website": "https://www.u-tokyo.ac.jp/",
+  "wikiTitle": "University of Tokyo",
+  "founded": "1877",
+  "city": "Токио",
+  "history": "Кампусы Hongo и Komaba; в традиционном маршруте первые два года связаны с общей подготовкой перед специализацией.",
+  "academicProfile": "Физика, инженерия, право, экономика, естественные науки",
+  "admissionOverview": "Маршрут зависит от языка программы; для японского маршрута возможны EJU и дополнительные экзамены. Англоязычные маршруты меняются по годам.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/",
+  "strengths": "Науки, инженерия",
+  "alumni": [
+   "Ясунари Кавабата",
+   "Кэндзабуро Оэ",
+   "Масатоси Косиба"
+  ],
+  "ranks": {
+   "qs": 36,
+   "the": null,
+   "usNews": 84,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": null
+  },
+  "budget": {
+   "tuition": "643 000 JPY",
+   "total": "1 743 000–2 543 000 JPY",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.studyinjapan.go.jp/en/planning/academic-fees/"
+  }
+ },
+ {
+  "id": "university-of-melbourne",
+  "order": 20,
+  "name": "University of Melbourne",
+  "country": "Австралия",
+  "website": "https://www.unimelb.edu.au/",
+  "wikiTitle": "University of Melbourne",
+  "founded": "1853",
+  "city": "Мельбурн",
+  "history": "Кампус Parkville; широкие бакалаврские степени и последующее профессиональное обучение составляют Melbourne Model.",
+  "academicProfile": "Науки, биомедицина, коммерция, гуманитарные науки, дизайн",
+  "admissionOverview": "Эквивалентность школьной квалификации, оценки, английский и обязательные предметы. Медицина и право часто изучаются после бакалавриата.",
+  "admissionNote": null,
+  "admissionsUrl": "https://study.unimelb.edu.au/",
+  "strengths": "Медицина, право, науки",
+  "alumni": [
+   "Джулия Гиллард",
+   "Кейт Бланшетт (Victorian College of the Arts)"
+  ],
+  "ranks": {
+   "qs": 19,
+   "the": 37,
+   "usNews": 30,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://study.unimelb.edu.au/find/"
+  },
+  "budget": {
+   "tuition": "40 000–60 000 AUD",
+   "total": "70 000–102 000 AUD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.studyaustralia.gov.au/en/life-in-australia/living-and-education-costs.html"
+  }
+ },
+ {
+  "id": "brown-university",
+  "order": 21,
+  "name": "Brown University",
+  "country": "США",
+  "website": "https://brown.edu/",
+  "wikiTitle": "Brown University",
+  "founded": "1764",
+  "city": "Провиденс, Род-Айленд",
+  "history": "Open Curriculum позволяет гибко строить учебный план; выбор concentration определяет специализацию.",
+  "academicProfile": "Экономика, история, информатика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admission.brown.edu/",
+  "strengths": "Экономика, история, информатика",
+  "alumni": [
+   "Эмма Уотсон"
+  ],
+  "ranks": {
+   "qs": 69,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": true,
+   "note": "Brown University Bulletin 2026/27. Open Curriculum; concentration выбирают после поступления. Стандартная плата Brown College относится к обычному бакалавриату, а не к отдельному major.",
+   "url": "https://bulletin.brown.edu/the-college/concentrations/"
+  },
+  "budget": {
+   "tuition": "74 568 USD",
+   "total": "99 984–99 994 USD",
+   "year": "2026/27",
+   "type": "Опубликованный тариф и бюджет",
+   "note": "Опубликованный бюджет Brown; книги, поездки и страховка могут учитываться отдельно.",
+   "source": "https://finaid.brown.edu/estimate-cost-aid/cost"
+  }
+ },
+ {
+  "id": "university-of-pennsylvania",
+  "order": 22,
+  "name": "University of Pennsylvania",
+  "country": "США",
+  "website": "https://upenn.edu/",
+  "wikiTitle": "University of Pennsylvania",
+  "founded": "1740 (истоки)",
+  "city": "Филадельфия",
+  "history": "Четыре бакалаврские школы, включая Wharton, Engineering, Nursing и College of Arts and Sciences.",
+  "academicProfile": "Финансы, экономика, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.upenn.edu/",
+  "strengths": "Финансы, экономика, инженерия",
+  "alumni": [
+   "Уоррен Баффет"
+  ],
+  "ranks": {
+   "qs": 15,
+   "the": 14,
+   "usNews": 15,
+   "national": 6
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://catalog.upenn.edu/undergraduate/programs/"
+  },
+  "budget": {
+   "tuition": "65 000–78 000 USD",
+   "total": "87 000–113 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "cornell-university",
+  "order": 23,
+  "name": "Cornell University",
+  "country": "США",
+  "website": "https://cornell.edu/",
+  "wikiTitle": "Cornell University",
+  "founded": "1865",
+  "city": "Итака, Нью-Йорк",
+  "history": "Сочетание частных и поддерживаемых штатом колледжей; архитектура, инженерия, сельское хозяйство и гуманитарные науки.",
+  "academicProfile": "Инженерия, архитектура, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.cornell.edu/",
+  "strengths": "Инженерия, архитектура, экономика",
+  "alumni": [
+   "Тони Моррисон"
+  ],
+  "ranks": {
+   "qs": 16,
+   "the": 18,
+   "usNews": 16,
+   "national": 7
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admissions.cornell.edu/academics/majors"
+  },
+  "budget": {
+   "tuition": "65 000–78 000 USD",
+   "total": "85 000–110 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "dartmouth-college",
+  "order": 24,
+  "name": "Dartmouth College",
+  "country": "США",
+  "website": "https://dartmouth.edu/",
+  "wikiTitle": "Dartmouth College",
+  "founded": "1769",
+  "city": "Хановер, Нью-Гэмпшир",
+  "history": "Небольшой университет Лиги плюща; гибкий квартальный календарь D-Plan и тесная связь с кампусом.",
+  "academicProfile": "Экономика, политика, история",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.dartmouth.edu/",
+  "strengths": "Экономика, политика, история",
+  "alumni": [
+   "Роберт Райх"
+  ],
+  "ranks": {
+   "qs": 247,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admissions.dartmouth.edu/academics/areas-study"
+  },
+  "budget": {
+   "tuition": "71 697 USD",
+   "total": "98 427 USD",
+   "year": "2026/27",
+   "type": "Опубликованный тариф и бюджет",
+   "note": "Три учебных триместра; страховка и отдельные расходы могут начисляться дополнительно.",
+   "source": "https://financialaid.dartmouth.edu/cost-attendance/cost-attendance-2026-2027"
+  }
+ },
+ {
+  "id": "duke-university",
+  "order": 25,
+  "name": "Duke University",
+  "country": "США",
+  "website": "https://duke.edu/",
+  "wikiTitle": "Duke University",
+  "founded": "1838 (истоки)",
+  "city": "Дарем, Северная Каролина",
+  "history": "Trinity College и Pratt School of Engineering; центральное место в архитектуре занимает Duke Chapel.",
+  "academicProfile": "Политология, экономика, биология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.duke.edu/",
+  "strengths": "Политология, экономика, биология",
+  "alumni": [
+   "Ричард Никсон"
+  ],
+  "ranks": {
+   "qs": 62,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admissions.duke.edu/academic-possibilities/"
+  },
+  "budget": {
+   "tuition": "73 740 USD",
+   "total": "103 180–103 975 USD",
+   "year": "2026/27",
+   "type": "Опубликованный тариф и бюджет",
+   "note": "Первый курс, до помощи; транспорт рассчитан для внутренних поездок.",
+   "source": "https://financialaid.duke.edu/how-aid-calculated/cost-attendance/"
+  }
+ },
+ {
+  "id": "johns-hopkins-university",
+  "order": 26,
+  "name": "Johns Hopkins University",
+  "country": "США",
+  "website": "https://jhu.edu/",
+  "wikiTitle": "Johns Hopkins University",
+  "founded": "1876",
+  "city": "Балтимор",
+  "history": "Исследовательский университет; бакалавриат главным образом в Homewood, медицинские школы расположены отдельно.",
+  "academicProfile": "Международные отношения, биология, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://apply.jhu.edu/",
+  "strengths": "Международные отношения, биология, инженерия",
+  "alumni": [
+   "Вудро Вильсон"
+  ],
+  "ranks": {
+   "qs": 24,
+   "the": 16,
+   "usNews": 14,
+   "national": 10
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://apply.jhu.edu/academics/majors-minors/"
+  },
+  "budget": {
+   "tuition": "65 000–75 000 USD",
+   "total": "86 000–107 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "northwestern-university",
+  "order": 27,
+  "name": "Northwestern University",
+  "country": "США",
+  "website": "https://northwestern.edu/",
+  "wikiTitle": "Northwestern University",
+  "founded": "1851",
+  "city": "Эванстон, Иллинойс",
+  "history": "Кампус у озера Мичиган, квартальная система; Medill известна журналистикой, Bienen — музыкой.",
+  "academicProfile": "Журналистика, экономика, театр",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.northwestern.edu/",
+  "strengths": "Журналистика, экономика, театр",
+  "alumni": [
+   "Джордж Мартин"
+  ],
+  "ranks": {
+   "qs": 42,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admissions.northwestern.edu/academics/majors-minors/"
+  },
+  "budget": {
+   "tuition": "65 000–78 000 USD",
+   "total": "88 000–113 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "new-york-university",
+  "order": 28,
+  "name": "New York University",
+  "country": "США",
+  "website": "https://nyu.edu/",
+  "wikiTitle": "New York University",
+  "founded": "1831",
+  "city": "Нью-Йорк",
+  "history": "Городской кампус вокруг Washington Square; отдельные школы Stern, Tisch и Tandon, а также международные кампусы.",
+  "academicProfile": "Экономика, кино, математика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.nyu.edu/admissions/undergraduate-admissions.html",
+  "strengths": "Экономика, кино, математика",
+  "alumni": [
+   "Мартин Скорсезе"
+  ],
+  "ranks": {
+   "qs": 55,
+   "the": 31,
+   "usNews": 32,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.nyu.edu/academics/undergraduate-majors-and-programs.html"
+  },
+  "budget": {
+   "tuition": "65 000–80 000 USD",
+   "total": "92 000–120 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "georgetown-university",
+  "order": 29,
+  "name": "Georgetown University",
+  "country": "США",
+  "website": "https://georgetown.edu/",
+  "wikiTitle": "Georgetown University",
+  "founded": "1789",
+  "city": "Вашингтон",
+  "history": "School of Foreign Service предлагает международные отношения; университет имеет и другие бакалаврские школы.",
+  "academicProfile": "Международные отношения, политика, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": {
+   "text": "Для Georgetown проверь маршрут заявки по выбранной школе, особенно School of Foreign Service; требования разных школ не одинаковы.",
+   "link": null
+  },
+  "admissionsUrl": "https://uadmissions.georgetown.edu/",
+  "strengths": "Международные отношения, политика, экономика",
+  "alumni": [
+   "Билл Клинтон"
+  ],
+  "ranks": {
+   "qs": 285,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": true,
+   "note": "Подача в одну из бакалаврских школ или совместную программу. Наука требует указать предполагаемый major при подаче; для большинства гуманитарных специальностей выбор оформляется на втором курсе. Некоторые совместные программы — отдельный отбор после первого года.",
+   "url": "https://uadmissions.georgetown.edu/academic-offerings/"
+  },
+  "budget": {
+   "tuition": "74 520 USD",
+   "total": "99 000–110 000 USD",
+   "year": "2026/27",
+   "type": "Опубликованный тариф + расчёт бюджета",
+   "note": "Обучение: 37 260 USD за семестр × 2; общий бюджет — расчётный диапазон, не официальный COA.",
+   "source": "https://studentaccounts.georgetown.edu/tuition/undergraduate/"
+  }
+ },
+ {
+  "id": "university-of-michigan",
+  "order": 30,
+  "name": "University of Michigan",
+  "country": "США",
+  "website": "https://umich.edu/",
+  "wikiTitle": "University of Michigan",
+  "founded": "1817",
+  "city": "Анн-Арбор",
+  "history": "Крупный государственный исследовательский университет; College of Literature, Science and the Arts, Engineering и Ross.",
+  "academicProfile": "Инженерия, экономика, политология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.umich.edu/",
+  "strengths": "Инженерия, экономика, политология",
+  "alumni": [
+   "Джеральд Форд"
+  ],
+  "ranks": {
+   "qs": 45,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admissions.umich.edu/academics-majors/majors-degrees"
+  },
+  "budget": {
+   "tuition": "50 000–70 000 USD",
+   "total": "68 000–100 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "university-of-california-los-angeles",
+  "order": 31,
+  "name": "University of California Los Angeles",
+  "country": "США",
+  "website": "https://ucla.edu/",
+  "wikiTitle": "University of California, Los Angeles",
+  "founded": "1919",
+  "city": "Лос-Анджелес",
+  "history": "Государственный кампус системы UC в Westwood; сильные направления искусства, кино, естественных наук и инженерии.",
+  "academicProfile": "Кино, психология, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": {
+   "text": "Для University of California действует отдельная UC Application; SAT/ACT не учитываются в решении о поступлении. Для отдельных кампусов и majors действуют собственные условия.",
+   "link": null
+  },
+  "admissionsUrl": "https://admission.ucla.edu/",
+  "strengths": "Кино, психология, инженерия",
+  "alumni": [
+   "Фрэнсис Форд Коппола"
+  ],
+  "ranks": {
+   "qs": 46,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admission.ucla.edu/apply/majors"
+  },
+  "budget": {
+   "tuition": "45 000–60 000 USD",
+   "total": "68 000–95 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "university-of-california-san-diego",
+  "order": 32,
+  "name": "University of California San Diego",
+  "country": "США",
+  "website": "https://ucsd.edu/",
+  "wikiTitle": "University of California, San Diego",
+  "founded": "1960",
+  "city": "Ла-Хойя, Сан-Диего",
+  "history": "Система undergraduate colleges; океанография связана со Scripps Institution, сильная вычислительная и научная подготовка.",
+  "academicProfile": "Биология, информатика, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": {
+   "text": "Для University of California действует отдельная UC Application; SAT/ACT не учитываются в решении о поступлении. Для отдельных кампусов и majors действуют собственные условия.",
+   "link": null
+  },
+  "admissionsUrl": "https://admissions.ucsd.edu/",
+  "strengths": "Биология, информатика, экономика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 66,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admissions.ucsd.edu/why/majors/index.html"
+  },
+  "budget": {
+   "tuition": "45 000–60 000 USD",
+   "total": "67 000–94 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "university-of-california-davis",
+  "order": 33,
+  "name": "University of California Davis",
+  "country": "США",
+  "website": "https://ucdavis.edu/",
+  "wikiTitle": "University of California, Davis",
+  "founded": "1908 (истоки)",
+  "city": "Дейвис, Калифорния",
+  "history": "Исторически сельскохозяйственный кампус UC; науки о жизни, экология и инженерия.",
+  "academicProfile": "Биология, аграрные науки, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": {
+   "text": "Для University of California действует отдельная UC Application; SAT/ACT не учитываются в решении о поступлении. Для отдельных кампусов и majors действуют собственные условия.",
+   "link": null
+  },
+  "admissionsUrl": "https://www.ucdavis.edu/admissions/undergraduate",
+  "strengths": "Биология, аграрные науки, экономика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 114,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.ucdavis.edu/majors"
+  },
+  "budget": {
+   "tuition": "45 000–60 000 USD",
+   "total": "65 000–92 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "university-of-southern-california",
+  "order": 34,
+  "name": "University of Southern California",
+  "country": "США",
+  "website": "https://usc.edu/",
+  "wikiTitle": "University of Southern California",
+  "founded": "1880",
+  "city": "Лос-Анджелес",
+  "history": "Частный университет; University Park Campus, школы кинематографии, инженерии и бизнеса.",
+  "academicProfile": "Кино, инженерия, бизнес",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admission.usc.edu/",
+  "strengths": "Кино, инженерия, бизнес",
+  "alumni": [
+   "Джордж Лукас"
+  ],
+  "ranks": {
+   "qs": 146,
+   "the": 73,
+   "usNews": 77,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.usc.edu/academics/"
+  },
+  "budget": {
+   "tuition": "65 000–80 000 USD",
+   "total": "90 000–117 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "carnegie-mellon-university",
+  "order": 35,
+  "name": "Carnegie Mellon University",
+  "country": "США",
+  "website": "https://cmu.edu/",
+  "wikiTitle": "Carnegie Mellon University",
+  "founded": "1900 (истоки)",
+  "city": "Питтсбург",
+  "history": "Технические и творческие дисциплины; School of Computer Science, инженерия, дизайн, музыка и театр.",
+  "academicProfile": "Информатика, инженерия, дизайн",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.cmu.edu/admission/",
+  "strengths": "Информатика, инженерия, дизайн",
+  "alumni": [
+   "Энди Уорхол"
+  ],
+  "ranks": {
+   "qs": 52,
+   "the": 24,
+   "usNews": 126,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.cmu.edu/admission/majors-programs"
+  },
+  "budget": {
+   "tuition": "65 000–78 000 USD",
+   "total": "85 000–110 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "rice-university",
+  "order": 36,
+  "name": "Rice University",
+  "country": "США",
+  "website": "https://rice.edu/",
+  "wikiTitle": "Rice University",
+  "founded": "1912 (открытие)",
+  "city": "Хьюстон",
+  "history": "Residential colleges и небольшой кампус; связь с Texas Medical Center полезна для естественнонаучных исследований.",
+  "academicProfile": "Инженерия, архитектура, физика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admission.rice.edu/",
+  "strengths": "Инженерия, архитектура, физика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 119,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admission.rice.edu/academics"
+  },
+  "budget": {
+   "tuition": "60 000–75 000 USD",
+   "total": "78 000–105 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "vanderbilt-university",
+  "order": 37,
+  "name": "Vanderbilt University",
+  "country": "США",
+  "website": "https://vanderbilt.edu/",
+  "wikiTitle": "Vanderbilt University",
+  "founded": "1873",
+  "city": "Нашвилл",
+  "history": "Частный исследовательский университет с residential learning; Peabody College известен образованием.",
+  "academicProfile": "Экономика, образование, политология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.vanderbilt.edu/",
+  "strengths": "Экономика, образование, политология",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 250,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admissions.vanderbilt.edu/academics/majors/"
+  },
+  "budget": {
+   "tuition": "65 000–78 000 USD",
+   "total": "85 000–110 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "washington-university-in-st-louis",
+  "order": 38,
+  "name": "Washington University in St. Louis",
+  "country": "США",
+  "website": "https://washu.edu/",
+  "wikiTitle": "Washington University in St. Louis",
+  "founded": "1853",
+  "city": "Сент-Луис",
+  "history": "Кампус Danforth; гуманитарные науки, бизнес, дизайн, инженерия; медицинская школа расположена отдельно.",
+  "academicProfile": "Биология, инженерия, бизнес",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.washu.edu/",
+  "strengths": "Биология, инженерия, бизнес",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 167,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admissions.washu.edu/academics/"
+  },
+  "budget": {
+   "tuition": "65 000–78 000 USD",
+   "total": "85 000–110 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "university-of-virginia",
+  "order": 39,
+  "name": "University of Virginia",
+  "country": "США",
+  "website": "https://virginia.edu/",
+  "wikiTitle": "University of Virginia",
+  "founded": "1819",
+  "city": "Шарлотсвилл",
+  "history": "Основан по инициативе Томаса Джефферсона; исторический Academical Village и программа liberal arts.",
+  "academicProfile": "Политология, история, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admission.virginia.edu/",
+  "strengths": "Политология, история, экономика",
+  "alumni": [
+   "Роберт Кеннеди"
+  ],
+  "ranks": {
+   "qs": 275,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.virginia.edu/academics"
+  },
+  "budget": {
+   "tuition": "50 000–70 000 USD",
+   "total": "70 000–102 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "university-of-north-carolina-at-chapel-hill",
+  "order": 40,
+  "name": "University of North Carolina at Chapel Hill",
+  "country": "США",
+  "website": "https://unc.edu/",
+  "wikiTitle": "University of North Carolina at Chapel Hill",
+  "founded": "1789",
+  "city": "Чапел-Хилл",
+  "history": "Государственный университет с историческим кампусом; журналистика, общественное здоровье и науки.",
+  "academicProfile": "Журналистика, биология, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.unc.edu/",
+  "strengths": "Журналистика, биология, экономика",
+  "alumni": [
+   "Джеймс Полк"
+  ],
+  "ranks": {
+   "qs": 140,
+   "the": 78,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://catalog.unc.edu/undergraduate/"
+  },
+  "budget": {
+   "tuition": "35 000–55 000 USD",
+   "total": "53 000–83 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "university-of-wisconsin-madison",
+  "order": 41,
+  "name": "University of Wisconsin–Madison",
+  "country": "США",
+  "website": "https://wisc.edu/",
+  "wikiTitle": "University of Wisconsin–Madison",
+  "founded": "1848",
+  "city": "Мадисон",
+  "history": "Государственный исследовательский университет; Wisconsin Idea связывает исследования с общественными потребностями.",
+  "academicProfile": "Экономика, социология, биология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.wisc.edu/",
+  "strengths": "Экономика, социология, биология",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 110,
+   "the": 53,
+   "usNews": 72,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://guide.wisc.edu/undergraduate/"
+  },
+  "budget": {
+   "tuition": "40 000–55 000 USD",
+   "total": "58 000–83 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "university-of-texas-at-austin",
+  "order": 42,
+  "name": "University of Texas at Austin",
+  "country": "США",
+  "website": "https://utexas.edu/",
+  "wikiTitle": "University of Texas at Austin",
+  "founded": "1883 (открытие)",
+  "city": "Остин",
+  "history": "Главный кампус системы UT; инженерия Cockrell, бизнес McCombs и гуманитарные науки.",
+  "academicProfile": "Инженерия, бизнес, информатика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.utexas.edu/",
+  "strengths": "Инженерия, бизнес, информатика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 68,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admissions.utexas.edu/explore/majors/"
+  },
+  "budget": {
+   "tuition": "40 000–60 000 USD",
+   "total": "58 000–90 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "georgia-institute-of-technology",
+  "order": 43,
+  "name": "Georgia Institute of Technology",
+  "country": "США",
+  "website": "https://gatech.edu/",
+  "wikiTitle": "Georgia Tech",
+  "founded": "1885",
+  "city": "Атланта",
+  "history": "Государственный технический институт; прикладная инженерия, computing, архитектура и бизнес.",
+  "academicProfile": "Инженерия, информатика, математика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admission.gatech.edu/",
+  "strengths": "Инженерия, информатика, математика",
+  "alumni": [
+   "Джимми Картер (учился)"
+  ],
+  "ranks": {
+   "qs": 123,
+   "the": 41,
+   "usNews": 79,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.gatech.edu/academics/degrees"
+  },
+  "budget": {
+   "tuition": "30 000–45 000 USD",
+   "total": "48 000–75 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "university-of-washington",
+  "order": 44,
+  "name": "University of Washington",
+  "country": "США",
+  "website": "https://washington.edu/",
+  "wikiTitle": "University of Washington",
+  "founded": "1861",
+  "city": "Сиэтл",
+  "history": "Крупный государственный университет; кампус у Union Bay, сильные научные и технологические исследования.",
+  "academicProfile": "Информатика, биология, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admit.washington.edu/",
+  "strengths": "Информатика, биология, инженерия",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 81,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admit.washington.edu/academics/majors/"
+  },
+  "budget": {
+   "tuition": "40 000–60 000 USD",
+   "total": "62 000–94 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "boston-university",
+  "order": 45,
+  "name": "Boston University",
+  "country": "США",
+  "website": "https://bu.edu/",
+  "wikiTitle": "Boston University",
+  "founded": "1839 (истоки)",
+  "city": "Бостон",
+  "history": "Городской университет вдоль Charles River; College of Arts & Sciences, коммуникации и инженерия.",
+  "academicProfile": "Международные отношения, журналистика, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.bu.edu/admissions/",
+  "strengths": "Международные отношения, журналистика, экономика",
+  "alumni": [
+   "Мартин Лютер Кинг"
+  ],
+  "ranks": {
+   "qs": 88,
+   "the": 76,
+   "usNews": 86,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.bu.edu/academics/"
+  },
+  "budget": {
+   "tuition": "65 000–78 000 USD",
+   "total": "89 000–114 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "tufts-university",
+  "order": 46,
+  "name": "Tufts University",
+  "country": "США",
+  "website": "https://tufts.edu/",
+  "wikiTitle": "Tufts University",
+  "founded": "1852",
+  "city": "Медфорд и Сомервилл",
+  "history": "Широкий бакалавриат; международные исследования и инженерия. Fletcher School специализируется на послевузовском обучении.",
+  "academicProfile": "Международные отношения, экономика, биология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.tufts.edu/",
+  "strengths": "Международные отношения, экономика, биология",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 334,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admissions.tufts.edu/academics/majors-and-minors/"
+  },
+  "budget": {
+   "tuition": "65 000–78 000 USD",
+   "total": "88 000–113 000 USD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+  }
+ },
+ {
+  "id": "kings-college-london",
+  "order": 47,
+  "name": "King’s College London",
+  "country": "Великобритания",
+  "website": "https://kcl.ac.uk/",
+  "wikiTitle": "King's College London",
+  "founded": "1829",
+  "city": "Лондон",
+  "history": "Исторический кампус Strand, факультеты права, гуманитарных наук, политики и медицины; несколько городских кампусов.",
+  "academicProfile": "Политика, история, право, История и международные отношения, Международные отношения",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.kcl.ac.uk/study/undergraduate",
+  "strengths": "Политика, история, право",
+  "alumni": [
+   "Десмонд Туту"
+  ],
+  "ranks": {
+   "qs": 31,
+   "the": 38,
+   "usNews": null,
+   "national": 5
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses"
+  },
+  "budget": {
+   "tuition": "28 000–42 000 GBP",
+   "total": "44 000–70 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-edinburgh",
+  "order": 48,
+  "name": "University of Edinburgh",
+  "country": "Великобритания",
+  "website": "https://ed.ac.uk/",
+  "wikiTitle": "University of Edinburgh",
+  "founded": "1583",
+  "city": "Эдинбург",
+  "history": "Шотландская модель обычно предусматривает четырёхлетний бакалавриат; Old College и центральный городской кампус.",
+  "academicProfile": "История, информатика, философия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://study.ed.ac.uk/undergraduate",
+  "strengths": "История, информатика, философия",
+  "alumni": [
+   "Чарльз Дарвин (учился)"
+  ],
+  "ranks": {
+   "qs": 34,
+   "the": null,
+   "usNews": null,
+   "national": 6
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://study.ed.ac.uk/programmes/undergraduate"
+  },
+  "budget": {
+   "tuition": "25 000–40 000 GBP",
+   "total": "38 000–62 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-manchester",
+  "order": 49,
+  "name": "University of Manchester",
+  "country": "Великобритания",
+  "website": "https://manchester.ac.uk/",
+  "wikiTitle": "University of Manchester",
+  "founded": "1824 (истоки), 2004 (слияние)",
+  "city": "Манчестер",
+  "history": "Современный университет образован объединением Victoria University и UMIST; технические, естественные и социальные науки.",
+  "academicProfile": "Инженерия, экономика, физика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.manchester.ac.uk/study/undergraduate/",
+  "strengths": "Инженерия, экономика, физика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 35,
+   "the": 56,
+   "usNews": null,
+   "national": 7
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.manchester.ac.uk/study/undergraduate/courses/"
+  },
+  "budget": {
+   "tuition": "25 000–40 000 GBP",
+   "total": "37 000–60 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-warwick",
+  "order": 50,
+  "name": "University of Warwick",
+  "country": "Великобритания",
+  "website": "https://warwick.ac.uk/",
+  "wikiTitle": "University of Warwick",
+  "founded": "1965",
+  "city": "Ковентри",
+  "history": "Кампусный университет; факультеты общественных наук, естественных наук и гуманитарных дисциплин, Warwick Business School.",
+  "academicProfile": "Экономика, математика, политика, PPE",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://warwick.ac.uk/study/undergraduate/",
+  "strengths": "Экономика, математика, политика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 74,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://warwick.ac.uk/study/undergraduate/courses/"
+  },
+  "budget": {
+   "tuition": "25 000–40 000 GBP",
+   "total": "37 000–60 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-bristol",
+  "order": 51,
+  "name": "University of Bristol",
+  "country": "Великобритания",
+  "website": "https://bristol.ac.uk/",
+  "wikiTitle": "University of Bristol",
+  "founded": "1876 (истоки), 1909 (хартия)",
+  "city": "Бристоль",
+  "history": "Городской исследовательский университет; Clifton campus, инженерия, экономика, социальные и естественные науки.",
+  "academicProfile": "Инженерия, политика, история",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.bristol.ac.uk/study/undergraduate/",
+  "strengths": "Инженерия, политика, история",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 51,
+   "the": 80,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.bristol.ac.uk/study/undergraduate/"
+  },
+  "budget": {
+   "tuition": "25 000–40 000 GBP",
+   "total": "38 000–62 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "durham-university",
+  "order": 52,
+  "name": "Durham University",
+  "country": "Великобритания",
+  "website": "https://durham.ac.uk/",
+  "wikiTitle": "Durham University",
+  "founded": "1832",
+  "city": "Дарем",
+  "history": "Колледжи формируют студенческую жизнь, кафедры ведут академическое обучение; историческая часть города и Durham Castle.",
+  "academicProfile": "История, политика, право",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.durham.ac.uk/study/undergraduate/",
+  "strengths": "История, политика, право",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 94,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.durham.ac.uk/study/courses/"
+  },
+  "budget": {
+   "tuition": "25 000–38 000 GBP",
+   "total": "37 000–58 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-st-andrews",
+  "order": 53,
+  "name": "University of St Andrews",
+  "country": "Великобритания",
+  "website": "https://st-andrews.ac.uk/",
+  "wikiTitle": "University of St Andrews",
+  "founded": "1413 (хартия)",
+  "city": "Сент-Эндрюс",
+  "history": "Старинный шотландский университет с четырёхлетней моделью бакалавриата; международные отношения и гуманитарные науки.",
+  "academicProfile": "Международные отношения, философия, история",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.st-andrews.ac.uk/study/undergraduate/",
+  "strengths": "Международные отношения, философия, история",
+  "alumni": [
+   "Принц Уильям"
+  ],
+  "ranks": {
+   "qs": 113,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.st-andrews.ac.uk/subjects/"
+  },
+  "budget": {
+   "tuition": "28 000–40 000 GBP",
+   "total": "41 000–62 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-glasgow",
+  "order": 54,
+  "name": "University of Glasgow",
+  "country": "Великобритания",
+  "website": "https://gla.ac.uk/",
+  "wikiTitle": "University of Glasgow",
+  "founded": "1451",
+  "city": "Глазго",
+  "history": "Главный кампус Gilmorehill; шотландская образовательная модель, гуманитарные, естественные и социальные науки.",
+  "academicProfile": "Экономика, история, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.gla.ac.uk/undergraduate/",
+  "strengths": "Экономика, история, инженерия",
+  "alumni": [
+   "Адам Смит"
+  ],
+  "ranks": {
+   "qs": 79,
+   "the": 84,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.gla.ac.uk/undergraduate/degrees/"
+  },
+  "budget": {
+   "tuition": "24 000–38 000 GBP",
+   "total": "36 000–58 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-birmingham",
+  "order": 55,
+  "name": "University of Birmingham",
+  "country": "Великобритания",
+  "website": "https://birmingham.ac.uk/",
+  "wikiTitle": "University of Birmingham",
+  "founded": "1900",
+  "city": "Бирмингем",
+  "history": "Кампус Edgbaston и башня Old Joe; инженерия, науки, общественные дисциплины и профессиональные школы.",
+  "academicProfile": "Политология, инженерия, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.birmingham.ac.uk/study/undergraduate",
+  "strengths": "Политология, инженерия, экономика",
+  "alumni": [
+   "Невилл Чемберлен"
+  ],
+  "ranks": {
+   "qs": 76,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.birmingham.ac.uk/study/undergraduate"
+  },
+  "budget": {
+   "tuition": "24 000–38 000 GBP",
+   "total": "36 000–58 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-leeds",
+  "order": 56,
+  "name": "University of Leeds",
+  "country": "Великобритания",
+  "website": "https://leeds.ac.uk/",
+  "wikiTitle": "University of Leeds",
+  "founded": "1904",
+  "city": "Лидс",
+  "history": "Большой городской кампус; сочетание искусства, бизнеса, инженерии и социальных наук.",
+  "academicProfile": "География, бизнес, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.leeds.ac.uk/undergraduate",
+  "strengths": "География, бизнес, инженерия",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 86,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://courses.leeds.ac.uk/"
+  },
+  "budget": {
+   "tuition": "24 000–38 000 GBP",
+   "total": "36 000–58 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-nottingham",
+  "order": 57,
+  "name": "University of Nottingham",
+  "country": "Великобритания",
+  "website": "https://nottingham.ac.uk/",
+  "wikiTitle": "University of Nottingham",
+  "founded": "1881 (истоки), 1948 (хартия)",
+  "city": "Ноттингем",
+  "history": "University Park Campus; также международные кампусы в Китае и Малайзии.",
+  "academicProfile": "Экономика, право, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.nottingham.ac.uk/studywithus/ugstudy/",
+  "strengths": "Экономика, право, инженерия",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 97,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.nottingham.ac.uk/studywithus/ugstudy/courses/"
+  },
+  "budget": {
+   "tuition": "24 000–38 000 GBP",
+   "total": "36 000–58 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-southampton",
+  "order": 58,
+  "name": "University of Southampton",
+  "country": "Великобритания",
+  "website": "https://southampton.ac.uk/",
+  "wikiTitle": "University of Southampton",
+  "founded": "1862 (истоки), 1952 (хартия)",
+  "city": "Саутгемптон",
+  "history": "Highfield Campus; инженерия, океанография и науки, а также гуманитарные и общественные дисциплины.",
+  "academicProfile": "Инженерия, информатика, океанография",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.southampton.ac.uk/study/undergraduate",
+  "strengths": "Инженерия, информатика, океанография",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 87,
+   "the": 129,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.southampton.ac.uk/courses"
+  },
+  "budget": {
+   "tuition": "25 000–40 000 GBP",
+   "total": "37 000–60 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-bath",
+  "order": 59,
+  "name": "University of Bath",
+  "country": "Великобритания",
+  "website": "https://bath.ac.uk/",
+  "wikiTitle": "University of Bath",
+  "founded": "1966",
+  "city": "Бат",
+  "history": "Кампус Claverton Down; технологические и социальные направления, варианты программ с практикой.",
+  "academicProfile": "Менеджмент, экономика, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.bath.ac.uk/courses/undergraduate/",
+  "strengths": "Менеджмент, экономика, инженерия",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 132,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.bath.ac.uk/courses/undergraduate/"
+  },
+  "budget": {
+   "tuition": "25 000–38 000 GBP",
+   "total": "37 000–58 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "university-of-exeter",
+  "order": 60,
+  "name": "University of Exeter",
+  "country": "Великобритания",
+  "website": "https://exeter.ac.uk/",
+  "wikiTitle": "University of Exeter",
+  "founded": "1955",
+  "city": "Эксетер",
+  "history": "Streatham Campus и кампусы в Корнуолле; экономика, политика, гуманитарные и экологические науки.",
+  "academicProfile": "Политика, история, экология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.exeter.ac.uk/study/undergraduate/",
+  "strengths": "Политика, история, экология",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 155,
+   "the": null,
+   "usNews": 127,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.exeter.ac.uk/study/undergraduate/courses/"
+  },
+  "budget": {
+   "tuition": "24 000–38 000 GBP",
+   "total": "36 000–58 000 GBP",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+  }
+ },
+ {
+  "id": "mcgill-university",
+  "order": 61,
+  "name": "McGill University",
+  "country": "Канада",
+  "website": "https://mcgill.ca/",
+  "wikiTitle": "McGill University",
+  "founded": "1821",
+  "city": "Монреаль",
+  "history": "Англоязычный университет в преимущественно франкоязычном городе; Downtown и Macdonald campuses.",
+  "academicProfile": "Биология, экономика, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.mcgill.ca/undergraduate-admissions/",
+  "strengths": "Биология, экономика, инженерия",
+  "alumni": [
+   "Леонард Коэн"
+  ],
+  "ranks": {
+   "qs": 27,
+   "the": null,
+   "usNews": null,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.mcgill.ca/undergraduate-admissions/programs"
+  },
+  "budget": {
+   "tuition": "30 000–65 000 CAD",
+   "total": "53 000–97 000 CAD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.educanada.ca/programs-programmes/education_cost-cout_education.aspx?lang=eng"
+  }
+ },
+ {
+  "id": "university-of-british-columbia",
+  "order": 62,
+  "name": "University of British Columbia",
+  "country": "Канада",
+  "website": "https://ubc.ca/",
+  "wikiTitle": "University of British Columbia",
+  "founded": "1908",
+  "city": "Ванкувер и Келоуна",
+  "history": "Два основных кампуса: Vancouver и Okanagan; программа и условия приёма зависят от площадки.",
+  "academicProfile": "Экономика, экология, информатика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://you.ubc.ca/",
+  "strengths": "Экономика, экология, информатика",
+  "alumni": [
+   "Джастин Трюдо"
+  ],
+  "ranks": {
+   "qs": 40,
+   "the": null,
+   "usNews": null,
+   "national": 3
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://you.ubc.ca/programs/"
+  },
+  "budget": {
+   "tuition": "45 000–70 000 CAD",
+   "total": "68 000–105 000 CAD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.educanada.ca/programs-programmes/education_cost-cout_education.aspx?lang=eng"
+  }
+ },
+ {
+  "id": "university-of-waterloo",
+  "order": 63,
+  "name": "University of Waterloo",
+  "country": "Канада",
+  "website": "https://uwaterloo.ca/",
+  "wikiTitle": "University of Waterloo",
+  "founded": "1957",
+  "city": "Уотерлу",
+  "history": "Кооперативное обучение с рабочими стажировками; сильные математика, computing и инженерия.",
+  "academicProfile": "Математика, информатика, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://uwaterloo.ca/future-students/",
+  "strengths": "Математика, информатика, инженерия",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 119,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://uwaterloo.ca/future-students/programs"
+  },
+  "budget": {
+   "tuition": "45 000–80 000 CAD",
+   "total": "68 000–113 000 CAD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.educanada.ca/programs-programmes/education_cost-cout_education.aspx?lang=eng"
+  }
+ },
+ {
+  "id": "university-of-alberta",
+  "order": 64,
+  "name": "University of Alberta",
+  "country": "Канада",
+  "website": "https://ualberta.ca/",
+  "wikiTitle": "University of Alberta",
+  "founded": "1908",
+  "city": "Эдмонтон",
+  "history": "Государственный университет; North Campus, естественные науки, инженерия и гуманитарные направления.",
+  "academicProfile": "Инженерия, биология, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.ualberta.ca/en/admissions/",
+  "strengths": "Инженерия, биология, экономика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 94,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.ualberta.ca/en/undergraduate-programs/index.html"
+  },
+  "budget": {
+   "tuition": "30 000–55 000 CAD",
+   "total": "53 000–86 000 CAD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.educanada.ca/programs-programmes/education_cost-cout_education.aspx?lang=eng"
+  }
+ },
+ {
+  "id": "mcmaster-university",
+  "order": 65,
+  "name": "McMaster University",
+  "country": "Канада",
+  "website": "https://mcmaster.ca/",
+  "wikiTitle": "McMaster University",
+  "founded": "1887",
+  "city": "Гамильтон, Онтарио",
+  "history": "Известен проблемно-ориентированным обучением в медицинской сфере; широкий набор undergraduate faculties.",
+  "academicProfile": "Биология, инженерия, психология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://future.mcmaster.ca/",
+  "strengths": "Биология, инженерия, психология",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 173,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://future.mcmaster.ca/programs/"
+  },
+  "budget": {
+   "tuition": "35 000–65 000 CAD",
+   "total": "58 000–96 000 CAD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.educanada.ca/programs-programmes/education_cost-cout_education.aspx?lang=eng"
+  }
+ },
+ {
+  "id": "universite-de-montreal",
+  "order": 66,
+  "name": "Université de Montréal",
+  "country": "Канада",
+  "website": "https://umontreal.ca/",
+  "wikiTitle": "Université de Montréal",
+  "founded": "1878 (истоки), 1919 (самостоятельность)",
+  "city": "Монреаль",
+  "history": "Франкоязычный университет; HEC Montréal и Polytechnique Montréal — аффилированные школы с отдельными правилами.",
+  "academicProfile": "Информатика, биология, социальные науки",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": {
+   "text": "Université de Montréal: основной язык французский; проверь подготовительный год и эквивалентность диплома.",
+   "link": null
+  },
+  "admissionsUrl": "https://admission.umontreal.ca/",
+  "strengths": "Информатика, биология, социальные науки",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 168,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admission.umontreal.ca/programmes/"
+  },
+  "budget": {
+   "tuition": "25 000–50 000 CAD",
+   "total": "48 000–82 000 CAD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.educanada.ca/programs-programmes/education_cost-cout_education.aspx?lang=eng"
+  }
+ },
+ {
+  "id": "university-of-amsterdam",
+  "order": 67,
+  "name": "University of Amsterdam",
+  "country": "Нидерланды",
+  "website": "https://uva.nl/",
+  "wikiTitle": "University of Amsterdam",
+  "founded": "1632 (истоки), 1877 (университет)",
+  "city": "Амстердам",
+  "history": "Городской университет; Roeterseiland, Science Park и гуманитарные факультеты в центре.",
+  "academicProfile": "Политология, экономика, социология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.uva.nl/en/education/bachelor-s/bachelor-s.html",
+  "strengths": "Политология, экономика, социология",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 53,
+   "the": null,
+   "usNews": null,
+   "national": 2
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.uva.nl/en/education/bachelor-s/bachelors-programmes/bachelors-programmes.html"
+  },
+  "budget": {
+   "tuition": "10 000–25 000 EUR",
+   "total": "22 000–45 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/the-netherlands"
+  }
+ },
+ {
+  "id": "leiden-university",
+  "order": 68,
+  "name": "Leiden University",
+  "country": "Нидерланды",
+  "website": "https://universiteitleiden.nl/",
+  "wikiTitle": "Leiden University",
+  "founded": "1575",
+  "city": "Лейден и Гаага",
+  "history": "Старинный университет; исторический Leiden campus и Hague campus с общественно-политическими программами.",
+  "academicProfile": "Международные отношения, история, право",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.universiteitleiden.nl/en/education/bachelors",
+  "strengths": "Международные отношения, история, право",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 119,
+   "the": null,
+   "usNews": 56,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.universiteitleiden.nl/en/education/study-programmes/bachelor"
+  },
+  "budget": {
+   "tuition": "10 000–25 000 EUR",
+   "total": "22 000–45 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/the-netherlands"
+  }
+ },
+ {
+  "id": "delft-university-of-technology",
+  "order": 69,
+  "name": "Delft University of Technology",
+  "country": "Нидерланды",
+  "website": "https://tudelft.nl/",
+  "wikiTitle": "Delft University of Technology",
+  "founded": "1842 (истоки)",
+  "city": "Делфт",
+  "history": "Технический университет; инженерия, архитектура, промышленный дизайн и прикладные науки.",
+  "academicProfile": "Инженерия, архитектура, информатика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.tudelft.nl/en/education/programmes/bachelors",
+  "strengths": "Инженерия, архитектура, информатика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 47,
+   "the": 57,
+   "usNews": null,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+  },
+  "budget": {
+   "tuition": "15 000–25 000 EUR",
+   "total": "27 000–45 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/the-netherlands"
+  }
+ },
+ {
+  "id": "erasmus-university-rotterdam",
+  "order": 70,
+  "name": "Erasmus University Rotterdam",
+  "country": "Нидерланды",
+  "website": "https://eur.nl/",
+  "wikiTitle": "Erasmus University Rotterdam",
+  "founded": "1913 (истоки)",
+  "city": "Роттердам",
+  "history": "Кампус Woudestein; экономика, менеджмент, право и социальные науки; Erasmus MC расположен отдельно.",
+  "academicProfile": "Экономика, менеджмент, социальные науки",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.eur.nl/en/education/bachelor",
+  "strengths": "Экономика, менеджмент, социальные науки",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 140,
+   "the": null,
+   "usNews": 76,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.eur.nl/en/education/bachelor/overview"
+  },
+  "budget": {
+   "tuition": "10 000–25 000 EUR",
+   "total": "22 000–45 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/the-netherlands"
+  }
+ },
+ {
+  "id": "utrecht-university",
+  "order": 71,
+  "name": "Utrecht University",
+  "country": "Нидерланды",
+  "website": "https://uu.nl/",
+  "wikiTitle": "Utrecht University",
+  "founded": "1636",
+  "city": "Утрехт",
+  "history": "Городской кампус и Utrecht Science Park; гуманитарные, социальные и естественные науки, University College Utrecht.",
+  "academicProfile": "История, биология, география",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.uu.nl/en/bachelors",
+  "strengths": "История, биология, география",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 103,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.uu.nl/en/bachelors"
+  },
+  "budget": {
+   "tuition": "10 000–25 000 EUR",
+   "total": "22 000–45 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/the-netherlands"
+  }
+ },
+ {
+  "id": "ku-leuven",
+  "order": 72,
+  "name": "KU Leuven",
+  "country": "Бельгия",
+  "website": "https://kuleuven.be/",
+  "wikiTitle": "KU Leuven",
+  "founded": "1425 (исторические корни)",
+  "city": "Лёвен",
+  "history": "Католический исследовательский университет; преимущественно нидерландскоязычный бакалавриат и отдельные англоязычные программы.",
+  "academicProfile": "Инженерия, философия, биология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.kuleuven.be/english/admissions",
+  "strengths": "Инженерия, философия, биология",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 60,
+   "the": null,
+   "usNews": null,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.kuleuven.be/english/programmes"
+  },
+  "budget": {
+   "tuition": "2 000–9 000 EUR",
+   "total": "13 000–26 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/belgium"
+  }
+ },
+ {
+  "id": "ghent-university",
+  "order": 73,
+  "name": "Ghent University",
+  "country": "Бельгия",
+  "website": "https://ugent.be/",
+  "wikiTitle": "Ghent University",
+  "founded": "1817",
+  "city": "Гент",
+  "history": "Государственный университет с широким набором факультетов; бакалавриат преимущественно на нидерландском.",
+  "academicProfile": "Инженерия, биология, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.ugent.be/en/education",
+  "strengths": "Инженерия, биология, экономика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 162,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://studiekiezer.ugent.be/"
+  },
+  "budget": {
+   "tuition": "2 000–9 000 EUR",
+   "total": "13 000–26 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/belgium"
+  }
+ },
+ {
+  "id": "ludwig-maximilian-university-of-munich",
+  "order": 74,
+  "name": "Ludwig Maximilian University of Munich",
+  "country": "Германия",
+  "website": "https://lmu.de/",
+  "wikiTitle": "Ludwig Maximilian University of Munich",
+  "founded": "1472",
+  "city": "Мюнхен",
+  "history": "Исторически основан в Ингольштадте; многопрофильный университет, городские кампусы и исследовательские центры.",
+  "academicProfile": "Философия, физика, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.lmu.de/en/study/",
+  "strengths": "Философия, физика, экономика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 58,
+   "the": 34,
+   "usNews": 57,
+   "national": 2
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.lmu.de/en/study/all-degrees-and-programs/"
+  },
+  "budget": {
+   "tuition": "0–1 000 EUR",
+   "total": "13 000–21 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/germany"
+  }
+ },
+ {
+  "id": "technical-university-of-munich",
+  "order": 75,
+  "name": "Technical University of Munich",
+  "country": "Германия",
+  "website": "https://tum.de/",
+  "wikiTitle": "Technical University of Munich",
+  "founded": "1868",
+  "city": "Мюнхен и Гархинг",
+  "history": "Технический университет; инженерия, computing, естественные науки, менеджмент; несколько площадок.",
+  "academicProfile": "Инженерия, информатика, математика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.tum.de/en/studies/application",
+  "strengths": "Инженерия, информатика, математика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 22,
+   "the": null,
+   "usNews": 79,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.tum.de/en/studies/degree-programs"
+  },
+  "budget": {
+   "tuition": "4 000–7 000 EUR",
+   "total": "17 000–27 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/germany"
+  }
+ },
+ {
+  "id": "heidelberg-university",
+  "order": 76,
+  "name": "Heidelberg University",
+  "country": "Германия",
+  "website": "https://uni-heidelberg.de/",
+  "wikiTitle": "Heidelberg University",
+  "founded": "1386",
+  "city": "Гейдельберг",
+  "history": "Старейший университет современной Германии; исторический Altstadt и научный кампус Neuenheimer Feld.",
+  "academicProfile": "История, биология, физика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.uni-heidelberg.de/en/study",
+  "strengths": "История, биология, физика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 80,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.uni-heidelberg.de/en/study/all-subjects"
+  },
+  "budget": {
+   "tuition": "3 000–4 000 EUR",
+   "total": "15 000–21 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/germany"
+  }
+ },
+ {
+  "id": "free-university-of-berlin",
+  "order": 77,
+  "name": "Free University of Berlin",
+  "country": "Германия",
+  "website": "https://fu-berlin.de/",
+  "wikiTitle": "Free University of Berlin",
+  "founded": "1948",
+  "city": "Берлин",
+  "history": "Основан в Западном Берлине; кампус Dahlem, гуманитарные и общественные науки, международные исследования.",
+  "academicProfile": "Политология, история, философия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.fu-berlin.de/en/studium/",
+  "strengths": "Политология, история, философия",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 88,
+   "the": null,
+   "usNews": 59,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.fu-berlin.de/en/studium/studienangebot/"
+  },
+  "budget": {
+   "tuition": "0–1 000 EUR",
+   "total": "12 000–20 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/germany"
+  }
+ },
+ {
+  "id": "humboldt-university-of-berlin",
+  "order": 78,
+  "name": "Humboldt University of Berlin",
+  "country": "Германия",
+  "website": "https://hu-berlin.de/",
+  "wikiTitle": "Humboldt University of Berlin",
+  "founded": "1810",
+  "city": "Берлин",
+  "history": "Исторический корпус Unter den Linden; традиция единства преподавания и исследования, широкий набор дисциплин.",
+  "academicProfile": "История, философия, математика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.hu-berlin.de/en/studies",
+  "strengths": "История, философия, математика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 130,
+   "the": 89,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.hu-berlin.de/en/studies/counselling/course-catalogue"
+  },
+  "budget": {
+   "tuition": "0–1 000 EUR",
+   "total": "12 000–20 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/germany"
+  }
+ },
+ {
+  "id": "university-of-mannheim",
+  "order": 79,
+  "name": "University of Mannheim",
+  "country": "Германия",
+  "website": "https://uni-mannheim.de/",
+  "wikiTitle": "University of Mannheim",
+  "founded": "1907 (истоки), 1967 (университет)",
+  "city": "Мангейм",
+  "history": "Исторический дворец Mannheim; особенно характерны бизнес, экономика и социальные науки.",
+  "academicProfile": "Экономика, менеджмент, политология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.uni-mannheim.de/en/academics/",
+  "strengths": "Экономика, менеджмент, политология",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 416,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.uni-mannheim.de/en/academics/programs/"
+  },
+  "budget": {
+   "tuition": "3 000–4 000 EUR",
+   "total": "15 000–21 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/germany"
+  }
+ },
+ {
+  "id": "sorbonne-university",
+  "order": 80,
+  "name": "Sorbonne University",
+  "country": "Франция",
+  "website": "https://sorbonne-universite.fr/",
+  "wikiTitle": "Sorbonne University",
+  "founded": "2018 (объединение)",
+  "city": "Париж",
+  "history": "Создан объединением Paris-Sorbonne и Pierre and Marie Curie University; гуманитарные, естественные науки и медицина.",
+  "academicProfile": "История, литература, естественные науки",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.sorbonne-universite.fr/en/education",
+  "strengths": "История, литература, естественные науки",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 72,
+   "the": 76,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.sorbonne-universite.fr/en/education"
+  },
+  "budget": {
+   "tuition": "200–3 000 EUR",
+   "total": "12 200–23 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/france"
+  }
+ },
+ {
+  "id": "ecole-polytechnique",
+  "order": 81,
+  "name": "École Polytechnique",
+  "country": "Франция",
+  "website": "https://polytechnique.edu/",
+  "wikiTitle": "École Polytechnique",
+  "founded": "1794",
+  "city": "Палезо",
+  "history": "Grande école; англоязычный Bachelor of Science отличается от традиционной инженерной программы; член IP Paris.",
+  "academicProfile": "Математика, физика, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": {
+   "text": "École Polytechnique Bachelor of Science — отдельный маршрут после школы, не цикл Ingénieur Polytechnicien.",
+   "link": null
+  },
+  "admissionsUrl": "https://programmes.polytechnique.edu/en/bachelor",
+  "strengths": "Математика, физика, инженерия",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": null,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [
+   {
+    "label": "QS 2026 · IP Paris (объединение)",
+    "rank": 41,
+    "url": "https://www.polytechnique.edu/en/news/ip-paris-rises-5-places-qs-2026-ranking-41st-worldwide"
+   },
+   {
+    "label": "IP Paris · во Франции",
+    "rank": 2,
+    "url": "https://www.polytechnique.edu/en/news/ip-paris-rises-5-places-qs-2026-ranking-41st-worldwide"
+   }
+  ],
+  "aliases": [],
+  "catalog": {
+   "official": true,
+   "note": "Три года, 180 ECTS; общий первый курс и выбор двойной специализации со второго года. Это Bachelor of Science, не инженерный цикл grande école.",
+   "url": "https://programmes.polytechnique.edu/en/bachelor/program-details/structure-of-the-bachelor"
+  },
+  "budget": {
+   "tuition": "15 000–20 000 EUR",
+   "total": "26 000–39 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/france"
+  }
+ },
+ {
+  "id": "universite-paris-saclay",
+  "order": 82,
+  "name": "Université Paris-Saclay",
+  "country": "Франция",
+  "website": "https://universite-paris-saclay.fr/",
+  "wikiTitle": "Université Paris-Saclay",
+  "founded": "2020 (современная организация)",
+  "city": "Париж-Сакле",
+  "history": "Объединение научных и образовательных учреждений; распределённые кампусы, сильные математика и естественные науки.",
+  "academicProfile": "Математика, физика, информатика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.universite-paris-saclay.fr/en/education",
+  "strengths": "Математика, физика, информатика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 70,
+   "the": null,
+   "usNews": 78,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.universite-paris-saclay.fr/en/education"
+  },
+  "budget": {
+   "tuition": "200–4 000 EUR",
+   "total": "11 200–22 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/france"
+  }
+ },
+ {
+  "id": "university-of-geneva",
+  "order": 83,
+  "name": "University of Geneva",
+  "country": "Швейцария",
+  "website": "https://unige.ch/",
+  "wikiTitle": "University of Geneva",
+  "founded": "1559",
+  "city": "Женева",
+  "history": "Истоки в академии Кальвина; многопрофильный университет в международном городе, преимущественно французский язык бакалавриата.",
+  "academicProfile": "Международные отношения, право, физика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.unige.ch/admissions/en/",
+  "strengths": "Международные отношения, право, физика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 155,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.unige.ch/bachelor/"
+  },
+  "budget": {
+   "tuition": "1 000–2 000 CHF",
+   "total": "21 000–30 000 CHF",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.studyinswitzerland.plus/"
+  }
+ },
+ {
+  "id": "university-of-zurich",
+  "order": 84,
+  "name": "University of Zurich",
+  "country": "Швейцария",
+  "website": "https://uzh.ch/",
+  "wikiTitle": "University of Zurich",
+  "founded": "1833",
+  "city": "Цюрих",
+  "history": "Городской университет с кампусом Irchel; общественные, гуманитарные и естественные науки, медицина.",
+  "academicProfile": "Экономика, биология, право",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.uzh.ch/en/studies/application.html",
+  "strengths": "Экономика, биология, право",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 100,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.uzh.ch/en/studies/programs.html"
+  },
+  "budget": {
+   "tuition": "1 500–3 000 CHF",
+   "total": "21 500–32 000 CHF",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.studyinswitzerland.plus/"
+  }
+ },
+ {
+  "id": "university-of-st-gallen",
+  "order": 85,
+  "name": "University of St. Gallen",
+  "country": "Швейцария",
+  "website": "https://unisg.ch/",
+  "wikiTitle": "University of St. Gallen",
+  "founded": "1898",
+  "city": "Санкт-Галлен",
+  "history": "Специализация на экономике, менеджменте, праве и международных отношениях; начальный Assessment Year.",
+  "academicProfile": "Экономика, менеджмент, международные отношения",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": {
+   "text": "HSG: иностранные кандидаты с признанными дипломами могут проходить отдельный отбор; обучение начинается с Assessment Year.",
+   "link": {
+    "label": "Правила отбора",
+    "url": "https://www.unisg.ch/en/studying/admission/"
+   }
+  },
+  "admissionsUrl": "https://www.unisg.ch/en/studying/admission/",
+  "strengths": "Экономика, менеджмент, международные отношения",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": null,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [
+   {
+    "label": "QS 2024 · мировой",
+    "rank": 436,
+    "url": "https://www.topuniversities.com/universities/university-stgallen"
+   }
+  ],
+  "aliases": [],
+  "catalog": {
+   "official": true,
+   "note": "Assessment Year; для иностранных дипломов отдельные правила признания и отбора.",
+   "url": "https://www.unisg.ch/en/studying/programmes/bachelor/"
+  },
+  "budget": {
+   "tuition": "6 687 CHF",
+   "total": "25 000–30 000 CHF",
+   "year": "2026/27",
+   "type": "Опубликованный тариф + расчёт бюджета",
+   "note": "Два семестра по 3 343,50 CHF; полный бюджет — ориентир самого HSG, индивидуальные расходы различаются.",
+   "source": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree"
+  }
+ },
+ {
+  "id": "university-of-copenhagen",
+  "order": 86,
+  "name": "University of Copenhagen",
+  "country": "Дания",
+  "website": "https://ku.dk/",
+  "wikiTitle": "University of Copenhagen",
+  "founded": "1479",
+  "city": "Копенгаген",
+  "history": "Исторический университет с городскими кампусами; многие бакалаврские программы преподаются на датском.",
+  "academicProfile": "Политология, экономика, биология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": {
+   "text": "University of Copenhagen: большинство бакалаврских курсов требуют датский.",
+   "link": null
+  },
+  "admissionsUrl": "https://studies.ku.dk/bachelor/",
+  "strengths": "Политология, экономика, биология",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 101,
+   "the": 90,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://studies.ku.dk/bachelor/"
+  },
+  "budget": {
+   "tuition": "45 000–120 000 DKK",
+   "total": "130 000–255 000 DKK",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/denmark"
+  }
+ },
+ {
+  "id": "lund-university",
+  "order": 87,
+  "name": "Lund University",
+  "country": "Швеция",
+  "website": "https://lunduniversity.lu.se/",
+  "wikiTitle": "Lund University",
+  "founded": "1666",
+  "city": "Лунд",
+  "history": "Классический шведский университет; инженерная школа LTH и широкий спектр академических дисциплин.",
+  "academicProfile": "Инженерия, экономика, социальные науки",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.lunduniversity.lu.se/admissions",
+  "strengths": "Инженерия, экономика, социальные науки",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 72,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.lunduniversity.lu.se/admissions/bachelors-and-masters-studies"
+  },
+  "budget": {
+   "tuition": "90 000–180 000 SEK",
+   "total": "210 000–340 000 SEK",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/sweden"
+  }
+ },
+ {
+  "id": "stockholm-university",
+  "order": 88,
+  "name": "Stockholm University",
+  "country": "Швеция",
+  "website": "https://su.se/",
+  "wikiTitle": "Stockholm University",
+  "founded": "1878 (истоки), 1960 (университет)",
+  "city": "Стокгольм",
+  "history": "Главный кампус Frescati; естественные, гуманитарные и общественные науки.",
+  "academicProfile": "Экономика, политология, экология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.su.se/english/education",
+  "strengths": "Экономика, политология, экология",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 147,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.su.se/english/education"
+  },
+  "budget": {
+   "tuition": "90 000–180 000 SEK",
+   "total": "210 000–350 000 SEK",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/sweden"
+  }
+ },
+ {
+  "id": "university-of-helsinki",
+  "order": 89,
+  "name": "University of Helsinki",
+  "country": "Финляндия",
+  "website": "https://helsinki.fi/",
+  "wikiTitle": "University of Helsinki",
+  "founded": "1640 (истоки)",
+  "city": "Хельсинки",
+  "history": "Первоначально основан в Турку; четыре городских кампуса, обучение на финском и шведском, отдельные англоязычные программы.",
+  "academicProfile": "История, биология, социальные науки",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.helsinki.fi/en/admissions-and-education",
+  "strengths": "История, биология, социальные науки",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 116,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.helsinki.fi/en/degree-programmes"
+  },
+  "budget": {
+   "tuition": "10 000–20 000 EUR",
+   "total": "20 000–36 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/finland"
+  }
+ },
+ {
+  "id": "university-of-bologna",
+  "order": 90,
+  "name": "University of Bologna",
+  "country": "Италия",
+  "website": "https://unibo.it/",
+  "wikiTitle": "University of Bologna",
+  "founded": "1088 (традиционная дата)",
+  "city": "Болонья",
+  "history": "Исторический университет с несколькими городскими кампусами; право, гуманитарные, социальные и естественные науки.",
+  "academicProfile": "Право, история, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.unibo.it/en/study",
+  "strengths": "Право, история, экономика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 138,
+   "the": 130,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree"
+  },
+  "budget": {
+   "tuition": "1 000–5 000 EUR",
+   "total": "10 000–20 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/italy"
+  }
+ },
+ {
+  "id": "universidad-carlos-iii-de-madrid",
+  "order": 91,
+  "name": "Universidad Carlos III de Madrid",
+  "country": "Испания",
+  "website": "https://uc3m.es/",
+  "wikiTitle": "Universidad Carlos III de Madrid",
+  "founded": "1989",
+  "city": "Хетафе, Леганес и Мадрид",
+  "history": "Современный государственный университет; экономика, право, общественные науки и инженерия, билингвальные программы.",
+  "academicProfile": "Экономика, право, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.uc3m.es/bachelor-degree",
+  "strengths": "Экономика, право, инженерия",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 301,
+   "the": null,
+   "usNews": null,
+   "national": null
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.uc3m.es/bachelor-degree"
+  },
+  "budget": {
+   "tuition": "5 000–10 000 EUR",
+   "total": "15 000–27 000 EUR",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://education.ec.europa.eu/study-in-europe/country-profiles/spain"
+  }
+ },
+ {
+  "id": "university-of-hong-kong",
+  "order": 92,
+  "name": "University of Hong Kong",
+  "country": "Гонконг",
+  "website": "https://hku.hk/",
+  "wikiTitle": "University of Hong Kong",
+  "founded": "1911",
+  "city": "Гонконг",
+  "history": "Главный кампус на Hong Kong Island; широкий спектр факультетов, английский широко используется в преподавании.",
+  "academicProfile": "Право, экономика, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admissions.hku.hk/",
+  "strengths": "Право, экономика, инженерия",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 11,
+   "the": 33,
+   "usNews": 44,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admissions.hku.hk/programmes"
+  },
+  "budget": {
+   "tuition": "180 000–250 000 HKD",
+   "total": "235 000–345 000 HKD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.studyinhongkong.edu.hk/"
+  }
+ },
+ {
+  "id": "chinese-university-of-hong-kong",
+  "order": 93,
+  "name": "Chinese University of Hong Kong",
+  "country": "Гонконг",
+  "website": "https://cuhk.edu.hk/",
+  "wikiTitle": "Chinese University of Hong Kong",
+  "founded": "1963",
+  "city": "Шатин, Гонконг",
+  "history": "Коллегиальная система и кампус на холмах; обучение на английском и китайском в зависимости от курса.",
+  "academicProfile": "Экономика, информатика, социальные науки",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://admission.cuhk.edu.hk/",
+  "strengths": "Экономика, информатика, социальные науки",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 32,
+   "the": null,
+   "usNews": null,
+   "national": 2
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://admission.cuhk.edu.hk/"
+  },
+  "budget": {
+   "tuition": "230 000 HKD",
+   "total": "285 000–325 000 HKD",
+   "year": "2027/28",
+   "type": "Опубликованный тариф + расчёт бюджета",
+   "note": "Опубликованная плата non-local; общий бюджет — расчёт.",
+   "source": "https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/fees-calculator/"
+  }
+ },
+ {
+  "id": "hong-kong-university-of-science-and-technology",
+  "order": 94,
+  "name": "Hong Kong University of Science and Technology",
+  "country": "Гонконг",
+  "website": "https://hkust.edu.hk/",
+  "wikiTitle": "Hong Kong University of Science and Technology",
+  "founded": "1991",
+  "city": "Clear Water Bay, Гонконг",
+  "history": "Молодой исследовательский университет; технические науки, бизнес и междисциплинарные программы.",
+  "academicProfile": "Инженерия, бизнес, информатика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://join.hkust.edu.hk/",
+  "strengths": "Инженерия, бизнес, информатика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 44,
+   "the": null,
+   "usNews": null,
+   "national": 3
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://join.hkust.edu.hk/"
+  },
+  "budget": {
+   "tuition": "215 000 HKD",
+   "total": "270 000–310 000 HKD",
+   "year": "2026/27",
+   "type": "Опубликованный тариф + расчёт бюджета",
+   "note": "Опубликованная плата non-local; общий бюджет — расчёт.",
+   "source": "https://join.hkust.edu.hk/admitted/non-local"
+  }
+ },
+ {
+  "id": "fudan-university",
+  "order": 95,
+  "name": "Fudan University",
+  "country": "Китай",
+  "website": "https://fudan.edu.cn/",
+  "wikiTitle": "Fudan University",
+  "founded": "1905",
+  "city": "Шанхай",
+  "history": "Кампусы Handan, Fenglin, Zhangjiang и Jiangwan; гуманитарные, общественные и естественные науки.",
+  "academicProfile": "Международные отношения, экономика, история",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://iso.fudan.edu.cn/isoenglish/",
+  "strengths": "Международные отношения, экономика, история",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 30,
+   "the": null,
+   "usNews": null,
+   "national": 3
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": null
+  },
+  "budget": {
+   "tuition": "25 000–90 000 CNY",
+   "total": "55 000–155 000 CNY",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.campuschina.org/"
+  }
+ },
+ {
+  "id": "kyoto-university",
+  "order": 96,
+  "name": "Kyoto University",
+  "country": "Япония",
+  "website": "https://kyoto-u.ac.jp/",
+  "wikiTitle": "Kyoto University",
+  "founded": "1897",
+  "city": "Киото",
+  "history": "Исторически второй императорский университет Японии; кампус Yoshida, традиция самостоятельных исследований.",
+  "academicProfile": "Физика, химия, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions",
+  "strengths": "Физика, химия, инженерия",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 57,
+   "the": 61,
+   "usNews": null,
+   "national": 2
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": null
+  },
+  "budget": {
+   "tuition": "536 000 JPY",
+   "total": "1 536 000–2 236 000 JPY",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.studyinjapan.go.jp/en/planning/academic-fees/"
+  }
+ },
+ {
+  "id": "seoul-national-university",
+  "order": 97,
+  "name": "Seoul National University",
+  "country": "Южная Корея",
+  "website": "https://snu.ac.kr/",
+  "wikiTitle": "Seoul National University",
+  "founded": "1946",
+  "city": "Сеул",
+  "history": "Государственный исследовательский университет; кампусы Gwanak и Yeongeon, широкий набор колледжей.",
+  "academicProfile": "Инженерия, экономика, политология",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://en.snu.ac.kr/admission",
+  "strengths": "Инженерия, экономика, политология",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 38,
+   "the": 58,
+   "usNews": null,
+   "national": 1
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": null
+  },
+  "budget": {
+   "tuition": "5 000 000–10 000 000 KRW",
+   "total": "17 000 000–30 000 000 KRW",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.studyinkorea.go.kr/"
+  }
+ },
+ {
+  "id": "australian-national-university",
+  "order": 98,
+  "name": "Australian National University",
+  "country": "Австралия",
+  "website": "https://anu.edu.au/",
+  "wikiTitle": "Australian National University",
+  "founded": "1946",
+  "city": "Канберра",
+  "history": "Национальный исследовательский университет в столице; College of Asia and the Pacific и политические науки.",
+  "academicProfile": "Политология, международные отношения, экономика",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://study.anu.edu.au/",
+  "strengths": "Политология, международные отношения, экономика",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 32,
+   "the": null,
+   "usNews": 86,
+   "national": 4
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://programsandcourses.anu.edu.au/"
+  },
+  "budget": {
+   "tuition": "40 000–60 000 AUD",
+   "total": "70 000–102 000 AUD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.studyaustralia.gov.au/en/life-in-australia/living-and-education-costs.html"
+  }
+ },
+ {
+  "id": "university-of-sydney",
+  "order": 99,
+  "name": "University of Sydney",
+  "country": "Австралия",
+  "website": "https://sydney.edu.au/",
+  "wikiTitle": "University of Sydney",
+  "founded": "1850",
+  "city": "Сидней",
+  "history": "Исторический кампус Camperdown/Darlington; многопрофильный университет с широким набором majors.",
+  "academicProfile": "Право, экономика, инженерия",
+  "admissionOverview": "Проверьте признание аттестата, предметные требования, английский или другой язык обучения, сроки и необходимые экзамены на официальном сайте.",
+  "admissionNote": null,
+  "admissionsUrl": "https://www.sydney.edu.au/study.html",
+  "strengths": "Право, экономика, инженерия",
+  "alumni": [
+   "Список выпускников — на официальном сайте"
+  ],
+  "ranks": {
+   "qs": 25,
+   "the": 53,
+   "usNews": 29,
+   "national": 3
+  },
+  "extraRanks": [],
+  "aliases": [],
+  "catalog": {
+   "official": false,
+   "note": null,
+   "url": "https://www.sydney.edu.au/courses/"
+  },
+  "budget": {
+   "tuition": "45 000–65 000 AUD",
+   "total": "75 000–108 000 AUD",
+   "year": "Планирование 2026–28",
+   "type": "Ориентир для планирования",
+   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
+   "source": "https://www.studyaustralia.gov.au/en/life-in-australia/living-and-education-costs.html"
+  }
+ }
+]

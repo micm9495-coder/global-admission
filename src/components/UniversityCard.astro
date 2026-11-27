@@ -1,0 +1,42 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import CampusPhoto from './CampusPhoto.astro';
+import { universityHaystack } from '@/lib/search';
+import { withBase } from '@/lib/links';
+
+interface Props {
+  university: CollectionEntry<'universities'>;
+}
+const { id, data: u } = Astro.props.university;
+const line: [string, number][] = [];
+if (u.ranks.the) line.push(['THE', u.ranks.the]);
+if (u.ranks.usNews) line.push(['U.S. News', u.ranks.usNews]);
+if (u.ranks.national) line.push(['в стране', u.ranks.national]);
+const firstExtra = u.extraRanks[0];
+if (!u.ranks.qs && firstExtra) line.push([firstExtra.label, firstExtra.rank]);
+---
+<a
+  class="ucard"
+  href={withBase(`universities/${id}/`)}
+  data-search={universityHaystack(u)}
+  data-qs={u.ranks.qs ?? ''}
+  data-order={u.order}
+  data-name={u.name}
+>
+  {u.ranks.qs && (
+    <span class="grade" title="QS World University Rankings 2026">
+      <svg viewBox="0 0 70 60" aria-hidden="true"><path d="M40 5.5C56 7 67 18 65 32 63 46 49 55.5 33 55 17 54.5 4.5 44 5 29.5 5.5 16 18 5.5 33 6.5"></path></svg>
+      <span><small>QS</small>{u.ranks.qs}</span>
+    </span>
+  )}
+  <CampusPhoto id={id} name={u.name} country={u.country} />
+  <div class="body">
+    <h3>{u.name}</h3>
+    <p class="loc">{u.country} · {u.city}</p>
+    <p class="strong">{u.strengths}</p>
+    <div class="ranks">
+      {line.map(([label, n]) => <span>{label} <b>№ {n}</b></span>)}
+      <span class="mine" data-mine hidden></span>
+    </div>
+  </div>
+</a>

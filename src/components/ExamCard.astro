@@ -1,0 +1,22 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import ScaleCells from './ScaleCells.astro';
+import Icon from './Icon.astro';
+import { withBase } from '@/lib/links';
+import { norm } from '@/lib/text';
+
+interface Props {
+  exam: CollectionEntry<'exams'>;
+}
+const { id, data: e } = Astro.props.exam;
+const search = norm([e.name, e.category, e.region, e.duration, e.scale, e.structure, e.notes].join(' '));
+---
+<a class="xcard" href={withBase(`exams/${id}/`)} data-search={search} data-category={e.category}>
+  <span><span class="tag">{e.category}</span></span>
+  <h3>{e.name}</h3>
+  <p class="where">{e.region}</p>
+  <div class="foot">
+    <ScaleCells scale={e.scale} />
+    <span class="dur"><Icon name="clock" />{e.duration}</span>
+  </div>
+</a>

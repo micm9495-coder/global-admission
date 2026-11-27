@@ -1,0 +1,104 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '@/layouts/Base.astro';
+import Icon from '@/components/Icon.astro';
+import { withBase } from '@/lib/links';
+
+const [universities, programs] = await Promise.all([getCollection('universities'), getCollection('programs')]);
+const uniNames = universities.sort((a, b) => a.data.order - b.data.order).map((u) => u.data.name);
+const areas = [...new Set(programs.map((p) => p.data.area))].sort((a, b) => a.localeCompare(b, 'ru'));
+---
+<Base title="Атлас направлений" description={`${programs.length} направлений в ${universities.length} университетах: рейтинг области QS, стоимость обучения и полный бюджет, требования к аттестату.`} section="programs">
+  <section class="programs-page">
+    <div class="sect-head"><h1>Атлас направлений</h1><span class="meta">клик по строке — раскрыть примечания</span></div>
+    <p class="lede muted">Сравни академические дисциплины, ориентиры стоимости и выпускников. QS 2026: места по широким областям, не по отдельным программам.</p>
+    <div class="toolbar">
+      <input type="search" id="cq" placeholder="Поиск направления или вуза" aria-label="Поиск направления или вуза" />
+      <select id="cu" aria-label="Университет"><option value="">Все университеты</option>{uniNames.map((n) => <option>{n}</option>)}</select>
+      <select id="ca" aria-label="Область"><option value="">Все области</option>{areas.map((a) => <option>{a}</option>)}</select>
+      <select id="cs" aria-label="Сортировка"><option value="name">По названию</option><option value="rank">По рейтингу области</option></select>
+      <button type="button" id="csv"><Icon name="download" />CSV</button>
+      <button type="button" id="reset">Сбросить</button>
+    </div>
+    <div class="count-line"><p class="count" id="count" aria-live="polite">Загружаю таблицу…</p></div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Университет</th><th>Направление</th><th>QS 2026 (область)</th><th>Обучение / год</th><th>Полный бюджет / год</th><th>Аттестат и профильные предметы</th><th>Известные люди вуза</th></tr></thead>
+        <tbody id="ct" data-src={withBase('data/programs.json')} data-uni-base={withBase('universities/')}></tbody>
+      </table>
+    </div>
+    <p class="notice">* Опубликованные тарифы и предварительные сценарии бюджета маркируются отдельно. Сценарий не является ценой конкретного курса. Предметные рекомендации не являются официальными требованиями. Выпускники относятся к университету, не обязательно к указанной дисциплине. Перечень академических областей, а не официальный каталог бакалавриата. Для поступления выбирай именно курс с опубликованными условиями. Показаны только внесённые числовые позиции. <a href="https://www.qs.com/insights/qs-world-university-ranking-subject">Источник QS 2026</a>.</p>
+  </section>
+</Base>
+
+<script>
+  import type { ProgramRow } from '@/lib/types';
+  import { matchesAllWords } from '@/lib/search';
+
+  const $ = <T extends HTMLElement>(sel: string) => document.querySelector<T>(sel)!;
+  const body = $<HTMLTableSectionElement>('#ct');
+  const q = $<HTMLInputElement>('#cq');
+  const uni = $<HTMLSelectElement>('#cu');
+  const area = $<HTMLSelectElement>('#ca');
+  const sort = $<HTMLSelectElement>('#cs');
+  const count = $('#count');
+  const esc = (s: string) => s.replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]!);
+  let all: ProgramRow[] = [];
+
+  function filtered(): ProgramRow[] {
+    const rows = all.filter((x) => (!uni.value || x.uni === uni.value) && (!area.value || x.area === area.value) && matchesAllWords(x.search, q.value));
+    return rows.sort((a, b) => (sort.value === 'rank' ? (a.rank ?? 9999) - (b.rank ?? 9999) : 0) || a.name.localeCompare(b.name, 'ru'));
+  }
+
+  function render() {
+    const rows = filtered();
+    count.textContent = `Найдено: ${rows.length}`;
+    body.innerHTML = rows.map((x) => `<tr>
+      <td><a href="${body.dataset.uniBase}${x.uniId}/">${esc(x.uni)}</a></td>
+      <td><strong>${esc(x.name)}</strong><small>${esc(x.kind)}</small></td>
+      <td>${x.rank ? '№ ' + x.rank : ''}<small>${esc(x.area)}</small></td>
+      <td>${esc(x.cost.tuition)}<small>${esc(x.cost.year)} · ${esc(x.cost.type)}<br><a href="${esc(x.cost.source)}" target="_blank" rel="noopener">Основа</a></small></td>
+      <td>${esc(x.cost.total)}<small>${esc(x.cost.note)}</small></td>
+      <td>${esc(x.req.text)}<small>${esc(x.req.type)}<br><a href="${esc(x.req.link)}" target="_blank" rel="noopener">Требования курса</a></small></td>
+      <td>${esc(x.alumni)}</td></tr>`).join('')
+      || '<tr><td colspan="7">Нет совпадений. Измени запрос или сбрось фильтры.</td></tr>';
+  }
+
+  function downloadCsv() {
+    const head = ['Вуз', 'Направление', 'QS 2026 широкая область', 'Место', 'Обучение', 'Полный бюджет', 'Статус стоимости', 'Источник стоимости', 'Подготовка', 'Статус требований', 'Источник требований', 'Выпускники'];
+    const lines = [head, ...filtered().map((x) => [x.uni, x.name, x.area, x.rank ?? '', x.cost.tuition, x.cost.total, x.cost.type, x.cost.source, x.req.text, x.req.type, x.req.link, x.alumni])];
+    const csv = lines.map((r) => r.map((v) => `"${String(v).replaceAll('"', '""')}"`).join(';')).join('\r\n');
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' }));
+    a.download = 'global-admission-directions.csv';
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  }
+
+  // Click a row to expand its clamped notes.
+  body.addEventListener('click', (ev) => {
+    const t = ev.target as Element;
+    if (t.closest('a')) return;
+    t.closest('tr')?.classList.toggle('open');
+  });
+  for (const el of [q]) el.addEventListener('input', render);
+  for (const el of [uni, area, sort]) el.addEventListener('change', render);
+  $('#csv').addEventListener('click', downloadCsv);
+  $('#reset').addEventListener('click', () => {
+    q.value = uni.value = area.value = '';
+    sort.value = 'name';
+    render();
+  });
+
+  const wanted = new URLSearchParams(location.search).get('u');
+  if (wanted && [...uni.options].some((o) => o.value === wanted)) uni.value = wanted;
+  fetch(body.dataset.src!)
+    .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+    .then((rows: ProgramRow[]) => {
+      all = rows;
+      render();
+    })
+    .catch(() => {
+      count.textContent = 'Не удалось загрузить таблицу. Обнови страницу.';
+    });
+</script>

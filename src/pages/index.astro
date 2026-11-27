@@ -1,0 +1,98 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import Base from '@/layouts/Base.astro';
+import Icon from '@/components/Icon.astro';
+import { withBase } from '@/lib/links';
+import { plural } from '@/lib/text';
+
+const [universities, exams, programs] = await Promise.all([
+  getCollection('universities'),
+  getCollection('exams'),
+  getCollection('programs'),
+]);
+const countries = new Set(universities.map((u) => u.data.country)).size;
+
+const photos = import.meta.glob<{ default: ImageMetadata }>('/src/assets/campus/*.jpg', { eager: true });
+const pinned = await Promise.all(['cambridge', 'nus', 'princeton'].map((id) => getEntry('universities', id)));
+const snaps = pinned.flatMap((u) => {
+  const img = u && photos[`/src/assets/campus/${u.id}.jpg`]?.default;
+  return u && img ? [{ id: u.id, name: u.data.name, qs: u.data.ranks.qs, img }] : [];
+});
+
+const examNames = exams.map((e) => e.data.name);
+const quick = [
+  ['Топ-25 QS', 'universities/?sort=top25'],
+  ['Великобритания', 'universities/?q=Великобритания'],
+  ['Швейцария', 'universities/?q=Швейцария'],
+  ['Сингапур', 'universities/?q=Сингапур'],
+  ['Канада', 'universities/?q=Канада'],
+  ['IELTS', 'exams/?q=IELTS'],
+  ['SAT', 'exams/?q=SAT'],
+];
+const toc = [
+  { path: 'exams/', title: 'Экзамены', text: 'Форматы, баллы, регистрация и пробные задания', count: exams.length, label: plural(exams.length, 'экзамен', 'экзамена', 'экзаменов').replace(/^\d+ /, '') },
+  { path: 'universities/', title: 'Университеты', text: 'Кампусы, направления, рейтинги, стоимость и поступление', count: universities.length, label: `вузов в ${plural(countries, 'стране', 'странах', 'странах')}` },
+  { path: 'programs/', title: 'Таблица направлений', text: 'Сравни дисциплины, ориентиры стоимости и выпускников разных вузов', count: programs.length, label: 'направлений с ценами' },
+];
+---
+<Base
+  title="Global Admission — поступление в зарубежный университет"
+  description={`Независимый гид по поступлению за рубеж: ${exams.length} экзаменов, ${universities.length} университетов мира и ${programs.length} направлений с ориентирами стоимости.`}
+  section="home"
+>
+  <section class="home">
+    <div class="home-text">
+      <h1>Твой путь в&nbsp;<span class="mark">мировой университет.</span></h1>
+      <p class="hero-sub">Независимый гид: разберись в экзаменах, сравни университеты и составь собственный список целей.</p>
+      <form class="finder" id="finder" role="search" action={withBase('universities/')} method="get" data-exams={JSON.stringify(examNames)} data-unis={JSON.stringify(universities.map((u) => u.data.name))}>
+        <label for="fq"><Icon name="search" />
+          <input id="fq" name="q" type="search" autocomplete="off" placeholder="Вуз, страна, город или экзамен" aria-label="Вуз, страна, город или экзамен" />
+        </label>
+        <button type="submit">Найти</button>
+      </form>
+      <p class="hint">
+        <svg viewBox="0 0 34 22" aria-hidden="true"><path d="M32 18C24 20 12 19 5 7"></path><path d="M3 13 4.6 5.6 11 8"></path></svg>
+        например: «Сингапур», «#25» или «IELTS»
+      </p>
+      <div class="chips" aria-label="Быстрый поиск">
+        {quick.map(([label, path]) => <a class="chip" href={withBase(path)}>{label}</a>)}
+      </div>
+    </div>
+    <div class="pinboard" aria-label="Кампусы из каталога">
+      {snaps.map((s, k) => (
+        <a class="snap" href={withBase(`universities/${s.id}/`)}>
+          <Image src={s.img} alt={`Кампус: ${s.name}`} widths={[360, 560]} sizes="(max-width: 980px) 300px, 340px" loading={k === 0 ? 'eager' : 'lazy'} />
+          <figcaption><span>{s.name}</span>{s.qs && <em>QS №{s.qs}</em>}</figcaption>
+        </a>
+      ))}
+    </div>
+    <div class="toc-list">
+      {toc.map((t) => (
+        <a class="toc" href={withBase(t.path)}>
+          <h2><span>{t.title}</span></h2>
+          <p>{t.text}</p>
+          <div class="count">{t.count}<small>{t.label}</small></div>
+          <span class="go" aria-hidden="true"><Icon name="arrow" /></span>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>
+
+<script>
+  // A query that names an exam («IELTS») goes to the exam catalog instead of the university one.
+  const form = document.querySelector<HTMLFormElement>('#finder');
+  form?.addEventListener('submit', (ev) => {
+    const q = (new FormData(form).get('q') ?? '').toString().trim().toLowerCase();
+    const exams: string[] = JSON.parse(form.dataset.exams ?? '[]');
+    const unis: string[] = JSON.parse(form.dataset.unis ?? '[]');
+    const namesUniversity = unis.some((name) => name.toLowerCase().includes(q));
+    const isExam = q.length > 1 && !namesUniversity && exams.some((name) => name.toLowerCase().includes(q) || q.includes(name.split(' ')[0]!.toLowerCase()));
+    if (isExam) {
+      ev.preventDefault();
+      location.href = form.action.replace(/universities\/$/, 'exams/') + '?q=' + encodeURIComponent(q);
+    }
+  });
+</script>

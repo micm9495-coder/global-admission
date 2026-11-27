@@ -1,0 +1,26 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  university: CollectionEntry<'universities'>['data'];
+}
+const { ranks, extraRanks } = Astro.props.university;
+const QS = 'https://www.topuniversities.com/world-university-rankings/2026';
+const items = [
+  { label: 'QS 2026', rank: ranks.qs, url: QS },
+  { label: 'THE 2026', rank: ranks.the, url: 'https://www.timeshighereducation.com/world-university-rankings/2026/world-ranking' },
+  { label: 'U.S. News 2025–26', rank: ranks.usNews, url: 'https://www.usnews.com/education/best-global-universities/rankings' },
+  { label: 'В стране · QS 2026', rank: ranks.national, url: QS },
+  ...extraRanks,
+].filter((x) => x.rank !== null);
+---
+{items.length > 0 && (
+  <div class="rankingBox">
+    {items.map((x) => (
+      <div>
+        <a href={x.url} target="_blank" rel="noopener">{x.label}</a>
+        <strong>№ {x.rank}</strong>
+      </div>
+    ))}
+  </div>
+)}

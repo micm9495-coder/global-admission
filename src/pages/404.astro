@@ -1,0 +1,11 @@
+---
+import Base from '@/layouts/Base.astro';
+import { withBase } from '@/lib/links';
+---
+<Base title="Страница не найдена" description="Такой страницы нет в Global Admission." section={null}>
+  <section class="notfound">
+    <h1>Такой страницы <span class="mark">нет.</span></h1>
+    <p class="lede">Возможно, ссылка устарела. Начни с каталога или вернись на главную.</p>
+    <p class="links"><a href={withBase('universities/')}>Университеты</a> <a href={withBase('exams/')}>Экзамены</a> <a href={withBase()}>Главная</a></p>
+  </section>
+</Base>

@@ -1,0 +1,70 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '@/layouts/Base.astro';
+import ExamCard from '@/components/ExamCard.astro';
+import { plural } from '@/lib/text';
+
+const exams = (await getCollection('exams')).sort((a, b) => a.data.order - b.data.order);
+const categories = ['Английский', 'Поступление', 'Школьные квалификации', 'Магистратура', 'Другие языки'];
+const total = plural(exams.length, 'экзамен', 'экзамена', 'экзаменов');
+---
+<Base title="Энциклопедия экзаменов" description="SAT, IELTS, TOEFL, A-level, IB и другие экзамены для поступления за рубеж: формат, шкала баллов, длительность и регистрация." section="exams">
+  <section>
+    <div class="sect-head"><h1>Энциклопедия экзаменов</h1><span class="meta" id="exam-count" data-total={total}>{total}</span></div>
+    <p class="lede muted">Форматы ориентировочные: организаторы меняют правила, даты и доступность. Проверяй официальный сайт перед регистрацией.</p>
+    <div class="toolbar"><input id="q" type="search" placeholder="Найти экзамен…" aria-label="Найти экзамен" /></div>
+    <div class="chips" id="catchips" role="group" aria-label="Категории">
+      <button type="button" class="chip" data-v="" aria-pressed="true">Все</button>
+      {categories.map((c) => <button type="button" class="chip" data-v={c} aria-pressed="false">{c}</button>)}
+    </div>
+    <div class="grid" id="examgrid">
+      {exams.map((exam) => <ExamCard exam={exam} />)}
+      <div class="empty" id="exam-empty" hidden>
+        <strong>Такого экзамена нет в справочнике</strong>Проверь написание или выбери другую категорию.<br />
+        <button type="button" class="ghost" id="exam-reset">Сбросить поиск</button>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  import { matchesAllWords } from '@/lib/search';
+
+  const input = document.querySelector<HTMLInputElement>('#q')!;
+  const chips = [...document.querySelectorAll<HTMLButtonElement>('#catchips .chip')];
+  const cards = [...document.querySelectorAll<HTMLElement>('#examgrid .xcard')];
+  const count = document.querySelector<HTMLElement>('#exam-count')!;
+  const empty = document.querySelector<HTMLElement>('#exam-empty')!;
+  let category = '';
+
+  function apply() {
+    let shown = 0;
+    for (const card of cards) {
+      const ok = (!category || card.dataset.category === category) && matchesAllWords(card.dataset.search ?? '', input.value);
+      card.hidden = !ok;
+      if (ok) shown++;
+    }
+    empty.hidden = shown > 0;
+    count.textContent = shown === cards.length ? count.dataset.total! : `найдено: ${shown}`;
+    for (const c of chips) c.setAttribute('aria-pressed', String(c.dataset.v === category));
+    const url = new URL(location.href);
+    if (input.value) url.searchParams.set('q', input.value);
+    else url.searchParams.delete('q');
+    history.replaceState(null, '', url);
+  }
+
+  input.value = new URLSearchParams(location.search).get('q') ?? '';
+  input.addEventListener('input', apply);
+  document.querySelector('#catchips')!.addEventListener('click', (ev) => {
+    const chip = (ev.target as Element).closest<HTMLButtonElement>('.chip');
+    if (!chip) return;
+    category = chip.dataset.v ?? '';
+    apply();
+  });
+  document.querySelector('#exam-reset')!.addEventListener('click', () => {
+    input.value = '';
+    category = '';
+    apply();
+  });
+  apply();
+</script>
