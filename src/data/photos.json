@@ -6,6 +6,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Bocconi_Grafton_Building_Milan.jpg"
  },
+ "boston-university": {
+  "file": "Boston University buildings and the Charles River (51569483355).jpg",
+  "author": "Chris Rycroft from Cambridge, Massachusetts, United States",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Boston_University_buildings_and_the_Charles_River_(51569483355).jpg"
+ },
  "brown-university": {
   "file": "Das östliche Eingangstor der Brown University.jpg",
   "author": "Marco Almbauer",
@@ -19,6 +26,13 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Corpus_Christi_College_New_Court,_Cambridge,_UK_-_Diliff.jpg"
+ },
+ "carnegie-mellon-university": {
+  "file": "Jared Cohon University Center at Carnegie Mellon University.JPG",
+  "author": "Dllu",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Jared_Cohon_University_Center_at_Carnegie_Mellon_University.JPG"
  },
  "columbia": {
   "file": "Columbia University New York November 2016 002.jpg",
@@ -48,6 +62,13 @@
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "source": "https://commons.wikimedia.org/wiki/File:Bivins_Building,_East_Campus,_Duke_University,_Durham,_NC_(48961044306).jpg"
  },
+ "durham-university": {
+  "file": "Ogden Centre for Fundamental Physics Building, Durham University.jpg",
+  "author": "Padgriffin",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ogden_Centre_for_Fundamental_Physics_Building,_Durham_University.jpg"
+ },
  "epfl": {
   "file": "EPFL campus 2017.jpg",
   "author": "Mediacom EPFL",
@@ -61,6 +82,13 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_ETH,_Federal_Institute_of_Technology_Building_(Ank_Kumar)_02.jpg"
+ },
+ "georgia-institute-of-technology": {
+  "file": "Guggenheim Building, Georgia Tech, Atlanta, Southeast view 20160717 1.jpg",
+  "author": "DXR",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Guggenheim_Building,_Georgia_Tech,_Atlanta,_Southeast_view_20160717_1.jpg"
  },
  "harvard": {
   "file": "Murr Center - Harvard University - DSC02984.JPG",
@@ -82,6 +110,13 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:George-peabody-library.jpg"
+ },
+ "kings-college-london": {
+  "file": "King's College London Chapel, London, UK - Diliff.jpg",
+  "author": "Diliff",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:King%27s_College_London_Chapel,_London,_UK_-_Diliff.jpg"
  },
  "lse": {
   "file": "LSE Old Building Entrance, Houghton Street.jpg",
@@ -132,6 +167,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Teaching_Building_of_the_Peking_University_HSBC_Business_School1.jpg"
  },
+ "rice-university": {
+  "file": "Rice University Mechanical Laboratory and Power House.jpg",
+  "author": "Jim Evans",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Rice_University_Mechanical_Laboratory_and_Power_House.jpg"
+ },
  "tsinghua": {
   "file": "Physics Building of Tsinghua University.jpg",
   "author": "HoweyYuan",
@@ -145,6 +187,27 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Wilkins_Building_1,_UCL,_London_-_Diliff.jpg"
+ },
+ "university-of-birmingham": {
+  "file": "Birmingham MMB 31 University of Birmingham.jpg",
+  "author": "mattbuck (category)",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Birmingham_MMB_31_University_of_Birmingham.jpg"
+ },
+ "university-of-bristol": {
+  "file": "Wills Memorial Building, Bristol University (2318).jpg",
+  "author": "Nilfanion",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Wills_Memorial_Building,_Bristol_University_(2318).jpg"
+ },
+ "university-of-california-davis": {
+  "file": "Earth and Physical Sciences building - University of California, Davis - DSC03316.JPG",
+  "author": "Daderot",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Earth_and_Physical_Sciences_building_-_University_of_California,_Davis_-_DSC03316.JPG"
  },
  "university-of-california-los-angeles": {
   "file": "UCLA Kaufman Hall, Los Angeles, California, US.jpg",
@@ -160,6 +223,41 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Zoology_Building,_University_of_Chicago,_57th_Street,_Hyde_Park,_Chicago,_IL_(54515844361).jpg"
  },
+ "university-of-edinburgh": {
+  "file": "Edinburgh Townscape , The North-East Corner of George Square - geograph.org.uk - 2271283.jpg",
+  "author": "Richard West",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Edinburgh_Townscape_,_The_North-East_Corner_of_George_Square_-_geograph.org.uk_-_2271283.jpg"
+ },
+ "university-of-exeter": {
+  "file": "Amory Building, Exeter University - geograph.org.uk - 7903608.jpg",
+  "author": "Alan Hughes",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Amory_Building,_Exeter_University_-_geograph.org.uk_-_7903608.jpg"
+ },
+ "university-of-glasgow": {
+  "file": "University of Glasgow Gilbert Scott Building - Feb 2008.jpg",
+  "author": "Diliff",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:University_of_Glasgow_Gilbert_Scott_Building_-_Feb_2008.jpg"
+ },
+ "university-of-leeds": {
+  "file": "Skyway between the Roger Stevens Building and the Maths Building, University of Leeds (14th November 2018).jpg",
+  "author": "Mtaylor848",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Skyway_between_the_Roger_Stevens_Building_and_the_Maths_Building,_University_of_Leeds_(14th_November_2018).jpg"
+ },
+ "university-of-manchester": {
+  "file": "University of Manchester Brunswick Park Building - 50140148308.jpg",
+  "author": "citysuitesimages",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:University_of_Manchester_Brunswick_Park_Building_-_50140148308.jpg"
+ },
  "university-of-melbourne": {
   "file": "Alan Gilbert Building, University of Melbourne.jpg",
   "author": "Donaldytong",
@@ -174,6 +272,41 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Martha_Cook_Building_Ann_Arbor_Michigan.JPG"
  },
+ "university-of-nottingham": {
+  "file": "University Park MMB T8 Lincoln Hall.jpg",
+  "author": "mattbuck (category)",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:University_Park_MMB_T8_Lincoln_Hall.jpg"
+ },
+ "university-of-southampton": {
+  "file": "Gower Building - University of Southampton - geograph.org.uk - 6915142.jpg",
+  "author": "Mr Ignavy",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Gower_Building_-_University_of_Southampton_-_geograph.org.uk_-_6915142.jpg"
+ },
+ "university-of-southern-california": {
+  "file": "Steven Spielberg Building, USC Annenberg; California; EEUU.jpg",
+  "author": "Joan Deutscharq",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Steven_Spielberg_Building,_USC_Annenberg;_California;_EEUU.jpg"
+ },
+ "university-of-st-andrews": {
+  "file": "Fife - St Andrews, North Street, St Salvator's College - 20231011124503.jpg",
+  "author": "Daytrick",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Fife_-_St_Andrews,_North_Street,_St_Salvator%27s_College_-_20231011124503.jpg"
+ },
+ "university-of-texas-at-austin": {
+  "file": "Main Building (University of Texas at Austin) - DSC08595.jpg",
+  "author": "Daderot",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Main_Building_(University_of_Texas_at_Austin)_-_DSC08595.jpg"
+ },
  "university-of-tokyo": {
   "file": "University of Tokyo - Hongo Campus - Facculty of medecine building 2.JPG",
   "author": "XIIIfromTOKYO",
@@ -187,5 +320,33 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Toronto_University_College_1.jpg"
+ },
+ "university-of-warwick": {
+  "file": "Warwick university buildings panoramic - Manufacturing and CS and Maths.jpg",
+  "author": "Mike1024",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "https://commons.wikimedia.org/wiki/File:Warwick_university_buildings_panoramic_-_Manufacturing_and_CS_and_Maths.jpg"
+ },
+ "university-of-washington": {
+  "file": "MK03214 University of Washington Suzzallo Library.jpg",
+  "author": "Martin Kraft",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:MK03214_University_of_Washington_Suzzallo_Library.jpg"
+ },
+ "university-of-wisconsin-madison": {
+  "file": "University of Wisconsin–Madison August 2022 37 (Mechanical Engineering Building).jpg",
+  "author": "Michael Barera",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin%E2%80%93Madison_August_2022_37_(Mechanical_Engineering_Building).jpg"
+ },
+ "vanderbilt-university": {
+  "file": "Mechanical Engineering Building, Vanderbilt University, Nashville.JPG",
+  "author": "Mayur Phadtare",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mechanical_Engineering_Building,_Vanderbilt_University,_Nashville.JPG"
  }
 }
