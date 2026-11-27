@@ -100,7 +100,7 @@ const b = u.budget;
           <div><small>Только обучение, в год</small><strong>{b.tuition}</strong></div>
           <div><small>Обучение + расходы на жизнь</small><strong>{b.total}</strong></div>
         </div>
-        <p class="muted"><b>{b.type} · {b.year}.</b> {b.note} <a href={b.source} target="_blank" rel="noopener">Источник</a></p>
+        <p class="muted"><b>{b.type} · {b.year}.</b> {b.note} <a href={b.source} target="_blank" rel="noopener">Источник</a>{b.checked && <> · проверено по сайту вуза {new Date(b.checked).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' })}</>}</p>
         <div class="programIntro">
           <b>{u.catalog.official ? 'Каталог по официальному перечню' : 'Обзор академических направлений'}</b>
           <p>{u.catalog.official ? u.catalog.note : 'Ниже приведён рабочий перечень академических областей, а не исчерпывающий каталог дипломных программ. Стоимость по строкам без индивидуального тарифа — только сценарий планирования, не цена конкретной программы.'}</p>

@@ -212,12 +212,13 @@
    "url": "https://college.uchicago.edu/academics/programs-study"
   },
   "budget": {
-   "tuition": "65 000–78 000 USD",
-   "total": "87 000–112 000 USD",
-   "year": "Планирование 2026–28",
-   "type": "Ориентир для планирования",
-   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
-   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+   "tuition": "75 960 USD",
+   "total": "103 821 USD",
+   "year": "2026/27",
+   "type": "Официальный бюджет вуза",
+   "note": "Официальный cost of attendance UChicago при жизни на кампусе: обучение, сборы, жильё и питание, книги, личные расходы и дорога. Не включены медстраховка и Class Fee $720 в первые два года.",
+   "source": "https://financialaid.uchicago.edu/undergraduate/how-aid-works/undergraduate-costs/",
+   "checked": "2026-11-27"
   }
  },
  {
@@ -256,12 +257,13 @@
    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/undergraduate-course-listing-a-z"
   },
   "budget": {
-   "tuition": "35 000–65 000 GBP",
-   "total": "48 000–91 000 GBP",
-   "year": "Планирование 2026–28",
-   "type": "Ориентир для планирования",
-   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
-   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+   "tuition": "37 380–62 820 GBP",
+   "total": "50 025–81 765 GBP",
+   "year": "2026/27",
+   "type": "Официальный тариф + расходы по оценке вуза",
+   "note": "Overseas course fee для поступающих в 2026 году — £37 380–62 820 в зависимости от курса (клинические годы медицины дороже), по буклету колледжей Оксфорда 2026 entry. Расходы на жизнь — официальная оценка университета £1 405–2 105 в месяц, умножено на 9 месяцев, как рекомендует сам Оксфорд.",
+   "source": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/living-costs",
+   "checked": "2026-11-27"
   }
  },
  {
@@ -300,12 +302,13 @@
    "url": "https://www.undergraduate.study.cam.ac.uk/courses"
   },
   "budget": {
-   "tuition": "30 000–71 000 GBP",
-   "total": "54 000–109 000 GBP",
-   "year": "Планирование 2026–28",
-   "type": "Ориентир для планирования",
-   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
-   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+   "tuition": "29 052–70 554 GBP",
+   "total": "54 042–100 074 GBP",
+   "year": "2026/27",
+   "type": "Официальный тариф + расходы по оценке вуза",
+   "note": "University fee для иностранцев £29 052 (гуманитарные) – £70 554 (медицина и ветеринария); плюс обязательный College fee £13 245–13 860 в зависимости от колледжа (учтён в полном бюджете). Расходы на жизнь — оценка университета: £11 745 на время семестров, £15 660 на весь год.",
+   "source": "https://www.undergraduate.study.cam.ac.uk/international-students/international-fees-and-costs",
+   "checked": "2026-11-27"
   }
  },
  {
@@ -341,12 +344,13 @@
    "url": "https://www.imperial.ac.uk/study/courses/?courseType=undergraduate"
   },
   "budget": {
-   "tuition": "40 000–65 000 GBP",
-   "total": "56 000–93 000 GBP",
-   "year": "Планирование 2026–28",
-   "type": "Ориентир для планирования",
-   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
-   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+   "tuition": "42 700–58 600 GBP",
+   "total": "вуз не публикует",
+   "year": "2026/27",
+   "type": "Официальный тариф; бюджет вуз не публикует",
+   "note": "Overseas, поступление 2026: Mathematics и Business School £42 700; Engineering и Life Sciences £45 500; Medicine £58 600. Плата зависит от года поступления, дальше растёт на ~3,5% в год. Общую оценку расходов на жизнь Imperial не публикует; комнаты в общежитиях — £150–425 в неделю.",
+   "source": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/",
+   "checked": "2026-11-27"
   }
  },
  {
@@ -423,12 +427,13 @@
    "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees"
   },
   "budget": {
-   "tuition": "30 000–60 000 GBP",
-   "total": "46 000–88 000 GBP",
-   "year": "Планирование 2026–28",
-   "type": "Ориентир для планирования",
-   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
-   "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying"
+   "tuition": "32 000–42 700 GBP",
+   "total": "вуз не публикует",
+   "year": "2026/27",
+   "type": "Официальный тариф; бюджет вуз не публикует",
+   "note": "Overseas fee по страницам программ 2026 года: от £32 000 (English, Law UCL–HKU) до £42 700 (International Management); медицина и часть программ могут стоить больше. Плата не растёт в течение обучения. Общую оценку расходов на жизнь UCL не публикует; средняя аренда в общежитии UCL — £12 480 за 39 недель.",
+   "source": "https://www.ucl.ac.uk/study/student-finances/tuition-fees/your-tuition-fees",
+   "checked": "2026-11-27"
   }
  },
  {
@@ -685,12 +690,13 @@
    "url": "https://www.nus.edu.sg/oam/admissions/undergraduate-programmes"
   },
   "budget": {
-   "tuition": "18 000–45 000 SGD",
-   "total": "30 000–67 000 SGD",
-   "year": "Планирование 2026–28",
-   "type": "Ориентир для планирования",
-   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
-   "source": "https://www.nus.edu.sg/oam/financial-aid"
+   "tuition": "21 150–39 700 SGD",
+   "total": "32 900–51 450 SGD",
+   "year": "2026/27",
+   "type": "Официальный тариф + расходы по оценке вуза",
+   "note": "Нижняя граница — плата с MOE Tuition Grant (после выпуска нужно 3 года работать в Сингапуре): Business S$21 150–22 200, Computing S$21 400. Без гранта: Business S$33 400, Computing S$39 700. Медицина S$87 800, стоматология дороже. Расходы на жизнь — оценка NUS S$11 750 за 35 недель с общежитием на кампусе (nus.edu.sg/oam/financial-aid/living-costs).",
+   "source": "https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf",
+   "checked": "2026-11-27"
   }
  },
  {
@@ -725,12 +731,13 @@
    "url": "https://www.ntu.edu.sg/education/undergraduate-programme"
   },
   "budget": {
-   "tuition": "18 000–45 000 SGD",
-   "total": "30 000–67 000 SGD",
-   "year": "Планирование 2026–28",
-   "type": "Ориентир для планирования",
-   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
-   "source": "https://www.nus.edu.sg/oam/financial-aid"
+   "tuition": "21 800–45 600 SGD",
+   "total": "32 420–64 140 SGD",
+   "year": "2026/27",
+   "type": "Официальный тариф + расходы по оценке вуза",
+   "note": "Нижняя граница — с Tuition Grant (обязательство 3 года работать в Сингапуре), верхняя — без гранта (Business S$45 600). Медицина S$91 250. В справочнике NTU встречаются другие цифры (S$36 350–40 600) — сверяй тариф своей программы. Расходы на жизнь — оценка NTU S$885–1 545 в месяц × 12.",
+   "source": "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees/accepted-programme-offer-in-2026",
+   "checked": "2026-11-27"
   }
  },
  {
@@ -809,12 +816,13 @@
    "url": null
   },
   "budget": {
-   "tuition": "26 000–60 000 CNY",
-   "total": "56 000–120 000 CNY",
-   "year": "Планирование 2026–28",
-   "type": "Ориентир для планирования",
-   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
-   "source": "https://www.campuschina.org/"
+   "tuition": "26 000–30 000 CNY",
+   "total": "81 000–85 000 CNY",
+   "year": "2025/26",
+   "type": "Официальный тариф + расходы по оценке вуза",
+   "note": "Тариф 2025 года: ¥26 000 (гуманитарные и социальные науки) и ¥30 000 (естественные и инженерные). Тариф на 2026 год университет обещает объявить позже. Расходы на жизнь — оценка PKU: жильё ~¥35 000, еда ~¥15 000, прочее ~¥5 000 в год (isd.pku.edu.cn/en/detail.php?id=534).",
+   "source": "https://isd.pku.edu.cn/en/detail.php?id=502",
+   "checked": "2026-11-27"
   }
  },
  {
@@ -972,12 +980,13 @@
    "url": "https://catalog.upenn.edu/undergraduate/programs/"
   },
   "budget": {
-   "tuition": "65 000–78 000 USD",
-   "total": "87 000–113 000 USD",
-   "year": "Планирование 2026–28",
-   "type": "Ориентир для планирования",
-   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
-   "source": "https://bigfuture.collegeboard.org/pay-for-college/get-started/college-costs-faq"
+   "tuition": "65 670 USD",
+   "total": "99 082 USD",
+   "year": "2026/27",
+   "type": "Официальный бюджет вуза",
+   "note": "Официальный cost of attendance Penn при жизни на кампусе: обучение $65 670, сборы $8 308, жильё $13 644, питание $6 960, книги, дорога и личные расходы. Не включён NSO fee $575 для первокурсников.",
+   "source": "https://srfs.upenn.edu/costs-budgeting/undergraduate-cost-attendance",
+   "checked": "2026-11-27"
   }
  },
  {
@@ -3816,12 +3825,13 @@
    "url": "https://admissions.hku.hk/programmes"
   },
   "budget": {
-   "tuition": "180 000–250 000 HKD",
-   "total": "235 000–345 000 HKD",
-   "year": "Планирование 2026–28",
-   "type": "Ориентир для планирования",
-   "note": "Расчётный сценарий для иностранного студента, не тариф вуза: обучение + резерв на проживание, питание, транспорт и бытовые расходы. Отдельные программы могут выходить за диапазон; стипендии не вычтены.",
-   "source": "https://www.studyinhongkong.edu.hk/"
+   "tuition": "224 000–249 000 HKD",
+   "total": "309 000–359 000 HKD",
+   "year": "2026/27",
+   "type": "Официальный тариф + расходы по оценке вуза",
+   "note": "Non-local: HK$224 000 (не-STEM факультеты) и HK$249 000 (STEM). Расходы на жизнь посчитаны по данным HKU: общежитие HK$24 000–49 000 за учебный год плюс ~HK$6 100 в месяц на еду и транспорт × 10 месяцев.",
+   "source": "https://handbook.hku.hk/ug/full-time-2026-27/fees-awards-and-financial-assistance/composition-fee.html",
+   "checked": "2026-11-27"
   }
  },
  {
