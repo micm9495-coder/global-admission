@@ -1,4 +1,11 @@
 {
+ "australian-national-university": {
+  "file": "RG Menzies Building ANU University Library.jpg",
+  "author": "ColonelLight",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:RG_Menzies_Building_ANU_University_Library.jpg"
+ },
  "bocconi": {
   "file": "Bocconi Grafton Building Milan.jpg",
   "author": "Paolo Gamba",
@@ -34,6 +41,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Jared_Cohon_University_Center_at_Carnegie_Mellon_University.JPG"
  },
+ "chinese-university-of-hong-kong": {
+  "file": "University Administration Building.jpg",
+  "author": "Citobun",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:University_Administration_Building.jpg"
+ },
  "columbia": {
   "file": "Columbia University New York November 2016 002.jpg",
   "author": "King of Hearts",
@@ -55,6 +69,13 @@
   "licenseUrl": null,
   "source": "https://commons.wikimedia.org/wiki/File:Dartmouth_College_campus_2007-06-23_Steele_Chemistry_Building.JPG"
  },
+ "delft-university-of-technology": {
+  "file": "Delft University of Technology former analytical chemistry building.jpg",
+  "author": "Ymblanter",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Delft_University_of_Technology_former_analytical_chemistry_building.jpg"
+ },
  "duke-university": {
   "file": "Bivins Building, East Campus, Duke University, Durham, NC (48961044306).jpg",
   "author": "Warren LeMay from Cullowhee, NC, United States",
@@ -69,6 +90,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Ogden_Centre_for_Fundamental_Physics_Building,_Durham_University.jpg"
  },
+ "ecole-polytechnique": {
+  "file": "Campus Ecole polytechnique de palaiseau.jpg",
+  "author": "Jérémy Barande",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Campus_Ecole_polytechnique_de_palaiseau.jpg"
+ },
  "epfl": {
   "file": "EPFL campus 2017.jpg",
   "author": "Mediacom EPFL",
@@ -76,12 +104,26 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:EPFL_campus_2017.jpg"
  },
+ "erasmus-university-rotterdam": {
+  "file": "Rotterdam universiteit bibliotheek.jpg",
+  "author": "Wikifrits",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "https://commons.wikimedia.org/wiki/File:Rotterdam_universiteit_bibliotheek.jpg"
+ },
  "eth-zurich": {
   "file": "Zürich ETH, Federal Institute of Technology Building (Ank Kumar) 02.jpg",
   "author": "Ank Kumar",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_ETH,_Federal_Institute_of_Technology_Building_(Ank_Kumar)_02.jpg"
+ },
+ "fudan-university": {
+  "file": "Fudan University Jiangwan Campus.jpg",
+  "author": "Prcmise",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Fudan_University_Jiangwan_Campus.jpg"
  },
  "georgia-institute-of-technology": {
   "file": "Guggenheim Building, Georgia Tech, Atlanta, Southeast view 20160717 1.jpg",
@@ -96,6 +138,20 @@
   "license": "CC0",
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "source": "https://commons.wikimedia.org/wiki/File:Murr_Center_-_Harvard_University_-_DSC02984.JPG"
+ },
+ "heidelberg-university": {
+  "file": "Mittagsstunde vor der Universitätsbibliothek Heidelberg.jpg",
+  "author": "Ribax (Diskussion) 03:39, 19. Feb. 2014 (CET)",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mittagsstunde_vor_der_Universit%C3%A4tsbibliothek_Heidelberg.jpg"
+ },
+ "humboldt-university-of-berlin": {
+  "file": "Frontansicht des Hauptgebäudes der Humboldt-Universität in Berlin.jpg",
+  "author": "Christian Wolf (www.c-w-design.de)",
+  "license": "CC BY-SA 3.0 de",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Frontansicht_des_Hauptgeb%C3%A4udes_der_Humboldt-Universit%C3%A4t_in_Berlin.jpg"
  },
  "imperial-college-london": {
   "file": "Royal School of Mines Imperial College London 2020 01.jpg",
@@ -118,12 +174,54 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:King%27s_College_London_Chapel,_London,_UK_-_Diliff.jpg"
  },
+ "ku-leuven": {
+  "file": "Central library of the Catholic University of Leuven (DSCF4528).jpg",
+  "author": "Trougnouf (Benoit Brummer)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Central_library_of_the_Catholic_University_of_Leuven_(DSCF4528).jpg"
+ },
+ "leiden-university": {
+  "file": "Leiden University - Kamerlingh Onnes Laboratorium 7007.jpg",
+  "author": "C messier",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Leiden_University_-_Kamerlingh_Onnes_Laboratorium_7007.jpg"
+ },
  "lse": {
   "file": "LSE Old Building Entrance, Houghton Street.jpg",
   "author": "Shadowssettle",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:LSE_Old_Building_Entrance,_Houghton_Street.jpg"
+ },
+ "ludwig-maximilian-university-of-munich": {
+  "file": "Entrance to LMU Munich main building.jpg",
+  "author": "Seeott",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_LMU_Munich_main_building.jpg"
+ },
+ "lund-university": {
+  "file": "Lund University main building.jpg",
+  "author": "Albacono",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Lund_University_main_building.jpg"
+ },
+ "mcgill-university": {
+  "file": "McGill University @ Ville-Marie @ Montreal (30297845412).jpg",
+  "author": "Guilhem Vellut from Paris, France",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:McGill_University_@_Ville-Marie_@_Montreal_(30297845412).jpg"
+ },
+ "mcmaster-university": {
+  "file": "MDCL Building at McMaster.jpg",
+  "author": "Captain108",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:MDCL_Building_at_McMaster.jpg"
  },
  "mit": {
   "file": "Brown Building (MIT) - DSC00258.JPG",
@@ -174,6 +272,34 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Rice_University_Mechanical_Laboratory_and_Power_House.jpg"
  },
+ "seoul-national-university": {
+  "file": "Seoul National University Museum building and stele.jpg",
+  "author": "EllalineSeoul",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Seoul_National_University_Museum_building_and_stele.jpg"
+ },
+ "sorbonne-university": {
+  "file": "Sorbonne university main building entrance.jpg",
+  "author": "NonOmnisMoriar",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sorbonne_university_main_building_entrance.jpg"
+ },
+ "stockholm-university": {
+  "file": "Stockholm University campus building.jpg",
+  "author": "Astra Travasso",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Stockholm_University_campus_building.jpg"
+ },
+ "technical-university-of-munich": {
+  "file": "Technische Universität München.jpg",
+  "author": "AuHaidhausen",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Technische_Universit%C3%A4t_M%C3%BCnchen.jpg"
+ },
  "tsinghua": {
   "file": "Physics Building of Tsinghua University.jpg",
   "author": "HoweyYuan",
@@ -188,6 +314,27 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Wilkins_Building_1,_UCL,_London_-_Diliff.jpg"
  },
+ "universite-de-montreal": {
+  "file": "Université de Montréal, Pavillon Roger-Gaudry.JPG",
+  "author": "Laurent Bélanger",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Universit%C3%A9_de_Montr%C3%A9al,_Pavillon_Roger-Gaudry.JPG"
+ },
+ "universite-paris-saclay": {
+  "file": "École normale supérieure Paris-Saclay 5 - Université Paris-Saclay.jpg",
+  "author": "Kévin Belbéoc'h",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay_5_-_Universit%C3%A9_Paris-Saclay.jpg"
+ },
+ "university-of-amsterdam": {
+  "file": "University of Amsterdam 235 2094.jpg",
+  "author": "C messier",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:University_of_Amsterdam_235_2094.jpg"
+ },
  "university-of-birmingham": {
   "file": "Birmingham MMB 31 University of Birmingham.jpg",
   "author": "mattbuck (category)",
@@ -195,12 +342,26 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Birmingham_MMB_31_University_of_Birmingham.jpg"
  },
+ "university-of-bologna": {
+  "file": "University of Bologna - library.jpg",
+  "author": "Vlach Pavel",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:University_of_Bologna_-_library.jpg"
+ },
  "university-of-bristol": {
   "file": "Wills Memorial Building, Bristol University (2318).jpg",
   "author": "Nilfanion",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Wills_Memorial_Building,_Bristol_University_(2318).jpg"
+ },
+ "university-of-british-columbia": {
+  "file": "UBC Theology Building.jpg",
+  "author": "Xicotencatl",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:UBC_Theology_Building.jpg"
  },
  "university-of-california-davis": {
   "file": "Earth and Physical Sciences building - University of California, Davis - DSC03316.JPG",
@@ -223,6 +384,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Zoology_Building,_University_of_Chicago,_57th_Street,_Hyde_Park,_Chicago,_IL_(54515844361).jpg"
  },
+ "university-of-copenhagen": {
+  "file": "University of Copenhagen - South Campus - Flickr - Cederskjold Photo.jpg",
+  "author": "Jens Cederskjold from København S, Danmark",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:University_of_Copenhagen_-_South_Campus_-_Flickr_-_Cederskjold_Photo.jpg"
+ },
  "university-of-edinburgh": {
   "file": "Edinburgh Townscape , The North-East Corner of George Square - geograph.org.uk - 2271283.jpg",
   "author": "Richard West",
@@ -237,12 +405,26 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Amory_Building,_Exeter_University_-_geograph.org.uk_-_7903608.jpg"
  },
+ "university-of-geneva": {
+  "file": "University of Geneva.jpg",
+  "author": "Lional Rajappa",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:University_of_Geneva.jpg"
+ },
  "university-of-glasgow": {
   "file": "University of Glasgow Gilbert Scott Building - Feb 2008.jpg",
   "author": "Diliff",
   "license": "CC BY 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:University_of_Glasgow_Gilbert_Scott_Building_-_Feb_2008.jpg"
+ },
+ "university-of-helsinki": {
+  "file": "University of Helsinki, Faculty of Behavioural Sciences.JPG",
+  "author": "Óðinn",
+  "license": "CC BY-SA 2.5 ca",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:University_of_Helsinki,_Faculty_of_Behavioural_Sciences.JPG"
  },
  "university-of-leeds": {
   "file": "Skyway between the Roger Stevens Building and the Maths Building, University of Leeds (14th November 2018).jpg",
@@ -257,6 +439,13 @@
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:University_of_Manchester_Brunswick_Park_Building_-_50140148308.jpg"
+ },
+ "university-of-mannheim": {
+  "file": "Verfuegungsgeb Uni Mannheim.jpg",
+  "author": "Hubert Berberich (HubiB)",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Verfuegungsgeb_Uni_Mannheim.jpg"
  },
  "university-of-melbourne": {
   "file": "Alan Gilbert Building, University of Melbourne.jpg",
@@ -300,6 +489,20 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Fife_-_St_Andrews,_North_Street,_St_Salvator%27s_College_-_20231011124503.jpg"
  },
+ "university-of-st-gallen": {
+  "file": "University of St. Gallen EUR-HSG Institute Building.jpg",
+  "author": "Maxi86ch",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:University_of_St._Gallen_EUR-HSG_Institute_Building.jpg"
+ },
+ "university-of-sydney": {
+  "file": "SydneyUniversity FrontLawns.jpg",
+  "author": "Toby Hudson",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:SydneyUniversity_FrontLawns.jpg"
+ },
  "university-of-texas-at-austin": {
   "file": "Main Building (University of Texas at Austin) - DSC08595.jpg",
   "author": "Daderot",
@@ -335,12 +538,26 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:MK03214_University_of_Washington_Suzzallo_Library.jpg"
  },
+ "university-of-waterloo": {
+  "file": "Physics Building University of Waterloo Fall 2012.jpg",
+  "author": "JustSomePics",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Physics_Building_University_of_Waterloo_Fall_2012.jpg"
+ },
  "university-of-wisconsin-madison": {
   "file": "University of Wisconsin–Madison August 2022 37 (Mechanical Engineering Building).jpg",
   "author": "Michael Barera",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin%E2%80%93Madison_August_2022_37_(Mechanical_Engineering_Building).jpg"
+ },
+ "university-of-zurich": {
+  "file": "Zürich Switzerland-University-of-Zurich-Main-Building-01.jpg",
+  "author": "CEphoto, Uwe Aranas",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_Switzerland-University-of-Zurich-Main-Building-01.jpg"
  },
  "vanderbilt-university": {
   "file": "Mechanical Engineering Building, Vanderbilt University, Nashville.JPG",
