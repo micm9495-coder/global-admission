@@ -12,6 +12,8 @@ const cost = z.object({
   type: z.string(),
   note: z.string(),
   source: z.url(),
+  /** Date the figures were checked against the university's own site (YYYY-MM-DD). */
+  checked: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
 });
 
 const rank = z.number().int().positive().nullable();

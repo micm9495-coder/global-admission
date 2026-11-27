@@ -73,3 +73,18 @@ describe('photo credits', async () => {
     expect(files.filter((id) => !credits[id])).toEqual([]);
   });
 });
+
+describe('official costs', () => {
+  /** «ox.ac.uk», «upenn.edu», «nus.edu.sg»: the part of a host name the university owns. */
+  const root = (url: string) => {
+    const parts = new URL(url).hostname.split('.');
+    return parts.slice(/^(ac|edu|co|com)$/.test(parts.at(-2)!) && parts.length > 2 ? -3 : -2).join('.');
+  };
+  const checked = universities.filter((u) => 'checked' in u.budget);
+  it('takes every checked budget from the university’s own website', () => {
+    for (const u of checked) expect(root(u.budget.source), u.id).toBe(root(u.website));
+  });
+  it('never mixes the planning estimate with a checked budget', () => {
+    for (const u of checked) expect(u.budget.type).not.toBe('Ориентир для планирования');
+  });
+});
