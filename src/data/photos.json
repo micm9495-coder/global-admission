@@ -1,1 +1,100 @@
-{}
+{
+ "brown-university": {
+  "file": "Das östliche Eingangstor der Brown University.jpg",
+  "author": "Marco Almbauer",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "https://commons.wikimedia.org/wiki/File:Das_%C3%B6stliche_Eingangstor_der_Brown_University.jpg"
+ },
+ "cornell-university": {
+  "file": "Cornell University McFaddin Hall and Lyon Hall 2019-10-04 22-39.jpg",
+  "author": "Axel Tschentscher",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Cornell_University_McFaddin_Hall_and_Lyon_Hall_2019-10-04_22-39.jpg"
+ },
+ "dartmouth-college": {
+  "file": "Dartmouth College campus 2007-06-23 Steele Chemistry Building.JPG",
+  "author": "Kane5187",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "https://commons.wikimedia.org/wiki/File:Dartmouth_College_campus_2007-06-23_Steele_Chemistry_Building.JPG"
+ },
+ "duke-university": {
+  "file": "Bivins Building, East Campus, Duke University, Durham, NC (48961044306).jpg",
+  "author": "Warren LeMay from Cullowhee, NC, United States",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Bivins_Building,_East_Campus,_Duke_University,_Durham,_NC_(48961044306).jpg"
+ },
+ "epfl": {
+  "file": "EPFL campus 2017.jpg",
+  "author": "Mediacom EPFL",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:EPFL_campus_2017.jpg"
+ },
+ "harvard": {
+  "file": "Murr Center - Harvard University - DSC02984.JPG",
+  "author": "Daderot",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Murr_Center_-_Harvard_University_-_DSC02984.JPG"
+ },
+ "imperial-college-london": {
+  "file": "Royal School of Mines Imperial College London 2020 01.jpg",
+  "author": "Julian Herzog (Website)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Royal_School_of_Mines_Imperial_College_London_2020_01.jpg"
+ },
+ "johns-hopkins-university": {
+  "file": "George-peabody-library.jpg",
+  "author": "Matthew Petroff",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:George-peabody-library.jpg"
+ },
+ "mit": {
+  "file": "Brown Building (MIT) - DSC00258.JPG",
+  "author": "Daderot",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "https://commons.wikimedia.org/wiki/File:Brown_Building_(MIT)_-_DSC00258.JPG"
+ },
+ "northwestern-university": {
+  "file": "Northwestern University Campus (14127994771).jpg",
+  "author": "Eric Fredericks from Rancho Cordova, CA, United States",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Northwestern_University_Campus_(14127994771).jpg"
+ },
+ "oxford": {
+  "file": "UK-2014-Oxford-All Souls College 02.jpg",
+  "author": "Godot13",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:UK-2014-Oxford-All_Souls_College_02.jpg"
+ },
+ "peking-university": {
+  "file": "Teaching Building of the Peking University HSBC Business School1.jpg",
+  "author": "Huangdan2060",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Teaching_Building_of_the_Peking_University_HSBC_Business_School1.jpg"
+ },
+ "university-of-california-los-angeles": {
+  "file": "UCLA Kaufman Hall, Los Angeles, California, US.jpg",
+  "author": "Clyde Charles Brown",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:UCLA_Kaufman_Hall,_Los_Angeles,_California,_US.jpg"
+ },
+ "university-of-michigan": {
+  "file": "Martha Cook Building Ann Arbor Michigan.JPG",
+  "author": "Dwight Burdette",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Martha_Cook_Building_Ann_Arbor_Michigan.JPG"
+ }
+}
