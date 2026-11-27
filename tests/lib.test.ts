@@ -67,4 +67,9 @@ describe('photo credits', async () => {
       expect(credits[id]!.source).toMatch(/^https:\/\/commons\.wikimedia\.org\//);
     }
   });
+  it('has a credit for every photo on the site', async () => {
+    const { readdirSync } = await import('node:fs');
+    const files = readdirSync('src/assets/campus').map((f) => f.replace(/\.jpg$/, ''));
+    expect(files.filter((id) => !credits[id])).toEqual([]);
+  });
 });

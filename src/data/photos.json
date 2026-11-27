@@ -1,10 +1,31 @@
 {
+ "bocconi": {
+  "file": "Bocconi Grafton Building Milan.jpg",
+  "author": "Paolo Gamba",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Bocconi_Grafton_Building_Milan.jpg"
+ },
  "brown-university": {
   "file": "Das östliche Eingangstor der Brown University.jpg",
   "author": "Marco Almbauer",
   "license": "Public domain",
   "licenseUrl": null,
   "source": "https://commons.wikimedia.org/wiki/File:Das_%C3%B6stliche_Eingangstor_der_Brown_University.jpg"
+ },
+ "cambridge": {
+  "file": "Corpus Christi College New Court, Cambridge, UK - Diliff.jpg",
+  "author": "Diliff",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Corpus_Christi_College_New_Court,_Cambridge,_UK_-_Diliff.jpg"
+ },
+ "columbia": {
+  "file": "Columbia University New York November 2016 002.jpg",
+  "author": "King of Hearts",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Columbia_University_New_York_November_2016_002.jpg"
  },
  "cornell-university": {
   "file": "Cornell University McFaddin Hall and Lyon Hall 2019-10-04 22-39.jpg",
@@ -34,6 +55,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:EPFL_campus_2017.jpg"
  },
+ "eth-zurich": {
+  "file": "Zürich ETH, Federal Institute of Technology Building (Ank Kumar) 02.jpg",
+  "author": "Ank Kumar",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_ETH,_Federal_Institute_of_Technology_Building_(Ank_Kumar)_02.jpg"
+ },
  "harvard": {
   "file": "Murr Center - Harvard University - DSC02984.JPG",
   "author": "Daderot",
@@ -55,6 +83,13 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:George-peabody-library.jpg"
  },
+ "lse": {
+  "file": "LSE Old Building Entrance, Houghton Street.jpg",
+  "author": "Shadowssettle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:LSE_Old_Building_Entrance,_Houghton_Street.jpg"
+ },
  "mit": {
   "file": "Brown Building (MIT) - DSC00258.JPG",
   "author": "Daderot",
@@ -68,6 +103,20 @@
   "license": "CC BY-SA 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Northwestern_University_Campus_(14127994771).jpg"
+ },
+ "ntu": {
+  "file": "The hive building at Nanyang Technological University in the afternoon.jpeg",
+  "author": "Lapullin",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:The_hive_building_at_Nanyang_Technological_University_in_the_afternoon.jpeg"
+ },
+ "nus": {
+  "file": "COM 2 Building, NUS School of Computing, National University of Singapore - 20100813.jpg",
+  "author": "Faekildare at en.wikipedia.",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:COM_2_Building,_NUS_School_of_Computing,_National_University_of_Singapore_-_20100813.jpg"
  },
  "oxford": {
   "file": "UK-2014-Oxford-All Souls College 02.jpg",
@@ -83,6 +132,20 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Teaching_Building_of_the_Peking_University_HSBC_Business_School1.jpg"
  },
+ "tsinghua": {
+  "file": "Physics Building of Tsinghua University.jpg",
+  "author": "HoweyYuan",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Physics_Building_of_Tsinghua_University.jpg"
+ },
+ "ucl": {
+  "file": "Wilkins Building 1, UCL, London - Diliff.jpg",
+  "author": "Diliff",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Wilkins_Building_1,_UCL,_London_-_Diliff.jpg"
+ },
  "university-of-california-los-angeles": {
   "file": "UCLA Kaufman Hall, Los Angeles, California, US.jpg",
   "author": "Clyde Charles Brown",
@@ -90,11 +153,39 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:UCLA_Kaufman_Hall,_Los_Angeles,_California,_US.jpg"
  },
+ "university-of-chicago": {
+  "file": "Zoology Building, University of Chicago, 57th Street, Hyde Park, Chicago, IL (54515844361).jpg",
+  "author": "Warren LeMay from Chicago, IL, United States",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Zoology_Building,_University_of_Chicago,_57th_Street,_Hyde_Park,_Chicago,_IL_(54515844361).jpg"
+ },
+ "university-of-melbourne": {
+  "file": "Alan Gilbert Building, University of Melbourne.jpg",
+  "author": "Donaldytong",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Alan_Gilbert_Building,_University_of_Melbourne.jpg"
+ },
  "university-of-michigan": {
   "file": "Martha Cook Building Ann Arbor Michigan.JPG",
   "author": "Dwight Burdette",
   "license": "CC BY 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Martha_Cook_Building_Ann_Arbor_Michigan.JPG"
+ },
+ "university-of-tokyo": {
+  "file": "University of Tokyo - Hongo Campus - Facculty of medecine building 2.JPG",
+  "author": "XIIIfromTOKYO",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:University_of_Tokyo_-_Hongo_Campus_-_Facculty_of_medecine_building_2.JPG"
+ },
+ "university-of-toronto": {
+  "file": "Toronto University College 1.jpg",
+  "author": "GoginkLobabi",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Toronto_University_College_1.jpg"
  }
 }

@@ -15,7 +15,7 @@ const [universities, exams, programs] = await Promise.all([
 const countries = new Set(universities.map((u) => u.data.country)).size;
 
 const photos = import.meta.glob<{ default: ImageMetadata }>('/src/assets/campus/*.jpg', { eager: true });
-const pinned = await Promise.all(['cambridge', 'nus', 'princeton'].map((id) => getEntry('universities', id)));
+const pinned = await Promise.all(['cambridge', 'eth-zurich', 'columbia'].map((id) => getEntry('universities', id)));
 const snaps = pinned.flatMap((u) => {
   const img = u && photos[`/src/assets/campus/${u.id}.jpg`]?.default;
   return u && img ? [{ id: u.id, name: u.data.name, qs: u.data.ranks.qs, img }] : [];

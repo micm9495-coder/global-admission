@@ -1,8 +1,9 @@
-// Finds freely licensed campus photos on Wikimedia Commons for universities that have none yet.
+// Finds freely licensed campus photos on Wikimedia Commons for universities that have no photo yet,
+// or only one of unknown origin (a file in src/assets/campus without a credit in src/data/photos.json).
 //
 //   NODE_USE_ENV_PROXY=1 node scripts/find-campus-photos.mjs [--download <dir>]
 //
-// For each university without src/assets/campus/<id>.jpg it searches Wikimedia Commons (curated
+// Uncredited photos are handled first. For each university it searches Wikimedia Commons (curated
 // photos first), drops logos, seals, maps and portraits, keeps landscape JPEGs
 // under a free licence, and ranks them. Results go to scripts/photo-candidates.json for a human to review;
 // nothing is added to the site automatically.
@@ -35,10 +36,15 @@ async function api(host, params) {
 }
 const strip = (html = '') => html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 
+const credits = JSON.parse(readFileSync('src/data/photos.json', 'utf8'));
+const hasPhoto = (id) => existsSync(join('src/assets/campus', `${id}.jpg`));
+// Photos already on the site without a known author come first: they are the ones to replace.
+const queue = [...universities.filter((u) => hasPhoto(u.id)), ...universities.filter((u) => !hasPhoto(u.id))]
+  .filter((u) => !credits[u.id]);
+
 const out = existsSync('scripts/photo-candidates.json') ? JSON.parse(readFileSync('scripts/photo-candidates.json', 'utf8')) : {};
-for (const u of universities) {
+for (const u of queue) {
   if (out[u.id]?.length && (!downloadDir || existsSync(join(downloadDir, `${u.id}.0.jpg`)))) continue;
-  if (existsSync(join('src/assets/campus', `${u.id}.jpg`))) continue;
   const candidates = [];
   const seen = new Set();
   // Commons-curated photos first (Quality / Valued / Featured), then building shots, then whatever
