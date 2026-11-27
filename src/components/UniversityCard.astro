@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import CampusPhoto from './CampusPhoto.astro';
+import SaveButton from './SaveButton.astro';
 import { universityHaystack } from '@/lib/search';
 import { withBase } from '@/lib/links';
 
@@ -15,13 +16,14 @@ if (u.ranks.national) line.push(['в стране', u.ranks.national]);
 const firstExtra = u.extraRanks[0];
 if (!u.ranks.qs && firstExtra) line.push([firstExtra.label, firstExtra.rank]);
 ---
-<a
+<!-- The whole card is clickable through the stretched title link; the bookmark sits above it. -->
+<article
   class="ucard"
-  href={withBase(`universities/${id}/`)}
   data-search={universityHaystack(u)}
   data-qs={u.ranks.qs ?? ''}
   data-order={u.order}
   data-name={u.name}
+  data-id={id}
 >
   {u.ranks.qs && (
     <span class="grade" title="QS World University Rankings 2026">
@@ -29,9 +31,10 @@ if (!u.ranks.qs && firstExtra) line.push([firstExtra.label, firstExtra.rank]);
       <span><small>QS</small>{u.ranks.qs}</span>
     </span>
   )}
+  <SaveButton id={id} name={u.name} />
   <CampusPhoto id={id} name={u.name} country={u.country} />
   <div class="body">
-    <h3>{u.name}</h3>
+    <h3><a class="stretched" href={withBase(`universities/${id}/`)}>{u.name}</a></h3>
     <p class="loc">{u.country} · {u.city}</p>
     <p class="strong">{u.strengths}</p>
     <div class="ranks">
@@ -39,4 +42,4 @@ if (!u.ranks.qs && firstExtra) line.push([firstExtra.label, firstExtra.rank]);
       <span class="mine" data-mine hidden></span>
     </div>
   </div>
-</a>
+</article>

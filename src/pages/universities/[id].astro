@@ -5,6 +5,7 @@ import Icon from '@/components/Icon.astro';
 import CampusPhoto from '@/components/CampusPhoto.astro';
 import RankStrip from '@/components/RankStrip.astro';
 import Tabs from '@/components/Tabs.astro';
+import SaveButton from '@/components/SaveButton.astro';
 import meta from '@/data/meta.json';
 import { officialSearch, wikiUrl, withBase } from '@/lib/links';
 import { norm } from '@/lib/text';
@@ -37,6 +38,7 @@ const b = u.budget;
         <p class="unicountry"><span class="tag">{u.country}</span>{u.city}</p>
         <h1>{u.name}</h1>
         <RankStrip university={u} />
+        <SaveButton id={id} name={u.name} labelled />
         <p class="footnote">Место в стране — позиция среди вузов страны по QS, не отдельный национальный рейтинг. <a href={wikiUrl(u.wikiTitle)}>Сведения о кампусе</a></p>
       </div>
       <CampusPhoto id={id} name={u.name} country={u.country} hero />

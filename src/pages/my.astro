@@ -1,0 +1,143 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '@/layouts/Base.astro';
+import { withBase } from '@/lib/links';
+import { STATUSES } from '@/lib/shortlist';
+
+/** Just what the page shows for each university; the visitor's list picks from these. */
+const universities = (await getCollection('universities')).map(({ id, data: u }) => ({
+  id,
+  name: u.name,
+  place: `${u.country} · ${u.city}`,
+  qs: u.ranks.qs,
+  the: u.ranks.the,
+  tuition: u.budget.tuition,
+  total: u.budget.total,
+  budgetType: u.budget.type,
+  admissionsUrl: u.admissionsUrl,
+}));
+---
+<Base title="Мой список" description="Вузы, которые ты рассматриваешь: статус поступления, заметки и сравнение стоимости и рейтингов." section="my">
+  <section class="my-page">
+    <div class="sect-head"><h1>Мой список</h1><span class="meta" id="my-meta"></span></div>
+    <p class="lede muted">Отмечай вузы закладкой на карточке, веди статус и заметки: дедлайны, нужные экзамены, вопросы к приёмной комиссии. Список хранится только в этом браузере.</p>
+
+    <div class="empty my-empty" id="my-empty">
+      <strong>Пока пусто</strong>
+      Открой каталог и нажми закладку <svg class="ico inline-save" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11a1 1 0 0 1 1 1v16l-6.5-4.2-6.5 4.2v-16a1 1 0 0 1 1-1z"></path></svg> на карточке вуза, который тебе интересен.<br />
+      <a class="button" href={withBase('universities/')}>Перейти к университетам</a>
+    </div>
+
+    <ol class="my-list" id="my-list"></ol>
+
+    <div id="my-compare" hidden>
+      <h2>Сравнение</h2>
+      <div class="tablewrap"><table class="narrow">
+        <thead><tr><th>Университет</th><th>QS 2026</th><th>THE 2026</th><th>Обучение / год</th><th>Полный бюджет / год</th><th>Статус</th></tr></thead>
+        <tbody id="my-rows"></tbody>
+      </table></div>
+      <p class="footnote">Суммы — ориентир до стипендий; тип оценки указан на странице вуза. Сверяй стоимость на официальном сайте перед подачей.</p>
+    </div>
+  </section>
+
+  <template id="my-item">
+    <li class="my-item">
+      <div class="my-head">
+        <div>
+          <h3><a data-f="link"></a></h3>
+          <p class="loc" data-f="place"></p>
+        </div>
+        <span class="my-qs" data-f="qs"></span>
+      </div>
+      <div class="my-money"><span><small>Обучение / год</small><b data-f="tuition"></b></span><span><small>Полный бюджет / год</small><b data-f="total"></b></span></div>
+      <div class="my-fields">
+        <label>Статус<select data-f="status">{STATUSES.map((s) => <option>{s}</option>)}</select></label>
+        <label class="grow">Заметка<textarea data-f="note" rows="2" placeholder="Дедлайн, нужные экзамены, что уточнить…"></textarea></label>
+      </div>
+      <div class="my-actions">
+        <a data-f="admission">Как поступить</a>
+        <a data-f="office" target="_blank" rel="noopener">Приёмная комиссия</a>
+        <button type="button" class="ghost" data-f="remove">Убрать из списка</button>
+      </div>
+    </li>
+  </template>
+  <script type="application/json" id="my-data" set:html={JSON.stringify({ universities, base: withBase('universities/') })}></script>
+</Base>
+
+<script>
+  import { load, orderedIds, save, toggle, update, STATUSES, type Shortlist } from '@/lib/shortlist';
+  import { plural } from '@/lib/text';
+
+  interface Uni { id: string; name: string; place: string; qs: number | null; the: number | null; tuition: string; total: string; budgetType: string; admissionsUrl: string }
+  const { universities, base } = JSON.parse(document.querySelector('#my-data')!.textContent!) as { universities: Uni[]; base: string };
+  const byId = new Map(universities.map((u) => [u.id, u]));
+  const list = document.querySelector<HTMLOListElement>('#my-list')!;
+  const tpl = document.querySelector<HTMLTemplateElement>('#my-item')!;
+  const rows = document.querySelector<HTMLTableSectionElement>('#my-rows')!;
+  const empty = document.querySelector<HTMLElement>('#my-empty')!;
+  const compare = document.querySelector<HTMLElement>('#my-compare')!;
+  const meta = document.querySelector<HTMLElement>('#my-meta')!;
+
+  const field = <T extends Element>(root: ParentNode, name: string) => root.querySelector<T>(`[data-f="${name}"]`)!;
+
+  function summary(s: Shortlist) {
+    const ids = orderedIds(s).filter((id) => byId.has(id));
+    if (!ids.length) return '';
+    const parts = STATUSES.map((st) => [st, ids.filter((id) => s[id]!.status === st).length] as const).filter(([, n]) => n);
+    return `${plural(ids.length, 'вуз', 'вуза', 'вузов')} · ` + parts.map(([st, n]) => `${st.toLowerCase()}: ${n}`).join(', ');
+  }
+
+  function render() {
+    const s = load();
+    const ids = orderedIds(s).filter((id) => byId.has(id));
+    empty.hidden = ids.length > 0;
+    compare.hidden = ids.length < 2;
+    meta.textContent = summary(s);
+    list.replaceChildren(...ids.map((id) => {
+      const u = byId.get(id)!;
+      const e = s[id]!;
+      const node = tpl.content.firstElementChild!.cloneNode(true) as HTMLLIElement;
+      node.dataset.id = id;
+      const link = field<HTMLAnchorElement>(node, 'link');
+      link.href = `${base}${id}/`;
+      link.textContent = u.name;
+      field(node, 'place').textContent = u.place;
+      field(node, 'qs').textContent = u.qs ? `QS ${u.qs}` : '';
+      field(node, 'tuition').textContent = u.tuition;
+      field(node, 'total').textContent = u.total;
+      field<HTMLSelectElement>(node, 'status').value = e.status;
+      field<HTMLTextAreaElement>(node, 'note').value = e.note;
+      field<HTMLAnchorElement>(node, 'admission').href = `${base}${id}/#admission`;
+      field<HTMLAnchorElement>(node, 'office').href = u.admissionsUrl;
+      return node;
+    }));
+    rows.innerHTML = '';
+    for (const id of ids) {
+      const u = byId.get(id)!;
+      const tr = rows.insertRow();
+      for (const v of [u.name, u.qs ? `№ ${u.qs}` : '—', u.the ? `№ ${u.the}` : '—', u.tuition, u.total, s[id]!.status]) tr.insertCell().textContent = v;
+    }
+  }
+
+  list.addEventListener('change', (ev) => {
+    const t = ev.target as HTMLSelectElement;
+    const id = t.closest<HTMLElement>('.my-item')?.dataset.id;
+    if (id && t.dataset.f === 'status') save(update(load(), id, { status: t.value as (typeof STATUSES)[number] }));
+  });
+  // Notes save as you type, without re-rendering (which would steal the cursor).
+  list.addEventListener('input', (ev) => {
+    const t = ev.target as HTMLTextAreaElement;
+    const id = t.closest<HTMLElement>('.my-item')?.dataset.id;
+    if (id && t.dataset.f === 'note') {
+      save(update(load(), id, { note: t.value }), { notify: false });
+    }
+  });
+  list.addEventListener('click', (ev) => {
+    const b = (ev.target as Element).closest<HTMLButtonElement>('[data-f="remove"]');
+    const id = b?.closest<HTMLElement>('.my-item')?.dataset.id;
+    if (id) save(toggle(load(), id));
+  });
+  window.addEventListener('shortlist-change', render);
+  window.addEventListener('storage', render);
+  render();
+</script>
