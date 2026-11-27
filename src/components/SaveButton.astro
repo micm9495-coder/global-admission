@@ -1,0 +1,14 @@
+---
+/** Bookmark toggle for «Мой список». Works on any page that renders it; wired up in Base.astro. */
+interface Props {
+  id: string;
+  name: string;
+  /** Larger button with a text label, for the university page. */
+  labelled?: boolean;
+}
+const { id, name, labelled = false } = Astro.props;
+---
+<button type="button" class:list={['save', { labelled }]} data-save={id} aria-pressed="false" aria-label={`Добавить ${name} в мой список`} data-name={name}>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11a1 1 0 0 1 1 1v16l-6.5-4.2-6.5 4.2v-16a1 1 0 0 1 1-1z"></path></svg>
+  {labelled && <span data-save-label>В мой список</span>}
+</button>

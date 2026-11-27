@@ -337,3 +337,46 @@ table.narrow{min-width:720px}
 .notfound{padding-block:clamp(40px,10vw,120px)}
 .notfound h1{font-size:clamp(40px,7vw,84px)}
 .ucard[hidden],.xcard[hidden],tr[hidden]{display:none}
+
+/* ---------- «Мой список» ---------- */
+.stretched{color:inherit;text-decoration:none}
+.stretched::after{content:"";position:absolute;inset:0;z-index:1;border-radius:var(--radius)}
+.stretched:hover{color:inherit}
+.stretched:focus-visible{outline:none}
+.stretched:focus-visible::after{outline:3px solid rgba(33,65,176,.45);outline-offset:2px}
+.grade{pointer-events:none}
+.save{position:absolute;top:10px;left:10px;z-index:3;width:40px;height:40px;min-height:0;padding:0;border-radius:10px;border:1.5px solid rgba(25,27,34,.18);background:rgba(255,255,255,.94);color:var(--graphite);box-shadow:0 2px 8px rgba(25,27,34,.12)}
+.save svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round;transition:fill .15s,transform .2s var(--ease)}
+.save:hover{background:#fff;border-color:var(--red);color:var(--red)}
+.save[aria-pressed=true]{color:var(--red);border-color:var(--red)}
+.save[aria-pressed=true] svg{fill:var(--red);transform:scale(1.06)}
+.save.labelled{position:static;width:auto;height:auto;min-height:44px;padding:8px 16px;gap:8px;margin:14px 0 4px;box-shadow:none;border-color:var(--rule-strong);font-weight:600}
+.save.labelled[aria-pressed=true]{background:#fff1f1;border-color:var(--red)}
+.badge{display:inline-grid;place-items:center;min-width:20px;height:20px;padding:0 6px;margin-left:6px;border-radius:999px;background:var(--red);color:#fff;font:700 11.5px/1 var(--ui);vertical-align:1px}
+.toast{position:fixed;left:50%;bottom:24px;z-index:60;transform:translateX(-50%);margin:0;max-width:calc(100vw - 32px);padding:12px 18px;border-radius:12px;background:var(--graphite);color:#fff;font-weight:550;box-shadow:0 12px 30px -8px rgba(0,0,0,.4)}
+@media (prefers-reduced-motion:no-preference){.toast:not([hidden]){animation:toast-in .25s var(--ease)}@keyframes toast-in{from{opacity:0;transform:translate(-50%,8px)}}}
+a.button{display:inline-flex;align-items:center;min-height:44px;margin-top:14px;padding:10px 18px;border-radius:10px;background:var(--ink);color:#fff;font-weight:600;text-decoration:none}
+a.button:hover{background:var(--ink-deep);color:#fff}
+.inline-save{width:1.2em;height:1.2em;fill:var(--red);stroke:var(--red);vertical-align:-.25em}
+.my-empty{margin-top:22px}
+.my-list{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:14px}
+.my-item{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--radius);padding:18px 20px;box-shadow:0 1px 2px rgba(22,41,122,.04)}
+.my-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.my-head h3{margin:0;font:700 21px/1.2 var(--display);letter-spacing:-.02em}
+.my-head h3 a{color:var(--graphite);text-decoration:none}
+.my-head h3 a:hover{color:var(--ink);text-decoration:underline}
+.my-head .loc{margin:4px 0 0;color:var(--muted);font-size:14px}
+.my-qs{font:400 24px/1 var(--hand);color:var(--red);white-space:nowrap}
+.my-money{display:flex;flex-wrap:wrap;gap:8px 28px;margin:12px 0;padding:10px 0;border-block:1px dashed var(--rule-strong)}
+.my-money small{display:block;font-size:12.5px;color:var(--muted)}
+.my-money b{font-variant-numeric:tabular-nums}
+.my-fields{display:flex;flex-wrap:wrap;gap:12px}
+.my-fields label{display:flex;flex-direction:column;gap:4px;font-size:13px;font-weight:600;color:var(--muted)}
+.my-fields .grow{flex:1 1 320px}
+.my-fields select{min-width:220px}
+.my-fields textarea{font:inherit;font-size:15px;font-weight:400;color:var(--graphite);padding:10px 12px;border:1.5px solid var(--rule-strong);border-radius:10px;resize:vertical;min-height:46px}
+.my-fields textarea:focus{outline:none;border-color:var(--ink);box-shadow:0 0 0 4px rgba(33,65,176,.14)}
+.my-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;margin-top:14px;font-weight:550}
+.my-actions button{margin-left:auto;min-height:38px;padding:6px 14px}
+#my-compare h2{margin-top:40px}
+@media (max-width:640px){.my-actions button{margin-left:0}.my-fields select{min-width:0;width:100%}.my-fields label{flex:1 1 100%}}

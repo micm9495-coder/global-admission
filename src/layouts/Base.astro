@@ -2,7 +2,7 @@
 import '@/styles/global.css';
 import { withBase } from '@/lib/links';
 
-export type Section = 'home' | 'exams' | 'universities' | 'programs' | null;
+export type Section = 'home' | 'exams' | 'universities' | 'programs' | 'my' | null;
 
 interface Props {
   title: string;
@@ -17,6 +17,7 @@ const nav: [Exclude<Section, null>, string, string][] = [
   ['exams', 'exams/', 'Экзамены'],
   ['universities', 'universities/', 'Университеты'],
   ['programs', 'programs/', 'Таблица направлений'],
+  ['my', 'my/', 'Мой список'],
 ];
 ---
 <!doctype html>
@@ -44,7 +45,7 @@ const nav: [Exclude<Section, null>, string, string][] = [
         </a>
         <nav aria-label="Разделы">
           {nav.map(([key, path, label]) => (
-            <a href={withBase(path)} class={key === section ? 'active' : undefined} aria-current={key === section ? 'page' : undefined}>{label}</a>
+            <a href={withBase(path)} class={key === section ? 'active' : undefined} aria-current={key === section ? 'page' : undefined}>{label}{key === 'my' && <span class="badge" data-shortlist-count hidden></span>}</a>
           ))}
         </nav>
       </div>
@@ -61,5 +62,49 @@ const nav: [Exclude<Section, null>, string, string][] = [
         <a href="#main">Наверх</a>
       </div>
     </footer>
+    <p class="toast" id="toast" role="status" aria-live="polite" hidden></p>
   </body>
 </html>
+
+<script>
+  // Bookmark buttons on every page, and the «Мой список» counter in the header.
+  import { load, save, toggle } from '@/lib/shortlist';
+
+  const toast = document.querySelector<HTMLElement>('#toast')!;
+  let timer = 0;
+  const say = (text: string) => {
+    toast.textContent = text;
+    toast.hidden = false;
+    clearTimeout(timer);
+    timer = window.setTimeout(() => (toast.hidden = true), 2600);
+  };
+
+  function paint() {
+    const list = load();
+    const n = Object.keys(list).length;
+    for (const badge of document.querySelectorAll<HTMLElement>('[data-shortlist-count]')) {
+      badge.textContent = String(n);
+      badge.hidden = n === 0;
+    }
+    for (const b of document.querySelectorAll<HTMLButtonElement>('[data-save]')) {
+      const on = Boolean(list[b.dataset.save!]);
+      b.setAttribute('aria-pressed', String(on));
+      b.setAttribute('aria-label', `${on ? 'Убрать' : 'Добавить'} ${b.dataset.name} ${on ? 'из моего списка' : 'в мой список'}`);
+      const label = b.querySelector('[data-save-label]');
+      if (label) label.textContent = on ? 'В моём списке' : 'В мой список';
+    }
+  }
+
+  document.addEventListener('click', (ev) => {
+    const b = (ev.target as Element).closest<HTMLButtonElement>('[data-save]');
+    if (!b) return;
+    ev.preventDefault();
+    const next = toggle(load(), b.dataset.save!);
+    const added = Boolean(next[b.dataset.save!]);
+    if (!save(next)) return say('Браузер не разрешил сохранить список: проверь, не включён ли приватный режим.');
+    say(added ? `${b.dataset.name} — в твоём списке` : `${b.dataset.name} убран из списка`);
+  });
+  window.addEventListener('shortlist-change', paint);
+  window.addEventListener('storage', paint);
+  paint();
+</script>
