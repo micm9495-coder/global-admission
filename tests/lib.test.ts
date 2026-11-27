@@ -55,3 +55,16 @@ describe('ratings', () => {
     expect(average(undefined)).toBe(0);
   });
 });
+
+describe('photo credits', async () => {
+  const { existsSync } = await import('node:fs');
+  const credits: Record<string, { source: string }> = (await import('../src/data/photos.json')).default;
+  const ids = new Set(universities.map((u) => u.id));
+  it('credit every photo to an existing university with a file on disk', () => {
+    for (const id of Object.keys(credits)) {
+      expect(ids.has(id), id).toBe(true);
+      expect(existsSync(`src/assets/campus/${id}.jpg`), id).toBe(true);
+      expect(credits[id]!.source).toMatch(/^https:\/\/commons\.wikimedia\.org\//);
+    }
+  });
+});

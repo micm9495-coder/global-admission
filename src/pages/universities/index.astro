@@ -2,13 +2,14 @@
 import { getCollection } from 'astro:content';
 import Base from '@/layouts/Base.astro';
 import UniversityCard from '@/components/UniversityCard.astro';
+import { withBase } from '@/lib/links';
 
 const universities = (await getCollection('universities')).sort((a, b) => a.data.order - b.data.order);
 ---
 <Base title="Университеты мира" description="100 университетов мира: рейтинги QS, THE и U.S. News, города, сильные направления, стоимость и условия поступления." section="universities">
   <section>
     <div class="sect-head"><h1>Университеты мира</h1><span class="meta" id="uni-count">{universities.length} вузов · подборка, не рейтинг</span></div>
-    <p class="notice">QS 2026, THE 2026 и U.S. News 2025–26. Показаны внесённые числовые позиции; специализированные рейтинги подписаны отдельно. При равных местах выводятся все вузы из каталога (например, Princeton и Sydney — № 25). <a href="https://www.topuniversities.com/world-university-rankings/2026">Источник QS</a></p>
+    <p class="notice">QS 2026, THE 2026 и U.S. News 2025–26. Показаны внесённые числовые позиции; специализированные рейтинги подписаны отдельно. При равных местах выводятся все вузы из каталога (например, Princeton и Sydney — № 25). <a href="https://www.topuniversities.com/world-university-rankings/2026">Источник QS</a> · <a href={withBase('photos/')}>Фотографии и лицензии</a></p>
     <div class="toolbar">
       <input id="uq" type="search" placeholder="Вуз, город, страна или место QS (#25)…" aria-label="Найти университет" />
       <select id="sort" aria-label="Сортировка">

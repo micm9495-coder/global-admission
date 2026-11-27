@@ -85,4 +85,16 @@ const exams = defineCollection({
   }),
 });
 
-export const collections = { universities, countries, programs, exams };
+/** Who took each campus photo and under which licence; keyed by university id. */
+const photos = defineCollection({
+  loader: file('src/data/photos.json'),
+  schema: z.object({
+    file: z.string(),
+    author: z.string(),
+    license: z.string(),
+    licenseUrl: z.url().nullable(),
+    source: z.url(),
+  }),
+});
+
+export const collections = { universities, countries, programs, exams, photos };

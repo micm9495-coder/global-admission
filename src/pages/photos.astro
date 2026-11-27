@@ -1,0 +1,28 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Base from '@/layouts/Base.astro';
+import { withBase } from '@/lib/links';
+
+const credits = await Promise.all(
+  (await getCollection('photos')).map(async ({ id, data }) => ({ id, name: (await getEntry('universities', id))?.data.name ?? id, ...data })),
+);
+credits.sort((a, b) => a.name.localeCompare(b.name));
+---
+<Base title="Фотографии и лицензии" description="Авторы и лицензии фотографий кампусов, использованных на сайте." section={null}>
+  <section>
+    <div class="sect-head"><h1>Фотографии и лицензии</h1></div>
+    <p class="lede muted">Снимки кампусов взяты с Wikimedia Commons под свободными лицензиями. Спасибо авторам. Каждая строка ведёт на исходную страницу файла с полными условиями.</p>
+    <div class="tablewrap"><table class="narrow">
+      <thead><tr><th>Университет</th><th>Файл и автор</th><th>Лицензия</th></tr></thead>
+      <tbody>
+        {credits.map((c) => (
+          <tr>
+            <td><a href={withBase(`universities/${c.id}/`)}>{c.name}</a></td>
+            <td><a href={c.source} target="_blank" rel="noopener">{c.file}</a><small>{c.author}</small></td>
+            <td>{c.licenseUrl ? <a href={c.licenseUrl} target="_blank" rel="noopener">{c.license}</a> : c.license}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table></div>
+  </section>
+</Base>
